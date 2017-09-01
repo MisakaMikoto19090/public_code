@@ -1,0 +1,3 @@
+[submodule "thinkphp3.1.3"]
+	path = thinkphp3.1.3
+	url = ../thinkphp3.1.3.git
