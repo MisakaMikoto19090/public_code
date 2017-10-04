@@ -1,3 +1,6 @@
 [submodule "boxstarter"]
 	path = boxstarter
 	url = https://github.com/MisakaMikoto19090/myboxstarter.git
+[submodule "yii2.0.12_analysis"]
+	path = yii2.0.12_analysis
+	url = ../yii2.0.12_analysis.git
