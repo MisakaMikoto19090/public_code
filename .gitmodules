@@ -4,3 +4,6 @@
 [submodule "yii2.0.12_analysis"]
 	path = yii2.0.12_analysis
 	url = ../yii2.0.12_analysis.git
+[submodule "thinkphp5.0.11"]
+	path = thinkphp5.0.11
+	url = ../thinkphp5.0.11.git
