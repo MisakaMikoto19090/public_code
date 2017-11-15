@@ -16,3 +16,6 @@
 [submodule "react-demos"]
 	path = react-demos
 	url = ../react-demos.git
+[submodule "hexo_next"]
+	path = hexo_next
+	url = ../hexo_next.git
