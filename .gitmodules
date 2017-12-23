@@ -19,3 +19,6 @@
 [submodule "hexo_next"]
 	path = hexo_next
 	url = ../hexo_next.git
+[submodule "hyperv_vagrant"]
+	path = hyperv_vagrant
+	url = ../hyperv_vagrant.git
