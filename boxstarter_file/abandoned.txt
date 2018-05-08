@@ -1,0 +1,5 @@
+//很久没有更新
+
+choco install -y Cygwin
+
+choco install -y mingw
