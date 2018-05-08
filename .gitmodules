@@ -1,21 +1,6 @@
-[submodule "yii2.0.12_analysis"]
-	path = yii2.0.12_analysis
-	url = ../yii2.0.12_analysis.git
-[submodule "thinkphp5.0.11"]
-	path = thinkphp5.0.11
-	url = ../thinkphp5.0.11.git
-[submodule "antd-demos"]
-	path = antd-demos
-	url = ../antd-demos.git
 [submodule "myboxstarter"]
 	path = myboxstarter
 	url = ../myboxstarter.git
-[submodule "pac_files"]
-	path = pac_files
-	url = ../pac_files.git
-[submodule "react-demos"]
-	path = react-demos
-	url = ../react-demos.git
 [submodule "hexo_next"]
 	path = hexo_next
 	url = ../hexo_next.git
