@@ -1,0 +1,57 @@
+---
+networks:
+# 会忽略ip设置,但是可以使用你创建的虚拟交换机
+    - type: "public_network"
+#      ip: "192.168.0.170"
+      bridge: "external"
+
+#    - type: "private_network"
+#      ip: "192.168.137.100"
+#      auto_config: false
+
+provider: hyperv
+authorize: D:/Users/user/pems/user-pc1.pub
+
+# 在这里可以使用反斜杠,在vagrantfile中必须使用斜杠来替换反斜杠
+
+keys:
+    - D:/Users/user/pems/user-pc1.pem
+
+#folders:
+#    - map: D:/projects/MyStudy
+#      to: /home/vagrant/MyStudy
+#      type: "rsync"
+#      options:
+#        rsync__args: ["--verbose", "--archive", "--delete", "-z", "--copy-links"]
+#        rsync__auto: true
+#        rsync__chown: true
+#        rsync__exclude: [".vagrant/",".git/",".svn/"]
+#        rsync__rsync_path: "sudo rsync"
+#        rsync__verbose: false
+
+#下面是默认使用smb的情况
+#    - map: D:/projects/MyStudy
+#      to: /home/vagrant/MyStudy
+#      options: 
+#        smb_username: "username"
+#        smb_password: "password"
+
+sites:
+    - map: hexo.test
+      to: /home/vagrant/MyStudy/hexo
+
+databases:
+    - homestead
+
+# blackfire:
+#     - id: foo
+#       token: bar
+#       client-id: foo
+#       client-token: bar
+
+# ports:
+#     - send: 50000
+#       to: 5000
+#     - send: 7777
+#       to: 777
+#       protocol: udp

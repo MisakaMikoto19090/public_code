@@ -1,0 +1,54 @@
+---
+networks:
+    - type: "public_network"
+      ip: "192.168.0.70"
+#      bridge: "Realtek RTL8723BE Wireless LAN 802.11n PCI-E NIC"
+      bridge: "Qualcomm Atheros AR8161 PCI-E Gigabit Ethernet Controller (NDIS 6.30)"
+    - type: "private_network"
+      ip: "192.168.137.70"
+## 上面的ip根据virtualbox的虚拟网段来设置
+      
+memory: 512
+cpus: 1
+provider: virtualbox
+authorize: D:/u/pems/a.pub
+# 在这里可以使用反斜杠,在vagrantfile中必须使用斜杠来替换反斜杠
+keys:
+    - D:/u/pems/a.pem
+folders:
+    - map: D:\projects\MyStudy\hexo
+      to: /home/vagrant/blog_local/source/hexo
+    - map: D:\projects\docker
+      to: /home/vagrant/docker
+#    - map: D:\projects\MyStudy
+#      to: /home/vagrant/MyStudy
+sites:
+#yii2分析
+#    - map: yii2front.app
+#      to: /home/vagrant/MyStudy/public_code/yii2.0.12_analysis/frontend/web
+#    - map: yii2back.app
+#      to: /home/vagrant/MyStudy/public_code/yii2.0.12_analysis/backend/web
+#    - map: yii2admin.app
+#      to: /home/vagrant/MyStudy/public_code/yii2.0.12_analysis/admin/web
+
+
+#type: apache
+#mariadb: false
+databases:
+    - homestead
+    - thinkphp
+    - yii2
+
+
+# blackfire:
+#     - id: foo
+#       token: bar
+#       client-id: foo
+#       client-token: bar
+
+# ports:
+#     - send: 50000
+#       to: 5000
+#     - send: 7777
+#       to: 777
+#       protocol: udp

@@ -1,0 +1,89 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+require 'json'
+require 'yaml'
+
+VAGRANTFILE_API_VERSION ||= "2"
+confDir = $confDir ||= File.expand_path(File.dirname(__FILE__))
+
+homesteadYamlPath = confDir + "/Homestead.yaml"
+homesteadJsonPath = confDir + "/Homestead.json"
+afterScriptPath = confDir + "/after.sh"
+aliasesPath = confDir + "/aliases"
+
+require File.expand_path(File.dirname(__FILE__) + '/scripts/homestead.rb')
+
+Vagrant.require_version '>= 1.9.0'
+
+Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
+    if File.exist? aliasesPath then
+        config.vm.provision "file", source: aliasesPath, destination: "/tmp/bash_aliases"
+        config.vm.provision "shell" do |s|
+            s.inline = "awk '{ sub(\"\r$\", \"\"); print }' /tmp/bash_aliases > /home/vagrant/.bash_aliases"
+        end
+    end
+
+    if File.exist? homesteadYamlPath then
+        settings = YAML::load(File.read(homesteadYamlPath))
+    elsif File.exist? homesteadJsonPath then
+        settings = JSON::parse(File.read(homesteadJsonPath))
+    else
+        abort "Homestead settings file not found in #{confDir}"
+    end
+	
+	config.vm.synced_folder "D:/projects/vagrant/test_mount", "/home/vagrant/MyStudy" ,type: "rsync"
+#	config.vm.synced_folder "D:/projects/vagrant/test_mount", "/home/vagrant/MyStudy" ,type: "smb",smb_username: "username", smb_password: "password",mount_options: ["vers=3.0"]
+	# mount_options克省略
+	config.vm.synced_folder ".", "/home/vagrant" , disabled: true
+	# 上面最好是disabled:原因如下:.ssh的认证是放在 /home/vagrant/.ssh中的,如果使用rsync同步上述文件夹,该目录会被覆盖,类似mount,导致找不到ssh 的key
+	
+	
+	config.vm.boot_timeout = 180
+	config.vm.box = 'laravel/homestead'
+	config.vm.box_check_update = true
+#	config.vm.box_download_checksum = true
+#	config.vm.box_download_checksum_type = "sha256"
+#	#config.vm.provider = "hyperv"
+	
+#	config.vm.network "private_network", ip: "172.21.21.10"
+	
+	config.vm.provider "hyperv" do |h|
+		h.vmname = "homestead-7"
+		h.cpus = 2
+		h.memory = 512
+		h.maxmemory = 768
+		#h.vlan_id = 1 #vlan的id
+		#h.mac= "11-22-33-44-55-66" # mac地址
+		h.ip_address_timeout = 100
+		h.differencing_disk = true
+		h.enable_virtualization_extensions = true
+		h.auto_start_action = "Nothing" # StartIfRunning,Start
+		# 宿主机开机时做的操作:还有 StartIfRunning StartIfRunning
+		h.auto_stop_action = "ShutDown" #ShutDown TurnOff
+		# 宿主机关机是做的操作:还有 ShutDown TurnOff
+		h.vm_integration_services = {
+			guest_service_interface: true,
+			heartbeat: true,
+			key_value_pair_exchange: true,
+			shutdown: true,
+			time_synchronization: true,
+			vss: true
+		}
+	end
+
+
+    Homestead.configure(config, settings)
+
+    if File.exist? afterScriptPath then
+        config.vm.provision "shell", path: afterScriptPath, privileged: false, keep_color: true
+    end
+
+    if Vagrant.has_plugin?('vagrant-hostsupdater')
+        config.hostsupdater.aliases = settings['sites'].map { |site| site['map'] }
+    elsif Vagrant.has_plugin?('vagrant-hostmanager')
+        config.hostmanager.enabled = true
+        config.hostmanager.manage_host = true
+        config.hostmanager.aliases = settings['sites'].map { |site| site['map'] }
+    end
+end
