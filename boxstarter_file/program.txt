@@ -12,7 +12,6 @@ choco install -y boxstarter
 choco install -y notepadplusplus
 choco install -y VisualStudioCode
 choco install -y git
-#choco install -y SourceTree
 choco install -y python3
 choco install -y EveryThing  --params '/service'
 choco install -y wox
@@ -26,42 +25,32 @@ choco install -y jre8
 choco install -y SublimeText3 --proxy=127.0.0.1:1080
 choco install -y phpstorm
 choco install -y WebStorm
-choco install -y php
-choco install -y composer
-
-choco install -y potplayer
-choco install -y nodejs
-
-choco install -y SourceTree
-choco install -y qbittorrent
-
-choco install -y railsinstaller
-
-choco install -y yarn
-
-choco install -y AndroidStudio
-
-choco install -y golang
-
-choco install -y clisp
-
-choco install -y racket
-
-choco install -y haskell-stack
-
-choco install -y lua53
 
 choco install -y intellijidea-ultimate
-
 choco install -y datagrip
-
 choco install -y pycharm
+choco install -y AndroidStudio `-params '"/AddToDesktop:true"'`
 
+choco install -y php
+choco install -y composer
+choco install -y potplayer --ignore-checksums
+choco install -y nodejs
+#choco install -y SourceTree
+choco install -y qbittorrent
+choco install -y railsinstaller
+choco install -y yarn
+
+choco install -y golang
+choco install -y clisp
+choco install -y racket
+choco install -y haskell-stack
+choco install -y lua53
+choco install -y diffmerge
+choco install -y ditto
 choco install -y cmake --force --installargs 'ADD_CMAKE_TO_PATH=System' --installargs 'DESKTOP_SHORTCUT_REQUESTED=1'
 
-choco install -y diffmerge
 
-choco install -y ditto
+
 
 choco install -y docker
 
