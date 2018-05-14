@@ -12,37 +12,27 @@ choco install -y boxstarter
 choco install -y notepadplusplus
 choco install -y VisualStudioCode
 choco install -y git
-choco install -y SourceTree
+#choco install -y SourceTree
 choco install -y python3
 choco install -y EveryThing  --params '/service'
 choco install -y wox
 choco install -y virtualbox
 choco install -y vagrant
+choco install -y internet-download-manager --ignore-checksums
 choco install -y ChocolateyGUI
 choco install -y vcredist-all
-	#choco install -y jdk10 --params "static=false" --proxy=127.0.0.1:1080
-	#choco install -y jdk8 --params "static=false"
+choco install -y jdk10	# --params "static=false"
 choco install -y jre8
-	#https://github.com/proudcanadianeh/ChocoPackages/tree/master/jre8/master
 choco install -y SublimeText3 --proxy=127.0.0.1:1080
-choco install -y internet-download-manager --ignore-checksums
-choco install -y visualstudio2017enterprise --package-parameters "--allWorkloads --includeRecommended --includeOptional --passive --locale zh-CN" --execution-timeout=36000
-	#office,visio,project,sqlserver
-
 choco install -y phpstorm
-
 choco install -y WebStorm
-
 choco install -y php
-
 choco install -y composer
 
-
-
+choco install -y potplayer
 choco install -y nodejs
 
-choco install -y potplayer --ignore-checksums
-
+choco install -y SourceTree
 choco install -y qbittorrent
 
 choco install -y railsinstaller
@@ -144,5 +134,5 @@ choco install -y vcxsrv
 
 choco install -y formatfactory
 
-	#choco install -y visualstudio2017enterprise
-	#手动安装.可以选择包
+
+choco install -y visualstudio2017enterprise --package-parameters "--allWorkloads --includeRecommended --includeOptional --passive --locale zh-CN" --execution-timeout=36000
