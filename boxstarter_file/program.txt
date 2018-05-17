@@ -50,9 +50,6 @@ choco install -y diffmerge
 choco install -y ditto
 choco install -y cmake --force --installargs 'ADD_CMAKE_TO_PATH=System' --installargs 'DESKTOP_SHORTCUT_REQUESTED=1'
 choco install -y deepgit
-choco install -y docker
-choco install -y docker-for-windows
-choco install -y docker-toolbox --params '-ia /TASKS="desktopicon,modifypath,upgradevm"'
 choco install -y Emacs
 choco install -y gae.sdk
 choco install -y GoogleChrome
@@ -70,7 +67,7 @@ choco install -y TotalCommander --params '/DefaultFM /ShellExtension /AddCommand
 choco install -y ultraiso --ignore-checksums
 choco install -y vim
 choco install -y winmerge
-choco install -y wireshark
+choco install -y wireshark --proxy=127.0.0.1:1080
 choco install -y nmap
 choco install -y autohotkey
 choco install -y autoit
@@ -85,3 +82,6 @@ choco install -y tortoisesvn
 choco install -y vcxsrv
 choco install -y formatfactory
 choco install -y visualstudio2017enterprise --package-parameters "--allWorkloads --includeRecommended --includeOptional --passive --locale zh-CN" --execution-timeout=36000
+choco install -y docker
+choco install -y docker-for-windows
+choco install -y docker-toolbox --params '-ia /TASKS="desktopicon,modifypath,upgradevm"' --proxy=127.0.0.1:1080 --execution-timeout=36000
