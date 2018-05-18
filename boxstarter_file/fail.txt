@@ -1,5 +1,0 @@
-choco install -y flashplayerppapi
-
-choco install -y jdk9 --proxy=127.0.0.1:1080
-
-choco install -y teamviewer --ignore-checksums --proxy=127.0.0.1:1080
