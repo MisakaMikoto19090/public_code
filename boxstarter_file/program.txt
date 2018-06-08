@@ -90,3 +90,4 @@ choco install -y flashplayerppapi --proxy=127.0.0.1:1080
 choco install -y docker
 choco install -y docker-for-windows
 choco install -y docker-toolbox --params '-ia /TASKS="desktopicon,modifypath,upgradevm"' --proxy=127.0.0.1:1080 --execution-timeout=36000 --proxy=127.0.0.1:1080
+choco install -y kitematic --proxy=127.0.0.1:1080
