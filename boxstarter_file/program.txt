@@ -48,7 +48,7 @@ choco install -y haskell-stack
 choco install -y lua53
 choco install -y diffmerge
 choco install -y ditto
-choco install -y cmake --force --installargs 'ADD_CMAKE_TO_PATH=System' --installargs 'DESKTOP_SHORTCUT_REQUESTED=1'
+choco install -y cmake --installargs 'ADD_CMAKE_TO_PATH=System' --installargs 'DESKTOP_SHORTCUT_REQUESTED=1'
 choco install -y deepgit
 choco install -y Emacs
 choco install -y gae.sdk
