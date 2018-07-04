@@ -59,6 +59,7 @@ choco install -y Kindle
 choco install -y lockhunter
 choco install -y ngrok.portable
 choco install -y paint.net
+choco install -y eraser
 choco install -y spacesniffer
 choco install -y Sudo
 choco install -y sysinternals
@@ -90,4 +91,4 @@ choco install -y flashplayerppapi --proxy=127.0.0.1:1080
 choco install -y docker --execution-timeout=36000
 choco install -y docker-for-windows --execution-timeout=36000
 choco install -y docker-toolbox --params '-ia /TASKS="desktopicon,modifypath,upgradevm"' --proxy=127.0.0.1:1080 --execution-timeout=36000
-choco install -y kitematic --proxy=127.0.0.1:1080 --execution-timeout=36000
+    #choco install -y kitematic --proxy=127.0.0.1:1080 --execution-timeout=36000
