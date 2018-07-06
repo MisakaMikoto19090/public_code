@@ -25,7 +25,9 @@ choco install -y jdk10 --execution-timeout=36000 # --params "static=false"
 choco install -y jre8
 choco install -y SublimeText3 --proxy=127.0.0.1:1080
 choco install -y jetbrainstoolbox --exectuion-timeout=36000
+	# clion
 choco install -y datagrip --exectuion-timeout=36000
+	# goland
 choco install -y intellijidea-ultimate --exectuion-timeout=36000
 choco install -y phpstorm --exectuion-timeout=36000
 choco install -y pycharm --exectuion-timeout=36000
