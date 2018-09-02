@@ -67,8 +67,8 @@ choco install -y eraser
 choco install -y spacesniffer
 choco install -y Sudo
 choco install -y sysinternals
-choco install -y TeraCopy --ignore-checksums
-choco install -y TotalCommander --params '/ShellExtension /AddCommanderPath'
+choco install -y TeraCopy --ignore-checksums --proxy=127.0.0.1:1080
+choco install -y TotalCommander --params '/ShellExtension /AddCommanderPath' --proxy=127.0.0.1:1080
 choco install -y ultraiso --ignore-checksums
 choco install -y vim
 choco install -y winmerge
