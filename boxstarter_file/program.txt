@@ -38,7 +38,7 @@ choco install -y AndroidStudio --params "/AddToDesktop:true" --exectuion-timeout
 choco install -y php
 choco install -y composer
 choco install -y potplayer --ignore-checksums
-choco install -y nodejs
+choco install -y nodejs-lts
     #choco install -y SourceTree
 choco install -y qbittorrent
 choco install -y railsinstaller --exectuion-timeout=36000
