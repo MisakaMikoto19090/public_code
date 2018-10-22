@@ -20,9 +20,9 @@ choco install -y vagrant --execution-timeout=36000
 choco install -y internet-download-manager --ignore-checksums
 choco install -y ChocolateyGUI
 choco install -y vcredist-all
-choco install -y jdk10 --execution-timeout=36000 # --params "static=false"
+choco install -y jdk11 --execution-timeout=36000 # --params "static=false"
 	#choco install -y jdk8
-choco install -y jre8
+	#choco install -y jre8
 choco install -y SublimeText3 --proxy=127.0.0.1:1080
 choco install -y jetbrainstoolbox --exectuion-timeout=36000
 	# clion
@@ -76,7 +76,7 @@ choco install -y wireshark --proxy=127.0.0.1:1080
 choco install -y nmap
 choco install -y teamviewer --proxy=127.0.0.1:1080
 choco install -y rufus
-#choco install -y win32diskimager 
+	#choco install -y win32diskimager 
 choco install -y autohotkey
 choco install -y autoit
     #choco install -y beyondcompare
@@ -89,7 +89,7 @@ choco install -y carnac --proxy=127.0.0.1:1080
 choco install -y tortoisesvn
 choco install -y vcxsrv
 choco install -y formatfactory --ignore-checksums
-choco install -y scala
+	#choco install -y scala
 choco install -y telegram
 choco install -y visualstudio2017enterprise --package-parameters "--allWorkloads --includeRecommended --includeOptional --passive --locale zh-CN" --execution-timeout=36000
 choco install -y Cygwin --execution-timeout=36000 --proxy=127.0.0.1:1080
