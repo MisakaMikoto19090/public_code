@@ -10,7 +10,7 @@ Set-TaskbarOptions -Size Small -Dock Bottom -Combine Full -AlwaysShowIconsOn
 
 choco install -y boxstarter
 choco install -y notepadplusplus
-choco install -y VisualStudioCode
+choco install -y VisualStudioCode --proxy=127.0.0.1:1080
 choco install -y git
 choco install -y python3
 choco install -y EveryThing --params "/service"
@@ -66,7 +66,7 @@ choco install -y Kindle --proxy=127.0.0.1:1080
 choco install -y lockhunter
 choco install -y ngrok.portable
 choco install -y paint.net
-choco install -y googleearthpro 
+choco install -y googleearthpro --proxy=127.0.0.1:1080
 choco install -y eraser
 choco install -y spacesniffer
 choco install -y Sudo
@@ -95,16 +95,16 @@ choco install -y vcxsrv
 choco install -y formatfactory --ignore-checksums
 	#choco install -y scala
 choco install -y telegram
-choco install -y docker --execution-timeout=36000
-choco install -y docker-for-windows --execution-timeout=36000
+choco install -y docker --execution-timeout=36000 --proxy=127.0.0.1:1080
+choco install -y docker-for-windows --execution-timeout=36000 --proxy=127.0.0.1:1080
 choco install -y docker-toolbox --proxy=127.0.0.1:1080 --execution-timeout=36000 --params "-ia /TASKS='desktopicon,modifypath,upgradevm'" 
     #choco install -y kitematic --proxy=127.0.0.1:1080 --execution-timeout=36000
 choco install -y visualstudio2017enterprise --package-parameters "--allWorkloads --includeRecommended --includeOptional --passive --locale zh-CN" --execution-timeout=36000
 # 游戏
-choco install -y steam
+choco install -y steam --proxy=127.0.0.1:1080
 choco install -y goggalaxy
 choco install -y origin
 choco install -y battle.net --ignore-checksums
-choco install -y uplay
+choco install -y uplay --proxy=127.0.0.1:1080 --ignore-checksums
 choco install -y epicgameslauncher
 choco install -y 360ts
