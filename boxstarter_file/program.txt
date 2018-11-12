@@ -10,7 +10,7 @@ Set-TaskbarOptions -Size Small -Dock Bottom -Combine Full -AlwaysShowIconsOn
 
 choco install -y boxstarter
 choco install -y notepadplusplus
-choco install -y VisualStudioCode --proxy=127.0.0.1:1080
+choco install -y VisualStudioCode
 choco install -y git
 choco install -y python3
 choco install -y EveryThing --params "/service"
