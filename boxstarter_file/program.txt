@@ -27,7 +27,7 @@ choco install -y SublimeText3 --proxy=127.0.0.1:1080
 choco install -y jetbrainstoolbox --exectuion-timeout=36000
 	# clion
 choco install -y datagrip --exectuion-timeout=36000
-	# goland
+choco install -y goland --exectuion-timeout=36000
 choco install -y intellijidea-ultimate --exectuion-timeout=36000
 choco install -y phpstorm --exectuion-timeout=36000
 choco install -y pycharm --exectuion-timeout=36000
@@ -64,7 +64,7 @@ choco install -y bulkrenameutility --proxy=127.0.0.1:1080
 choco install -y keepass
 choco install -y Kindle --proxy=127.0.0.1:1080
 choco install -y lockhunter
-choco install -y ngrok.portable
+choco install -y ngrok.portable --proxy=127.0.0.1:1080
 choco install -y paint.net
 choco install -y googleearthpro --proxy=127.0.0.1:1080
 choco install -y eraser
@@ -73,7 +73,7 @@ choco install -y Sudo
 choco install -y sysinternals
 choco install -y TeraCopy --ignore-checksums --proxy=127.0.0.1:1080
 choco install -y TotalCommander --proxy=127.0.0.1:1080 --params "/ShellExtension /AddCommanderPath" 
-choco install -y ultraiso --ignore-checksums
+	#choco install -y ultraiso --ignore-checksums --proxy=127.0.0.1:1080
 choco install -y vim
 choco install -y winmerge
 choco install -y wireshark --proxy=127.0.0.1:1080
@@ -89,7 +89,7 @@ choco install -y screentogif
 choco install -y tim
 choco install -y calibre
 choco install -y Sigil
-choco install -y carnac --proxy=127.0.0.1:1080
+choco install -y carnac
 choco install -y tortoisesvn
 choco install -y vcxsrv
 choco install -y formatfactory --ignore-checksums
@@ -99,7 +99,6 @@ choco install -y docker --execution-timeout=36000 --proxy=127.0.0.1:1080
 choco install -y docker-for-windows --execution-timeout=36000 --proxy=127.0.0.1:1080
 choco install -y docker-toolbox --proxy=127.0.0.1:1080 --execution-timeout=36000 --params "-ia /TASKS='desktopicon,modifypath,upgradevm'" 
     #choco install -y kitematic --proxy=127.0.0.1:1080 --execution-timeout=36000
-choco install -y visualstudio2017enterprise --package-parameters "--allWorkloads --includeRecommended --includeOptional --passive --locale zh-CN" --execution-timeout=36000
 # 游戏
 choco install -y steam --proxy=127.0.0.1:1080
 choco install -y goggalaxy
@@ -107,4 +106,6 @@ choco install -y origin
 choco install -y battle.net --ignore-checksums
 choco install -y uplay --proxy=127.0.0.1:1080 --ignore-checksums
 choco install -y epicgameslauncher
+
+choco install -y visualstudio2017enterprise --package-parameters "--allWorkloads --includeRecommended --includeOptional --passive --locale zh-CN" --execution-timeout=36000
 choco install -y 360ts
