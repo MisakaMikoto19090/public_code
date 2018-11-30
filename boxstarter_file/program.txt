@@ -8,21 +8,14 @@ Set-CornerNavigationOptions -EnableUpperRightCornerShowCharms -EnableUpperLeftCo
 Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -DisableShowProtectedOSFiles -EnableShowFileExtensions -EnableShowFullPathInTitleBar -DisableOpenFileExplorerToQuickAccess -EnableShowRecentFilesInQuickAccess -EnableShowFrequentFoldersInQuickAccess -EnableExpandToOpenFolder
 Set-TaskbarOptions -Size Small -Dock Bottom -Combine Full -AlwaysShowIconsOn
 
-choco install -y boxstarter
+#常用开发工具
 choco install -y notepadplusplus
 choco install -y VisualStudioCode
 choco install -y git
-choco install -y python3
-choco install -y EveryThing --params "/service"
-choco install -y wox
+    #choco install -y SourceTree
 choco install -y virtualbox
 choco install -y vagrant --execution-timeout=36000
-choco install -y internet-download-manager --ignore-checksums
-choco install -y ChocolateyGUI
 choco install -y vcredist-all
-choco install -y jdk11 --execution-timeout=36000 # --params "static=false"
-	#choco install -y jdk8
-	#choco install -y jre8
 choco install -y SublimeText3 --proxy=127.0.0.1:1080
 choco install -y jetbrainstoolbox --exectuion-timeout=36000
 	# clion
@@ -35,11 +28,33 @@ choco install -y jetbrains-rider --exectuion-timeout=36000
 choco install -y RubyMine --exectuion-timeout=36000
 choco install -y WebStorm --exectuion-timeout=36000
 choco install -y AndroidStudio --exectuion-timeout=36000 --params "/AddToDesktop:true"
+choco install -y diffmerge --proxy=127.0.0.1:1080
+choco install -y cmake --installargs "ADD_CMAKE_TO_PATH=System" --installargs "DESKTOP_SHORTCUT_REQUESTED=1"
+choco install -y deepgit
+choco install -y Emacs --proxy=127.0.0.1:1080
+choco install -y gae.sdk --proxy=127.0.0.1:1080
+choco install -y vim
+choco install -y winmerge
+choco install -y wireshark --proxy=127.0.0.1:1080
+choco install -y nmap
+choco install -y tortoisesvn
+choco install -y vcxsrv
+choco install -y docker --execution-timeout=36000 --proxy=127.0.0.1:1080
+choco install -y docker-for-windows --execution-timeout=36000 --proxy=127.0.0.1:1080
+choco install -y docker-toolbox --proxy=127.0.0.1:1080 --execution-timeout=36000 --params "-ia /TASKS='desktopicon,modifypath,upgradevm'" 
+    #choco install -y kitematic --proxy=127.0.0.1:1080 --execution-timeout=36000
+choco install -y visualstudio2017enterprise --package-parameters "--allWorkloads --includeRecommended --includeOptional --passive --locale zh-CN" --execution-timeout=36000
+choco install -y jmeter --proxy=127.0.0.1:1080
+
+# 以下是各种可用的开发语言的包
+choco install -y jdk11 --execution-timeout=36000 # --params "static=false"
+	#choco install -y jdk8
+choco install -y jre8 # -PackageParameters "/exclude:32"
 choco install -y php
 choco install -y composer
-choco install -y potplayer --ignore-checksums
 choco install -y nodejs-lts
-    #choco install -y SourceTree
+choco install -y rust
+choco install -y dart-sdk
 choco install -y qbittorrent
 choco install -y railsinstaller --exectuion-timeout=36000 --proxy=127.0.0.1:1080
 choco install -y yarn
@@ -50,14 +65,24 @@ choco install -y haskell-stack
 choco install -y Lua
 choco install -y Cygwin --execution-timeout=36000 --proxy=127.0.0.1:1080
 choco install -y mingw --proxy=127.0.0.1:1080 --exectuion-timeout=36000
+	#choco install -y scala
+choco install -y dart-sdk --proxy=127.0.0.1:1080
+choco install -y groovy --proxy=127.0.0.1:1080
+choco install -y gradle --proxy=127.0.0.1:1080
+	#choco install -y julia
+choco install -y kotlinc
+
+# 常用软件
+choco install -y potplayer --ignore-checksums
+choco install -y boxstarter
+choco install -y python3
+choco install -y EveryThing --params "/service"
+choco install -y wox
+choco install -y internet-download-manager --ignore-checksums
+choco install -y ChocolateyGUI
 choco install -y flashplayerppapi --proxy=127.0.0.1:1080
 choco install -y vdhcoapp
-choco install -y diffmerge --proxy=127.0.0.1:1080
 choco install -y ditto
-choco install -y cmake --installargs "ADD_CMAKE_TO_PATH=System" --installargs "DESKTOP_SHORTCUT_REQUESTED=1"
-choco install -y deepgit
-choco install -y Emacs --proxy=127.0.0.1:1080
-choco install -y gae.sdk --proxy=127.0.0.1:1080
 choco install -y GoogleChrome --proxy=127.0.0.1:1080
 choco install -y honeyview
 choco install -y bulkrenameutility --proxy=127.0.0.1:1080
@@ -74,10 +99,6 @@ choco install -y sysinternals
 choco install -y TeraCopy --ignore-checksums --proxy=127.0.0.1:1080
 choco install -y TotalCommander --proxy=127.0.0.1:1080 --params "/ShellExtension /AddCommanderPath" 
 	#choco install -y ultraiso --ignore-checksums --proxy=127.0.0.1:1080
-choco install -y vim
-choco install -y winmerge
-choco install -y wireshark --proxy=127.0.0.1:1080
-choco install -y nmap
 choco install -y teamviewer --proxy=127.0.0.1:1080
 choco install -y rufus
 	#choco install -y win32diskimager 
@@ -90,15 +111,8 @@ choco install -y tim
 choco install -y calibre
 choco install -y Sigil
 choco install -y carnac
-choco install -y tortoisesvn
-choco install -y vcxsrv
 choco install -y formatfactory --ignore-checksums
-	#choco install -y scala
 choco install -y telegram
-choco install -y docker --execution-timeout=36000 --proxy=127.0.0.1:1080
-choco install -y docker-for-windows --execution-timeout=36000 --proxy=127.0.0.1:1080
-choco install -y docker-toolbox --proxy=127.0.0.1:1080 --execution-timeout=36000 --params "-ia /TASKS='desktopicon,modifypath,upgradevm'" 
-    #choco install -y kitematic --proxy=127.0.0.1:1080 --execution-timeout=36000
 # 游戏
 choco install -y steam --proxy=127.0.0.1:1080
 choco install -y goggalaxy
@@ -106,6 +120,5 @@ choco install -y origin
 choco install -y battle.net --ignore-checksums
 choco install -y uplay --proxy=127.0.0.1:1080 --ignore-checksums
 choco install -y epicgameslauncher
-
-choco install -y visualstudio2017enterprise --package-parameters "--allWorkloads --includeRecommended --includeOptional --passive --locale zh-CN" --execution-timeout=36000
+# 360放在最后,会阻止其他软件安装
 choco install -y 360ts
