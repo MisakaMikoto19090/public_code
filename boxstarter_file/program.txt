@@ -1,4 +1,4 @@
-Disable-GameBarTips
+﻿Disable-GameBarTips
 Enable-MicrosoftUpdate
 Enable-UAC
 Install-WindowsUpdate
@@ -10,12 +10,12 @@ Set-TaskbarOptions -Size Small -Dock Bottom -Combine Full -AlwaysShowIconsOn
 
 #常用开发工具
 choco install -y notepadplusplus
-choco install -y VisualStudioCode
-choco install -y git
+choco install -y vscode
+choco install -y git --proxy=127.0.0.1:1080
     #choco install -y SourceTree
 choco install -y virtualbox
-choco install -y vagrant --execution-timeout=36000
-choco install -y vcredist-all
+choco install -y vagrant --execution-timeout=36000 --proxy=127.0.0.1:1080
+choco install -y vcredist-all --proxy=127.0.0.1:1080
 choco install -y SublimeText3 --proxy=127.0.0.1:1080
 choco install -y jetbrainstoolbox --exectuion-timeout=36000
 	# clion
@@ -27,34 +27,36 @@ choco install -y pycharm --exectuion-timeout=36000
 choco install -y jetbrains-rider --exectuion-timeout=36000
 choco install -y RubyMine --exectuion-timeout=36000
 choco install -y WebStorm --exectuion-timeout=36000
+choco install -y clion-ide
 choco install -y AndroidStudio --exectuion-timeout=36000 --params "/AddToDesktop:true"
 choco install -y diffmerge --proxy=127.0.0.1:1080
 choco install -y cmake --installargs "ADD_CMAKE_TO_PATH=System" --installargs "DESKTOP_SHORTCUT_REQUESTED=1"
 choco install -y deepgit
 choco install -y Emacs --proxy=127.0.0.1:1080
 choco install -y gae.sdk --proxy=127.0.0.1:1080
-choco install -y vim
+choco install -y gcloudsdk --proxy=127.0.0.1:1080
+choco install -y vim --proxy=127.0.0.1:1080
 choco install -y winmerge
 choco install -y wireshark --proxy=127.0.0.1:1080
 choco install -y nmap
 choco install -y tortoisesvn
 choco install -y vcxsrv
-choco install -y docker --execution-timeout=36000 --proxy=127.0.0.1:1080
-choco install -y docker-for-windows --execution-timeout=36000 --proxy=127.0.0.1:1080
-choco install -y docker-toolbox --proxy=127.0.0.1:1080 --execution-timeout=36000 --params "-ia /TASKS='desktopicon,modifypath,upgradevm'" 
+choco install -y docker-desktop --execution-timeout=36000 --proxy=127.0.0.1:1080
     #choco install -y kitematic --proxy=127.0.0.1:1080 --execution-timeout=36000
+	choco install -y mysql	# 可以用vagrant
 choco install -y visualstudio2017enterprise --package-parameters "--allWorkloads --includeRecommended --includeOptional --passive --locale zh-CN" --execution-timeout=36000
-choco install -y jmeter --proxy=127.0.0.1:1080
+
 
 # 以下是各种可用的开发语言的包
 choco install -y jdk11 --execution-timeout=36000 # --params "static=false"
 	#choco install -y jdk8
 choco install -y jre8 # -PackageParameters "/exclude:32"
+choco install -y jmeter --proxy=127.0.0.1:1080
+	# jmeter需要在jre8后
 choco install -y php
 choco install -y composer
 choco install -y nodejs-lts
 choco install -y rust
-choco install -y dart-sdk
 choco install -y qbittorrent
 choco install -y railsinstaller --exectuion-timeout=36000 --proxy=127.0.0.1:1080
 choco install -y yarn
@@ -104,21 +106,21 @@ choco install -y rufus
 	#choco install -y win32diskimager 
 choco install -y autohotkey
 choco install -y autoit
-    #choco install -y beyondcompare
+	#choco install -y beyondcompare
 	#choco install -y sandboxie
 choco install -y screentogif
 choco install -y tim
 choco install -y calibre
 choco install -y Sigil
 choco install -y carnac
-choco install -y formatfactory --ignore-checksums
+	#choco install -y formatfactory --ignore-checksums
 choco install -y telegram
 # 游戏
 choco install -y steam --proxy=127.0.0.1:1080
-choco install -y goggalaxy
-choco install -y origin
-choco install -y battle.net --ignore-checksums
-choco install -y uplay --proxy=127.0.0.1:1080 --ignore-checksums
-choco install -y epicgameslauncher
+	#choco install -y goggalaxy
+	#choco install -y origin
+	#choco install -y battle.net --ignore-checksums
+	#choco install -y uplay --proxy=127.0.0.1:1080 --ignore-checksums
+	#choco install -y epicgameslauncher
 # 360放在最后,会阻止其他软件安装
 choco install -y 360ts
