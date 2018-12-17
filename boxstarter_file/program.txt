@@ -1,4 +1,4 @@
-﻿Disable-GameBarTips
+Disable-GameBarTips
 Enable-MicrosoftUpdate
 Enable-UAC
 Install-WindowsUpdate
@@ -8,14 +8,15 @@ Set-CornerNavigationOptions -EnableUpperRightCornerShowCharms -EnableUpperLeftCo
 Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -DisableShowProtectedOSFiles -EnableShowFileExtensions -EnableShowFullPathInTitleBar -DisableOpenFileExplorerToQuickAccess -EnableShowRecentFilesInQuickAccess -EnableShowFrequentFoldersInQuickAccess -EnableExpandToOpenFolder
 Set-TaskbarOptions -Size Small -Dock Bottom -Combine Full -AlwaysShowIconsOn
 
+#其实是不分大小写的,但是还是今年和包名相同
 #常用开发工具
 choco install -y notepadplusplus
 choco install -y vscode --proxy=127.0.0.1:1080
 choco install -y SublimeText3 --proxy=127.0.0.1:1080
 choco install -y git --proxy=127.0.0.1:1080
-    #choco install -y SourceTree
+    # choco install -y SourceTree
 choco install -y SmartGit
-choco install -y virtualbox
+choco install -y virtualbox --proxy=127.0.0.1:1080
 choco install -y vagrant --execution-timeout=36000 --proxy=127.0.0.1:1080
 choco install -y vmwareworkstation
 choco install -y vcredist-all --proxy=127.0.0.1:1080
@@ -29,14 +30,16 @@ choco install -y Pycharm --exectuion-timeout=36000
 choco install -y jetbrains-rider --exectuion-timeout=36000
 choco install -y RubyMine --exectuion-timeout=36000
 choco install -y WebStorm --exectuion-timeout=36000
-
 choco install -y AndroidStudio --exectuion-timeout=36000 --params "/AddToDesktop:true"
 choco install -y diffmerge --proxy=127.0.0.1:1080
 	# choco install -y cmake --installargs "ADD_CMAKE_TO_PATH=System" --installargs "DESKTOP_SHORTCUT_REQUESTED=1"
+choco install -y puppet
 choco install -y deepgit
 choco install -y Emacs --proxy=127.0.0.1:1080
 choco install -y gae.sdk --proxy=127.0.0.1:1080
 choco install -y gcloudsdk --proxy=127.0.0.1:1080
+	# choco install -y awscli
+	# choco install -y azure-cli
 choco install -y vim --proxy=127.0.0.1:1080
 choco install -y winmerge
 choco install -y wireshark --proxy=127.0.0.1:1080
@@ -47,14 +50,16 @@ choco install -y ngrok --proxy=127.0.0.1:1080
 choco install -y tortoisesvn
 choco install -y vcxsrv
 choco install -y docker-desktop --execution-timeout=36000 --proxy=127.0.0.1:1080
-    #choco install -y kitematic --proxy=127.0.0.1:1080 --execution-timeout=36000
 choco install -y mysql
-	# 可以用vagrant
+choco install -y r.studio
+choco install -y jenkins
+choco install -y gradle --proxy=127.0.0.1:1080
+choco install -y hadoop
 choco install -y visualstudio2017enterprise --package-parameters "--allWorkloads --includeRecommended --includeOptional --passive --locale zh-CN" --execution-timeout=36000
 
 # 以下是各种可用的开发语言的包
-choco install -y jdk11 --execution-timeout=36000 # --params "static=false"
-	#choco install -y jdk8
+choco install -y jdk11 --execution-timeout=36000
+	# choco install -y jdk8
 choco install -y jre8 # -PackageParameters "/exclude:32"
 choco install -y jmeter --proxy=127.0.0.1:1080
 	# jmeter需要在jre8后
@@ -64,32 +69,37 @@ choco install -y nodejs-lts
 choco install -y rust
 choco install -y railsinstaller --exectuion-timeout=36000 --proxy=127.0.0.1:1080
 choco install -y yarn
-choco install -y hadoop
+choco install -y dotnetcore-sdk 
 choco install -y golang --proxy=127.0.0.1:1080
 choco install -y clisp --proxy=127.0.0.1:1080
 choco install -y racket --proxy=127.0.0.1:1080
 choco install -y haskell-stack
 choco install -y Lua
-choco install -y Cygwin --execution-timeout=36000 --proxy=127.0.0.1:1080
+choco install -y Cygwin --execution-timeout=36000 --proxy=127.0.0.1:1080 --params "/DesktopIcon:true"
 choco install -y mingw --proxy=127.0.0.1:1080 --exectuion-timeout=36000
-	#choco install -y scala
 choco install -y dart-sdk --proxy=127.0.0.1:1080
+	# choco install -y scala
 choco install -y groovy --proxy=127.0.0.1:1080
-choco install -y gradle --proxy=127.0.0.1:1080
 choco install -y Grails
 choco install -y kotlinc
 
 # 常用软件
-	#choco install -y qbittorrent
-choco install -y potplayer --ignore-checksums
+choco install -y boxstarter
+	#choco install -y boxstarter.testrunner 
+choco install -y bulkrenameutility
+choco install -y powerbi
+	# choco install -y qbittorrent
+choco install -y potplayer
+choco install -y procexp
+	# choco install -y processhacker
 choco install -y bandizip
 choco install -y speedyfox
 choco install -y windows-10-update-assistant
-
+	# choco install -y dropbox
+	# choco install -y googledrive
 choco install -y foxitreader 
-choco install -y boxstarter
 choco install -y python
-choco install -y EveryThing --params "/service"
+choco install -y EveryThing --params "/service" --install-service
 choco install -y wox
 choco install -y internet-download-manager --ignore-checksums
 choco install -y ChocolateyGUI
@@ -100,30 +110,25 @@ choco install -y GoogleChrome --proxy=127.0.0.1:1080
 choco install -y honeyview
 choco install -y bulkrenameutility --proxy=127.0.0.1:1080
 choco install -y keepass
-	#choco install -y Kindle --proxy=127.0.0.1:1080
+choco install -y Kindle --proxy=127.0.0.1:1080
 choco install -y lockhunter
 choco install -y paint.net
-	#choco install -y googleearthpro --proxy=127.0.0.1:1080
+choco install -y googleearthpro --proxy=127.0.0.1:1080
 choco install -y eraser
 choco install -y spacesniffer
 choco install -y Sudo
 choco install -y sysinternals
 choco install -y TeraCopy --ignore-checksums --proxy=127.0.0.1:1080
-choco install -y TotalCommander --proxy=127.0.0.1:1080 --params "/ShellExtension /AddCommanderPath" 
-	#choco install -y ultraiso --ignore-checksums --proxy=127.0.0.1:1080
+choco install -y TotalCommander --proxy=127.0.0.1:1080 --params "/DesktopIcon /ShellExtension" 
 choco install -y teamviewer --proxy=127.0.0.1:1080
 choco install -y rufus
-	#choco install -y win32diskimager 
 choco install -y autohotkey
 choco install -y autoit
-	#choco install -y beyondcompare
-	#choco install -y sandboxie
 choco install -y screentogif
 choco install -y tim
 choco install -y calibre
-	#choco install -y Sigil
-	#choco install -y carnac
-	#choco install -y formatfactory --ignore-checksums
+choco install -y carnac
+choco install -y handbrake
 choco install -y telegram
 # 游戏
 choco install -y steam --proxy=127.0.0.1:1080
@@ -131,7 +136,7 @@ choco install -y steam --proxy=127.0.0.1:1080
 	#choco install -y origin
 	#choco install -y battle.net --ignore-checksums
 	#choco install -y uplay --proxy=127.0.0.1:1080 --ignore-checksums
-choco install -y epicgameslauncher
+	#choco install -y epicgameslauncher
 	# 2019年,送一年的游戏
 # 360放在最后,会阻止其他软件安装
 choco install -y 360ts
