@@ -99,7 +99,7 @@ choco install -y windows-10-update-assistant
 	# choco install -y googledrive
 choco install -y foxitreader 
 choco install -y python
-choco install -y EveryThing --params "/service" --install-service
+choco install -y EveryThing --params "/service"
 choco install -y wox
 choco install -y internet-download-manager --ignore-checksums
 choco install -y ChocolateyGUI
