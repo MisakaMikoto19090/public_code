@@ -104,6 +104,7 @@ choco install -y wox --proxy=127.0.0.1:1081
 choco install -y internet-download-manager --ignore-checksums --proxy=127.0.0.1:1081
 	# choco install -y ChocolateyGUI --proxy=127.0.0.1:1081
 choco install -y flashplayerppapi --proxy=127.0.0.1:1081
+choco install -y flashplayernpapi --proxy=127.0.0.1:1081
 	# choco install -y vdhcoapp --proxy=127.0.0.1:1081
 choco install -y ditto --proxy=127.0.0.1:1081
 choco install -y GoogleChrome --proxy=127.0.0.1:1081
