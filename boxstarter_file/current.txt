@@ -12,7 +12,7 @@ Set-TaskbarOptions -Size Small -Dock Bottom -Combine Full -AlwaysShowIconsOn
 #常用开发工具
 choco install -y notepadplusplus --proxy=127.0.0.1:1081
 choco install -y vscode --proxy=127.0.0.1:1081
-	# choco install -y SublimeText3 --proxy=127.0.0.1:1081
+choco install -y SublimeText3 --proxy=127.0.0.1:1081
 choco install -y git --proxy=127.0.0.1:1081
     # choco install -y SourceTree --proxy=127.0.0.1:1081
 choco install -y SmartGit --proxy=127.0.0.1:1081
