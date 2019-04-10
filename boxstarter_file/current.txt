@@ -29,6 +29,7 @@ choco install -y phpstorm --exectuion-timeout=36000 --proxy=127.0.0.1:1081
 choco install -y Pycharm --exectuion-timeout=36000 --proxy=127.0.0.1:1081
 choco install -y jetbrains-rider --exectuion-timeout=36000 --proxy=127.0.0.1:1081
 	# choco install -y RubyMine --exectuion-timeout=36000 --proxy=127.0.0.1:1081
+choco install -y redis-desktop-manager
 choco install -y WebStorm --exectuion-timeout=36000 --proxy=127.0.0.1:1081
 choco install -y AndroidStudio --exectuion-timeout=36000 --params "/AddToDesktop:true" --proxy=127.0.0.1:1081
 choco install -y diffmerge --proxy=127.0.0.1:1081
