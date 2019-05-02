@@ -60,7 +60,7 @@ choco install -y fiddler --proxy=127.0.0.1:1081
 choco install -y visualstudio2019enterprise --package-parameters "--allWorkloads --includeRecommended --includeOptional --passive --locale zh-CN" --execution-timeout=36000 --proxy=127.0.0.1:1081
 
 # 以下是各种可用的开发语言的包
-choco install -y jdk12 --execution-timeout=36000 --proxy=127.0.0.1:1081
+	# choco install -y jdk12 --execution-timeout=36000 --proxy=127.0.0.1:1081
 	# choco install -y jdk8 --proxy=127.0.0.1:1081
 	# choco install -y jre8 # -PackageParameters "/exclude:32" --proxy=127.0.0.1:1081
 	# choco install -y jmeter --proxy=127.0.0.1:1081
