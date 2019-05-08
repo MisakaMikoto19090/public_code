@@ -79,11 +79,13 @@ choco install -y golang --proxy=127.0.0.1:1081
 choco install -y Lua --proxy=127.0.0.1:1081
 	# choco install -y Cygwin --execution-timeout=36000 --params "/DesktopIcon:true" --proxy=127.0.0.1:1081 
 choco install -y mingw --exectuion-timeout=36000 --proxy=127.0.0.1:1081
+choco install -y flutter --proxy=127.0.0.1:1081
 choco install -y dart-sdk --proxy=127.0.0.1:1081
 	# choco install -y scala --proxy=127.0.0.1:1081
 	# choco install -y groovy --proxy=127.0.0.1:1081
 	# choco install -y Grails --proxy=127.0.0.1:1081
 	# choco install -y kotlinc --proxy=127.0.0.1:1081
+	# choco install -y meteor --proxy=127.0.0.1:1081
 
 # 常用软件
 	# choco install -y boxstarter --proxy=127.0.0.1:1081
