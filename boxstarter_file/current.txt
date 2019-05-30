@@ -25,7 +25,7 @@ choco install -y diffmerge --proxy=127.0.0.1:1081
 choco install -y winmerge --proxy=127.0.0.1:1081
 #虚拟机
 choco install -y virtualbox --proxy=127.0.0.1:1081
-	# choco install -y vmwareworkstation --proxy=127.0.0.1:1081
+choco install -y vmwareworkstation --proxy=127.0.0.1:1081
 choco install -y vagrant --execution-timeout=36000 --proxy=127.0.0.1:1081
 #网络测试相关
 choco install -y postman --proxy=127.0.0.1:1081
@@ -145,13 +145,14 @@ choco install -y tunsafe --proxy=127.0.0.1:1081
 choco install -y calibre --proxy=127.0.0.1:1081
 	# choco install -y carnac --proxy=127.0.0.1:1081
 	# choco install -y handbrake --proxy=127.0.0.1:1081
-	# choco install -y telegram --proxy=127.0.0.1:1081
+choco install -y telegram --proxy=127.0.0.1:1081
+
 # 游戏
 choco install -y steam --proxy=127.0.0.1:1081
 	# choco install -y goggalaxy --proxy=127.0.0.1:1081
 	# choco install -y origin --proxy=127.0.0.1:1081
 	# choco install -y battle.net --ignore-checksums --proxy=127.0.0.1:1081
-	# choco install -y uplay --ignore-checksums --proxy=127.0.0.1:1081
+choco install -y uplay --ignore-checksums --proxy=127.0.0.1:1081
 	# choco install -y epicgameslauncher --proxy=127.0.0.1:1081
 	# 2019年,送一年的游戏
 # 360放在最后,会阻止其他软件安装
