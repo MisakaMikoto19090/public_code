@@ -50,6 +50,9 @@ choco install -y vcredist-all --proxy=127.0.0.1:1081
 	# choco install -y mysql --proxy=127.0.0.1:1081
 	# choco install -y jenkins --proxy=127.0.0.1:1081
 	# choco install -y gradle --proxy=127.0.0.1:1081
+	# choco install -y groovy --proxy=127.0.0.1:1081
+	# choco install -y Grails --proxy=127.0.0.1:1081
+	# choco install -y meteor --proxy=127.0.0.1:1081
 # 云
 	# choco install -y gae.sdk --proxy=127.0.0.1:1081
 	# choco install -y gcloudsdk --proxy=127.0.0.1:1081
@@ -73,14 +76,15 @@ choco install -y visualstudio2019enterprise --package-parameters "--allWorkloads
 # 以下是各种语言和开发环境pypl和tiobe的前25个
 choco install -y python --proxy=127.0.0.1:1081
 choco install -y openjdk --execution-timeout=36000 --proxy=127.0.0.1:1081
-	# choco install -y nodejs --proxy=127.0.0.1:1081
-	# choco install -y yarn --proxy=127.0.0.1:1081
+choco install -y nodejs --proxy=127.0.0.1:1081
+choco install -y yarn --proxy=127.0.0.1:1081
 choco install -y dotnetcore-sdk --proxy=127.0.0.1:1081
 	# choco install -y php --proxy=127.0.0.1:1081
 	# choco install -y composer --proxy=127.0.0.1:1081
 	# choco install -y R --proxy=127.0.0.1:1081
 	# choco install -y swiftforwindows --proxy=127.0.0.1:1081
-	# choco install -y typescript --proxy=127.0.0.1:1081
+	# 非官方
+choco install -y typescript --proxy=127.0.0.1:1081
 	# choco install -y ruby --proxy=127.0.0.1:1081
 	# choco install -y railsinstaller --exectuion-timeout=36000 --proxy=127.0.0.1:1081
 choco install -y golang --proxy=127.0.0.1:1081
@@ -88,7 +92,6 @@ choco install -y kotlinc --proxy=127.0.0.1:1081
 	# choco install -y scala --proxy=127.0.0.1:1081
 	# 依赖jdk8
 choco install -y rust --proxy=127.0.0.1:1081
-
 choco install -y Lua --proxy=127.0.0.1:1081
 	# choco install -y haskell-stack --proxy=127.0.0.1:1081
 	# choco install -y Julia --proxy=127.0.0.1:1081
@@ -98,16 +101,13 @@ choco install -y mingw --exectuion-timeout=36000 --proxy=127.0.0.1:1081
 	# choco install -y Cygwin --execution-timeout=36000 --params "/DesktopIcon:true" --proxy=127.0.0.1:1081 
 choco install -y flutter --proxy=127.0.0.1:1081
 choco install -y dart-sdk --proxy=127.0.0.1:1081
-	# choco install -y groovy --proxy=127.0.0.1:1081
-	# choco install -y Grails --proxy=127.0.0.1:1081
-	# choco install -y meteor --proxy=127.0.0.1:1081
 
 # 常用软件,基本上都能找到
 	# choco install -y winlogbeat --proxy=127.0.0.1:1081
-	# windows的日志监听
+	# windows的日志监听,ELK套装
 	# choco install -y nxlog --proxy=127.0.0.1:1081	#各种日志管理
 choco install -y boxstarter --proxy=127.0.0.1:1081
-	# choco install -y powerbi --proxy=127.0.0.1:1081
+choco install -y powerbi --proxy=127.0.0.1:1081
 	# excel数据图形化
 	# choco install -y qbittorrent --proxy=127.0.0.1:1081
 	# 迅雷的替代品
@@ -129,7 +129,7 @@ choco install -y internet-download-manager --ignore-checksums --proxy=127.0.0.1:
 choco install -y ditto --proxy=127.0.0.1:1081
 choco install -y GoogleChrome --proxy=127.0.0.1:1081
 choco install -y honeyview --proxy=127.0.0.1:1081
-	# choco install -y bulkrenameutility --proxy=127.0.0.1:1081
+choco install -y bulkrenameutility --proxy=127.0.0.1:1081
 	# choco install -y keepass --proxy=127.0.0.1:1081
 	# choco install -y Kindle --proxy=127.0.0.1:1081
 choco install -y lockhunter --proxy=127.0.0.1:1081
