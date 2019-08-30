@@ -76,7 +76,7 @@ choco install -y visualstudio2019enterprise --package-parameters "--allWorkloads
 # 以下是各种语言和开发环境pypl和tiobe的前25个
 choco install -y python --proxy=127.0.0.1:1081
 choco install -y openjdk --execution-timeout=36000 --proxy=127.0.0.1:1081
-choco install -y nodejs --proxy=127.0.0.1:1081
+choco install -y nodejs-lts --proxy=127.0.0.1:1081
 choco install -y yarn --proxy=127.0.0.1:1081
 choco install -y dotnetcore-sdk --proxy=127.0.0.1:1081
 	# choco install -y php --proxy=127.0.0.1:1081
