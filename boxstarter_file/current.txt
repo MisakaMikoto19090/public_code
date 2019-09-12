@@ -148,7 +148,8 @@ choco install -y teamviewer --proxy=127.0.0.1:1081
 	# choco install -y autoit --proxy=127.0.0.1:1081
 	# choco install -y screentogif --proxy=127.0.0.1:1081
 choco install -y tim --proxy=127.0.0.1:1081
-choco install -y tunsafe --proxy=127.0.0.1:1081
+	# choco install -y tunsafe --proxy=127.0.0.1:1081
+	# wireguard出官方客户端了
 choco install -y calibre --proxy=127.0.0.1:1081
 	# choco install -y carnac --proxy=127.0.0.1:1081
 	# choco install -y handbrake --proxy=127.0.0.1:1081
