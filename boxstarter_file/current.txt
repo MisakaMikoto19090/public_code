@@ -156,8 +156,8 @@ choco install -y calibre --proxy=127.0.0.1:1081
 choco install -y telegram --proxy=127.0.0.1:1081
 choco install -y weasel --proxy=127.0.0.1:1081
 	# 小狼毫输入法
-choco install -y plasso --proxy=127.0.0.1:1081
-choco install -y wechat --proxy=127.0.0.1:1081
+choco install -y plasso --proxy=127.0.0.1:1081 --ignore-checksums
+choco install -y wechat --proxy=127.0.0.1:1081 --ignore-checksums
 
 # 游戏
 	# choco install -y steam --proxy=127.0.0.1:1081
