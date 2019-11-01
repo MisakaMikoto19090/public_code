@@ -10,7 +10,6 @@ Set-TaskbarOptions -Size Small -Dock Bottom -Combine Full -AlwaysShowIconsOn
 
 #其实是不分大小写的,但是还是尽量和包名相同
 #编辑器,方便多开
-choco install -y notepadplusplus --proxy=127.0.0.1:10809
 choco install -y vscode --proxy=127.0.0.1:10809
 	# choco install -y SublimeText3 --proxy=127.0.0.1:10809
 	# choco install -y vim --proxy=127.0.0.1:10809
