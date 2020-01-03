@@ -123,7 +123,7 @@ choco install -y foxitreader --proxy=127.0.0.1:10809
 choco install -y EveryThing --params "/service" --proxy=127.0.0.1:10809
 choco install -y wox --proxy=127.0.0.1:10809
 	# 依赖Python
-choco install -y internet-download-manager --ignore-checksums --proxy=127.0.0.1:10809
+	#choco install -y internet-download-manager --ignore-checksums --proxy=127.0.0.1:10809
 	# choco install -y ChocolateyGUI --proxy=127.0.0.1:10809
 choco install -y ditto --proxy=127.0.0.1:10809
 choco install -y GoogleChrome --proxy=127.0.0.1:10809
