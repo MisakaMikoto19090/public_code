@@ -1,0 +1,16 @@
+choco
+driver booster
+windows
+settings->升级
+v2ray
+brook
+shadowsocks
+sunbox
+浏览器
+settings->个性化->start
+输入法
+cde磁盘清理
+dism
+360
+smart defrag
+uninstaller(windows程序)

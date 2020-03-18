@@ -119,6 +119,7 @@ choco install -y speedyfox --proxy=127.0.0.1:10809
 choco install -y windows-10-update-assistant --proxy=127.0.0.1:10809
 	# choco install -y dropbox --proxy=127.0.0.1:10809
 	# choco install -y googledrive --proxy=127.0.0.1:10809
+choco install -y xmind --proxy=127.0.0.1:10809
 choco install -y foxitreader --proxy=127.0.0.1:10809
 choco install -y EveryThing --params "/service" --proxy=127.0.0.1:10809
 choco install -y wox --proxy=127.0.0.1:10809
