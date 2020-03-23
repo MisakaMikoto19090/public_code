@@ -19,9 +19,9 @@ choco install -y git --proxy=127.0.0.1:10809
 	# choco install -y tortoisesvn --proxy=127.0.0.1:10809
 choco install -y SmartGit --proxy=127.0.0.1:10809
 	# choco install -y deepgit --proxy=127.0.0.1:10809
-    # choco install -y SourceTree --proxy=127.0.0.1:10809
+    	# choco install -y SourceTree --proxy=127.0.0.1:10809
 choco install -y diffmerge --proxy=127.0.0.1:10809
-choco install -y winmerge --proxy=127.0.0.1:10809
+	# choco install -y winmerge --proxy=127.0.0.1:10809
 #虚拟机
 choco install -y virtualbox --proxy=127.0.0.1:10809
 choco install -y vmwareworkstation --proxy=127.0.0.1:10809
@@ -29,13 +29,13 @@ choco install -y vagrant --execution-timeout=36000 --proxy=127.0.0.1:10809
 #网络测试相关
 choco install -y postman --proxy=127.0.0.1:10809
 choco install -y fiddler --proxy=127.0.0.1:10809	
-choco install -y wireshark --proxy=127.0.0.1:10809
-choco install -y nmap --proxy=127.0.0.1:10809
+	# choco install -y wireshark --proxy=127.0.0.1:10809
+	# choco install -y nmap --proxy=127.0.0.1:10809
 	# choco install -y ngrok --proxy=127.0.0.1:10809
 	# choco install -y jmeter --proxy=127.0.0.1:10809
 	# 依赖jre8
 #其他
-	# choco install -y xmind --proxy=127.0.0.1:10809
+choco install -y xmind --proxy=127.0.0.1:10809
 choco install -y redis-desktop-manager --proxy=127.0.0.1:10809
 choco install -y vcredist-all --proxy=127.0.0.1:10809
 #各种环境和工具
@@ -78,6 +78,7 @@ choco install -y openjdk --execution-timeout=36000 --proxy=127.0.0.1:10809
 choco install -y nodejs-lts --proxy=127.0.0.1:10809
 choco install -y yarn --proxy=127.0.0.1:10809
 choco install -y dotnetcore-sdk --proxy=127.0.0.1:10809
+choco install -y hugo --proxy=127.0.0.1:10809
 	# choco install -y php --proxy=127.0.0.1:10809
 	# choco install -y composer --proxy=127.0.0.1:10809
 	# choco install -y R --proxy=127.0.0.1:10809
@@ -115,11 +116,10 @@ choco install -y iobit-uninstaller --proxy=127.0.0.1:10809
 choco install -y potplayer --proxy=127.0.0.1:10809
 	# choco install -y procexp --proxy=127.0.0.1:10809
 choco install -y bandizip --proxy=127.0.0.1:10809
-choco install -y speedyfox --proxy=127.0.0.1:10809
+	# choco install -y speedyfox --proxy=127.0.0.1:10809
 choco install -y windows-10-update-assistant --proxy=127.0.0.1:10809
 	# choco install -y dropbox --proxy=127.0.0.1:10809
 	# choco install -y googledrive --proxy=127.0.0.1:10809
-choco install -y xmind --proxy=127.0.0.1:10809
 choco install -y foxitreader --proxy=127.0.0.1:10809
 choco install -y EveryThing --params "/service" --proxy=127.0.0.1:10809
 choco install -y wox --proxy=127.0.0.1:10809
@@ -129,7 +129,7 @@ choco install -y wox --proxy=127.0.0.1:10809
 choco install -y ditto --proxy=127.0.0.1:10809
 choco install -y GoogleChrome --proxy=127.0.0.1:10809
 choco install -y honeyview --proxy=127.0.0.1:10809
-choco install -y bulkrenameutility --proxy=127.0.0.1:10809
+	# choco install -y bulkrenameutility --proxy=127.0.0.1:10809
 	# choco install -y keepass --proxy=127.0.0.1:10809
 	# choco install -y Kindle --proxy=127.0.0.1:10809
 choco install -y lockhunter --proxy=127.0.0.1:10809
@@ -147,7 +147,6 @@ choco install -y teamviewer --proxy=127.0.0.1:10809
 	# choco install -y autohotkey --proxy=127.0.0.1:10809
 	# choco install -y autoit --proxy=127.0.0.1:10809
 	# choco install -y screentogif --proxy=127.0.0.1:10809
-choco install -y tim --proxy=127.0.0.1:10809
 	# choco install -y tunsafe --proxy=127.0.0.1:10809
 	# wireguard出官方客户端了
 	# choco install -y wireguard --proxy=127.0.0.1:10809

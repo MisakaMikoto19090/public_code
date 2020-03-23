@@ -2,15 +2,22 @@ choco
 driver booster
 windows
 settings->升级
-v2ray
+zhile.io(jetbrains注册,更新注册)
+vagrant box
+v2rayN
 brook
-shadowsocks
+shadowsocksR
 sunbox
 浏览器
 settings->个性化->start
+ditto
 输入法
 cde磁盘清理
 dism
 360
 smart defrag
 uninstaller(windows程序)
+迅雷,百度网盘,speedpan,pandownloader等下载软件
+word,excel,emeditor,等编辑软件的历史纪录
+下载目录等删除
+ffmpeg,gpac,wegame,lol,anaconda
