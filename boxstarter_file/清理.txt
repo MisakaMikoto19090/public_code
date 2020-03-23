@@ -20,4 +20,3 @@ uninstaller(windows程序)
 迅雷,百度网盘,speedpan,pandownloader等下载软件
 word,excel,emeditor,等编辑软件的历史纪录
 下载目录等删除
-ffmpeg,gpac,wegame,lol,anaconda
