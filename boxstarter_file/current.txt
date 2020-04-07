@@ -2,7 +2,7 @@
 Enable-MicrosoftUpdate
 Enable-UAC
 Install-WindowsUpdate
-Update-Help
+	# Update-Help
 Set-StartScreenOptions -EnableBootToDesktop -EnableDesktopBackgroundOnStart -EnableShowStartOnActiveScreen -EnableShowAppsViewOnStartScreen -EnableSearchEverywhereInAppsView -EnableListDesktopAppsFirst
 Set-CornerNavigationOptions -EnableUpperRightCornerShowCharms -EnableUpperLeftCornerSwitchApps -EnableUsePowerShellOnWinX
 Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -DisableShowProtectedOSFiles -EnableShowFileExtensions -EnableShowFullPathInTitleBar -DisableOpenFileExplorerToQuickAccess -EnableShowRecentFilesInQuickAccess -EnableShowFrequentFoldersInQuickAccess -EnableExpandToOpenFolder
@@ -10,162 +10,163 @@ Set-TaskbarOptions -Size Small -Dock Bottom -Combine Full -AlwaysShowIconsOn
 
 #其实是不分大小写的,但是还是尽量和包名相同
 #编辑器,方便多开
-choco install -y vscode --proxy=127.0.0.1:10809
-	# choco install -y SublimeText3 --proxy=127.0.0.1:10809
-	# choco install -y vim --proxy=127.0.0.1:10809
-	# choco install -y Emacs --proxy=127.0.0.1:10809
+choco install -y vscode --proxy=127.0.0.1:1080
+	# choco install -y SublimeText3 --proxy=127.0.0.1:1080
+	# choco install -y vim --proxy=127.0.0.1:1080
+	# choco install -y Emacs --proxy=127.0.0.1:1080
 #代码管理
-choco install -y git --proxy=127.0.0.1:10809
-	# choco install -y tortoisesvn --proxy=127.0.0.1:10809
-choco install -y SmartGit --proxy=127.0.0.1:10809
-	# choco install -y deepgit --proxy=127.0.0.1:10809
-    	# choco install -y SourceTree --proxy=127.0.0.1:10809
-choco install -y diffmerge --proxy=127.0.0.1:10809
-	# choco install -y winmerge --proxy=127.0.0.1:10809
+choco install -y git --proxy=127.0.0.1:1080
+	# choco install -y tortoisesvn --proxy=127.0.0.1:1080
+choco install -y SmartGit --proxy=127.0.0.1:1080
+	# choco install -y deepgit --proxy=127.0.0.1:1080
+    	# choco install -y SourceTree --proxy=127.0.0.1:1080
+choco install -y diffmerge --proxy=127.0.0.1:1080
+	# choco install -y winmerge --proxy=127.0.0.1:1080
 #虚拟机
-choco install -y virtualbox --proxy=127.0.0.1:10809
-choco install -y vmwareworkstation --proxy=127.0.0.1:10809
-choco install -y vagrant --execution-timeout=36000 --proxy=127.0.0.1:10809
+choco install -y virtualbox --proxy=127.0.0.1:1080
+choco install -y vmwareworkstation --proxy=127.0.0.1:1080
+choco install -y vagrant --execution-timeout=36000 --proxy=127.0.0.1:1080
 #网络测试相关
-choco install -y postman --proxy=127.0.0.1:10809
-choco install -y fiddler --proxy=127.0.0.1:10809	
-	# choco install -y wireshark --proxy=127.0.0.1:10809
-	# choco install -y nmap --proxy=127.0.0.1:10809
-	# choco install -y ngrok --proxy=127.0.0.1:10809
-	# choco install -y jmeter --proxy=127.0.0.1:10809
+choco install -y postman --proxy=127.0.0.1:1080
+choco install -y fiddler --proxy=127.0.0.1:1080	
+	# choco install -y wireshark --proxy=127.0.0.1:1080
+	# choco install -y nmap --proxy=127.0.0.1:1080
+	# choco install -y ngrok --proxy=127.0.0.1:1080
+	# choco install -y jmeter --proxy=127.0.0.1:1080
 	# 依赖jre8
 #其他
-choco install -y xmind --proxy=127.0.0.1:10809
-choco install -y redis-desktop-manager --proxy=127.0.0.1:10809
-choco install -y vcredist-all --proxy=127.0.0.1:10809
+choco install -y xmind --proxy=127.0.0.1:1080
+	# choco install -y redis-desktop-manager --proxy=127.0.0.1:1080
+	# choco install -y vcredist-all --proxy=127.0.0.1:1080
 #各种环境和工具
-	# choco install -y puppet --proxy=127.0.0.1:10809
-	# choco install -y docker-desktop --execution-timeout=36000 --proxy=127.0.0.1:10809
-	# choco install -y hadoop --proxy=127.0.0.1:10809
+	# choco install -y puppet --proxy=127.0.0.1:1080
+	# choco install -y docker-desktop --execution-timeout=36000 --proxy=127.0.0.1:1080
+	# choco install -y hadoop --proxy=127.0.0.1:1080
 #杂七杂八软件
-	# choco install -y cmake --installargs "ADD_CMAKE_TO_PATH=System" --installargs "DESKTOP_SHORTCUT_REQUESTED=1" --proxy=127.0.0.1:10809
-	# choco install -y vcxsrv --proxy=127.0.0.1:10809
+	# choco install -y cmake --installargs "ADD_CMAKE_TO_PATH=System" --installargs "DESKTOP_SHORTCUT_REQUESTED=1" --proxy=127.0.0.1:1080
+	# choco install -y vcxsrv --proxy=127.0.0.1:1080
 	# WSL图形化用的
-	# choco install -y mysql --proxy=127.0.0.1:10809
-	# choco install -y jenkins --proxy=127.0.0.1:10809
-	# choco install -y gradle --proxy=127.0.0.1:10809
-	# choco install -y groovy --proxy=127.0.0.1:10809
-	# choco install -y Grails --proxy=127.0.0.1:10809
-	# choco install -y meteor --proxy=127.0.0.1:10809
+	# choco install -y mysql --proxy=127.0.0.1:1080
+	# choco install -y jenkins --proxy=127.0.0.1:1080
+	# choco install -y gradle --proxy=127.0.0.1:1080
+	# choco install -y groovy --proxy=127.0.0.1:1080
+	# choco install -y Grails --proxy=127.0.0.1:1080
+	# choco install -y meteor --proxy=127.0.0.1:1080
 # 云
-	# choco install -y gae.sdk --proxy=127.0.0.1:10809
-	# choco install -y gcloudsdk --proxy=127.0.0.1:10809
-	# choco install -y awscli --proxy=127.0.0.1:10809
-	# choco install -y azure-cli --proxy=127.0.0.1:10809
+	# choco install -y gae.sdk --proxy=127.0.0.1:1080
+	# choco install -y gcloudsdk --proxy=127.0.0.1:1080
+	# choco install -y awscli --proxy=127.0.0.1:1080
+	# choco install -y azure-cli --proxy=127.0.0.1:1080
 #IDE
-choco install -y clion-ide --exectuion-timeout=36000 --proxy=127.0.0.1:10809
-choco install -y datagrip --exectuion-timeout=36000 --proxy=127.0.0.1:10809
-choco install -y goland --exectuion-timeout=36000 --proxy=127.0.0.1:10809
-choco install -y intellijidea-ultimate --exectuion-timeout=36000 --proxy=127.0.0.1:10809
-choco install -y phpstorm --exectuion-timeout=36000 --proxy=127.0.0.1:10809
-choco install -y Pycharm --exectuion-timeout=36000 --proxy=127.0.0.1:10809
-choco install -y jetbrains-rider --exectuion-timeout=36000 --proxy=127.0.0.1:10809
-choco install -y RubyMine --exectuion-timeout=36000 --proxy=127.0.0.1:10809
-choco install -y WebStorm --exectuion-timeout=36000 --proxy=127.0.0.1:10809
-	# choco install -y jetbrainstoolbox --exectuion-timeout=36000 --proxy=127.0.0.1:10809
-	# choco install -y r.studio --proxy=127.0.0.1:10809
-	# choco install -y AndroidStudio --exectuion-timeout=36000 --params "/AddToDesktop:true" --proxy=127.0.0.1:10809
-	# choco install -y visualstudio2019enterprise --package-parameters "--allWorkloads --includeRecommended --includeOptional --passive --locale zh-CN" --execution-timeout=36000 --proxy=127.0.0.1:10809
+choco install -y clion-ide --exectuion-timeout=36000 --proxy=127.0.0.1:1080
+choco install -y datagrip --exectuion-timeout=36000 --proxy=127.0.0.1:1080
+choco install -y goland --exectuion-timeout=36000 --proxy=127.0.0.1:1080
+choco install -y intellijidea-ultimate --exectuion-timeout=36000 --proxy=127.0.0.1:1080
+choco install -y phpstorm --exectuion-timeout=36000 --proxy=127.0.0.1:1080
+choco install -y Pycharm --exectuion-timeout=36000 --proxy=127.0.0.1:1080
+choco install -y jetbrains-rider --exectuion-timeout=36000 --proxy=127.0.0.1:1080
+	# choco install -y RubyMine --exectuion-timeout=36000 --proxy=127.0.0.1:1080
+choco install -y WebStorm --exectuion-timeout=36000 --proxy=127.0.0.1:1080
+	# choco install -y jetbrainstoolbox --exectuion-timeout=36000 --proxy=127.0.0.1:1080
+	# choco install -y r.studio --proxy=127.0.0.1:1080
+	# choco install -y AndroidStudio --exectuion-timeout=36000 --params "/AddToDesktop:true" --proxy=127.0.0.1:1080
+	# choco install -y visualstudio2019enterprise --package-parameters "--allWorkloads --includeRecommended --includeOptional --passive --locale zh-CN" --execution-timeout=36000 --proxy=127.0.0.1:1080
 
 # 以下是各种语言和开发环境pypl和tiobe的前25个
-choco install -y python --proxy=127.0.0.1:10809
-choco install -y openjdk --execution-timeout=36000 --proxy=127.0.0.1:10809
-choco install -y nodejs-lts --proxy=127.0.0.1:10809
-choco install -y yarn --proxy=127.0.0.1:10809
-choco install -y dotnetcore-sdk --proxy=127.0.0.1:10809
-choco install -y hugo --proxy=127.0.0.1:10809
-	# choco install -y php --proxy=127.0.0.1:10809
-	# choco install -y composer --proxy=127.0.0.1:10809
-	# choco install -y R --proxy=127.0.0.1:10809
-	# choco install -y swiftforwindows --proxy=127.0.0.1:10809
+choco install -y python --proxy=127.0.0.1:1080
+choco install -y openjdk --execution-timeout=36000 --proxy=127.0.0.1:1080
+choco install -y nodejs-lts --proxy=127.0.0.1:1080
+choco install -y yarn --proxy=127.0.0.1:1080
+choco install -y dotnetcore-sdk --proxy=127.0.0.1:1080
+choco install -y hugo --proxy=127.0.0.1:1080
+	# choco install -y php --proxy=127.0.0.1:1080
+	# choco install -y composer --proxy=127.0.0.1:1080
+	# choco install -y R --proxy=127.0.0.1:1080
+	# choco install -y swiftforwindows --proxy=127.0.0.1:1080
 	# 非官方
-choco install -y typescript --proxy=127.0.0.1:10809
-	# choco install -y ruby --proxy=127.0.0.1:10809
-choco install -y railsinstaller --exectuion-timeout=36000 --proxy=127.0.0.1:10809
-choco install -y golang --proxy=127.0.0.1:10809
-	# choco install -y kotlinc --proxy=127.0.0.1:10809
-	# choco install -y scala --proxy=127.0.0.1:10809
+	# choco install -y typescript --proxy=127.0.0.1:1080
+	# choco install -y ruby --proxy=127.0.0.1:1080
+	# choco install -y railsinstaller --exectuion-timeout=36000 --proxy=127.0.0.1:1080
+choco install -y golang --proxy=127.0.0.1:1080
+	# choco install -y kotlinc --proxy=127.0.0.1:1080
+	# choco install -y scala --proxy=127.0.0.1:1080
 	# 依赖jdk8
-	# choco install -y rust --proxy=127.0.0.1:10809
-	# choco install -y Lua --proxy=127.0.0.1:10809
-	# choco install -y haskell-stack --proxy=127.0.0.1:10809
-	# choco install -y Julia --proxy=127.0.0.1:10809
-	# choco install -y clisp --proxy=127.0.0.1:10809
-	# choco install -y racket --proxy=127.0.0.1:10809
-choco install -y mingw --exectuion-timeout=36000 --proxy=127.0.0.1:10809
-	# choco install -y Cygwin --execution-timeout=36000 --params "/DesktopIcon:true" --proxy=127.0.0.1:10809 
-	# choco install -y flutter --proxy=127.0.0.1:10809
-	# choco install -y dart-sdk --proxy=127.0.0.1:10809
+	# choco install -y rust --proxy=127.0.0.1:1080
+	# choco install -y Lua --proxy=127.0.0.1:1080
+	# choco install -y haskell-stack --proxy=127.0.0.1:1080
+	# choco install -y Julia --proxy=127.0.0.1:1080
+	# choco install -y clisp --proxy=127.0.0.1:1080
+	# choco install -y racket --proxy=127.0.0.1:1080
+choco install -y mingw --exectuion-timeout=36000 --proxy=127.0.0.1:1080
+	# choco install -y Cygwin --execution-timeout=36000 --params "/DesktopIcon:true" --proxy=127.0.0.1:1080 
+	# choco install -y flutter --proxy=127.0.0.1:1080
+	# choco install -y dart-sdk --proxy=127.0.0.1:1080
 
 # 常用软件,基本上都能找到
-	# choco install -y winlogbeat --proxy=127.0.0.1:10809
+	# choco install -y winlogbeat --proxy=127.0.0.1:1080
 	# windows的日志监听,ELK套装
-	# choco install -y nxlog --proxy=127.0.0.1:10809	#各种日志管理
-	# choco install -y boxstarter --proxy=127.0.0.1:10809
-	# choco install -y powerbi --proxy=127.0.0.1:10809
+	# choco install -y nxlog --proxy=127.0.0.1:1080	#各种日志管理
+	# choco install -y boxstarter --proxy=127.0.0.1:1080
+	# choco install -y powerbi --proxy=127.0.0.1:1080
 	# excel数据图形化
-	# choco install -y qbittorrent --proxy=127.0.0.1:10809
+	# choco install -y qbittorrent --proxy=127.0.0.1:1080
 	# 迅雷的替代品
-choco install -y driverbooster --ignore-checksums --proxy=127.0.0.1:10809
-choco install -y iobit-uninstaller --proxy=127.0.0.1:10809
-choco install -y potplayer --proxy=127.0.0.1:10809
-	# choco install -y procexp --proxy=127.0.0.1:10809
-choco install -y bandizip --proxy=127.0.0.1:10809
-	# choco install -y speedyfox --proxy=127.0.0.1:10809
-choco install -y windows-10-update-assistant --proxy=127.0.0.1:10809
-	# choco install -y dropbox --proxy=127.0.0.1:10809
-	# choco install -y googledrive --proxy=127.0.0.1:10809
-choco install -y foxitreader --proxy=127.0.0.1:10809
-choco install -y EveryThing --params "/service" --proxy=127.0.0.1:10809
-choco install -y wox --proxy=127.0.0.1:10809
+choco install -y driverbooster --proxy=127.0.0.1:1080
+choco install -y iobit-uninstaller --proxy=127.0.0.1:1080
+choco install -y potplayer --proxy=127.0.0.1:1080
+	# choco install -y procexp --proxy=127.0.0.1:1080
+choco install -y bandizip --proxy=127.0.0.1:1080
+	# choco install -y speedyfox --proxy=127.0.0.1:1080
+choco install -y windows-10-update-assistant --proxy=127.0.0.1:1080
+	# choco install -y dropbox --proxy=127.0.0.1:1080
+	# choco install -y googledrive --proxy=127.0.0.1:1080
+choco install -y foxitreader --proxy=127.0.0.1:1080
+choco install -y EveryThing --params "/service" --proxy=127.0.0.1:1080
+choco install -y wox --proxy=127.0.0.1:1080
 	# 依赖Python
-	#choco install -y internet-download-manager --ignore-checksums --proxy=127.0.0.1:10809
-	# choco install -y ChocolateyGUI --proxy=127.0.0.1:10809
-choco install -y ditto --proxy=127.0.0.1:10809
-choco install -y GoogleChrome --proxy=127.0.0.1:10809
-choco install -y honeyview --proxy=127.0.0.1:10809
-	# choco install -y bulkrenameutility --proxy=127.0.0.1:10809
-	# choco install -y keepass --proxy=127.0.0.1:10809
-	# choco install -y Kindle --proxy=127.0.0.1:10809
-choco install -y lockhunter --proxy=127.0.0.1:10809
-	# choco install -y paint.net --proxy=127.0.0.1:10809
-	# choco install -y googleearthpro --proxy=127.0.0.1:10809
-	# choco install -y eraser --proxy=127.0.0.1:10809
-choco install -y spacesniffer --proxy=127.0.0.1:10809
-	# choco install -y treesizefree --proxy=127.0.0.1:10809
-choco install -y Sudo --proxy=127.0.0.1:10809
-choco install -y sysinternals --proxy=127.0.0.1:10809
-	# choco install -y TeraCopy --ignore-checksums --proxy=127.0.0.1:10809
-	# choco install -y TotalCommander --params "/DesktopIcon /ShellExtension" --proxy=127.0.0.1:10809
-choco install -y teamviewer --proxy=127.0.0.1:10809
-	# choco install -y rufus --proxy=127.0.0.1:10809
-	# choco install -y autohotkey --proxy=127.0.0.1:10809
-	# choco install -y autoit --proxy=127.0.0.1:10809
-	# choco install -y screentogif --proxy=127.0.0.1:10809
-	# choco install -y tunsafe --proxy=127.0.0.1:10809
+	#choco install -y internet-download-manager --proxy=127.0.0.1:1080
+	# choco install -y ChocolateyGUI --proxy=127.0.0.1:1080
+choco install -y ditto --proxy=127.0.0.1:1080
+choco install -y GoogleChrome --proxy=127.0.0.1:1080
+choco install -y honeyview --proxy=127.0.0.1:1080
+	# choco install -y bulkrenameutility --proxy=127.0.0.1:1080
+	# choco install -y keepass --proxy=127.0.0.1:1080
+	# choco install -y Kindle --proxy=127.0.0.1:1080
+choco install -y lockhunter --proxy=127.0.0.1:1080
+	# choco install -y paint.net --proxy=127.0.0.1:1080
+	# choco install -y googleearthpro --proxy=127.0.0.1:1080
+	# choco install -y eraser --proxy=127.0.0.1:1080
+choco install -y spacesniffer --proxy=127.0.0.1:1080
+	# choco install -y treesizefree --proxy=127.0.0.1:1080
+	# choco install -y Sudo --proxy=127.0.0.1:1080
+	# choco install -y sysinternals --proxy=127.0.0.1:1080
+	# choco install -y TeraCopy --proxy=127.0.0.1:1080
+	# choco install -y TotalCommander --params "/DesktopIcon /ShellExtension" --proxy=127.0.0.1:1080
+	# choco install -y teamviewer --proxy=127.0.0.1:1080
+	# choco install -y rufus --proxy=127.0.0.1:1080
+	# choco install -y autohotkey --proxy=127.0.0.1:1080
+	# choco install -y autoit --proxy=127.0.0.1:1080
+	# choco install -y screentogif --proxy=127.0.0.1:1080
+	# choco install -y tunsafe --proxy=127.0.0.1:1080
 	# wireguard出官方客户端了
-	# choco install -y wireguard --proxy=127.0.0.1:10809
-choco install -y calibre --proxy=127.0.0.1:10809
-	# choco install -y carnac --proxy=127.0.0.1:10809
-	# choco install -y handbrake --proxy=127.0.0.1:10809
-choco install -y telegram --proxy=127.0.0.1:10809
-	# choco install -y weasel --proxy=127.0.0.1:10809
+	# choco install -y wireguard --proxy=127.0.0.1:1080
+choco install -y calibre --proxy=127.0.0.1:1080
+	# choco install -y carnac --proxy=127.0.0.1:1080
+	# choco install -y handbrake --proxy=127.0.0.1:1080
+	# choco install -y telegram --proxy=127.0.0.1:1080
+	# choco install -y weasel --proxy=127.0.0.1:1080
 	# 小狼毫输入法
-choco install -y plasso --proxy=127.0.0.1:10809 --ignore-checksums
-choco install -y wechat --proxy=127.0.0.1:10809 --ignore-checksums
+choco install -y plasso --proxy=127.0.0.1:1080
+choco install -y tim --proxy=127.0.0.1:1080
+choco install -y wechat --proxy=127.0.0.1:1080
 
 # 游戏
-	# choco install -y steam --proxy=127.0.0.1:10809
-	# choco install -y goggalaxy --proxy=127.0.0.1:10809
-	# choco install -y origin --proxy=127.0.0.1:10809
-	# choco install -y battle.net --ignore-checksums --proxy=127.0.0.1:10809
-	# choco install -y uplay --ignore-checksums --proxy=127.0.0.1:10809
-	# choco install -y epicgameslauncher --proxy=127.0.0.1:10809
+	# choco install -y steam --proxy=127.0.0.1:1080
+	# choco install -y goggalaxy --proxy=127.0.0.1:1080
+	# choco install -y origin --proxy=127.0.0.1:1080
+	# choco install -y battle.net --proxy=127.0.0.1:1080
+	# choco install -y uplay --proxy=127.0.0.1:1080
+	# choco install -y epicgameslauncher --proxy=127.0.0.1:1080
 	# 2019年,送一年的游戏
 # 360放在最后,会阻止其他软件安装
-choco install -y 360ts --proxy=127.0.0.1:10809
+choco install -y 360ts --proxy=127.0.0.1:1080
