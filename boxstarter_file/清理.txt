@@ -1,6 +1,5 @@
 choco
 driver booster
-windows
 settings->升级
 zhile.io(jetbrains注册,更新注册)
 vagrant box
@@ -15,7 +14,6 @@ ditto
 cde磁盘清理
 dism
 360
-smart defrag
 uninstaller(windows程序)
 迅雷,百度网盘,speedpan,pandownloader等下载软件
 word,excel,emeditor,等编辑软件的历史纪录

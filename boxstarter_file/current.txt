@@ -19,7 +19,7 @@ choco install -y git --proxy=127.0.0.1:1080
 	# choco install -y tortoisesvn --proxy=127.0.0.1:1080
 choco install -y SmartGit --proxy=127.0.0.1:1080
 	# choco install -y deepgit --proxy=127.0.0.1:1080
-    	# choco install -y SourceTree --proxy=127.0.0.1:1080
+  # choco install -y SourceTree --proxy=127.0.0.1:1080
 choco install -y diffmerge --proxy=127.0.0.1:1080
 	# choco install -y winmerge --proxy=127.0.0.1:1080
 #虚拟机
@@ -28,7 +28,7 @@ choco install -y vmwareworkstation --proxy=127.0.0.1:1080
 choco install -y vagrant --execution-timeout=36000 --proxy=127.0.0.1:1080
 #网络测试相关
 choco install -y postman --proxy=127.0.0.1:1080
-choco install -y fiddler --proxy=127.0.0.1:1080	
+	# choco install -y fiddler --proxy=127.0.0.1:1080	
 	# choco install -y wireshark --proxy=127.0.0.1:1080
 	# choco install -y nmap --proxy=127.0.0.1:1080
 	# choco install -y ngrok --proxy=127.0.0.1:1080
@@ -75,8 +75,8 @@ choco install -y WebStorm --exectuion-timeout=36000 --proxy=127.0.0.1:1080
 # 以下是各种语言和开发环境pypl和tiobe的前25个
 choco install -y python --proxy=127.0.0.1:1080
 choco install -y openjdk --execution-timeout=36000 --proxy=127.0.0.1:1080
-choco install -y nodejs-lts --proxy=127.0.0.1:1080
-choco install -y yarn --proxy=127.0.0.1:1080
+	# choco install -y nodejs-lts --proxy=127.0.0.1:1080
+	# choco install -y yarn --proxy=127.0.0.1:1080
 choco install -y dotnetcore-sdk --proxy=127.0.0.1:1080
 choco install -y hugo --proxy=127.0.0.1:1080
 	# choco install -y php --proxy=127.0.0.1:1080
@@ -115,9 +115,10 @@ choco install -y driverbooster --proxy=127.0.0.1:1080
 choco install -y iobit-uninstaller --proxy=127.0.0.1:1080
 choco install -y potplayer --proxy=127.0.0.1:1080
 	# choco install -y procexp --proxy=127.0.0.1:1080
-choco install -y bandizip --proxy=127.0.0.1:1080
+	# choco install -y 7zip --proxy=127.0.0.1:1080
+	# choco install -y bandizip --proxy=127.0.0.1:1080
 	# choco install -y speedyfox --proxy=127.0.0.1:1080
-choco install -y windows-10-update-assistant --proxy=127.0.0.1:1080
+	# choco install -y windows-10-update-assistant --proxy=127.0.0.1:1080
 	# choco install -y dropbox --proxy=127.0.0.1:1080
 	# choco install -y googledrive --proxy=127.0.0.1:1080
 choco install -y foxitreader --proxy=127.0.0.1:1080
@@ -156,7 +157,7 @@ choco install -y calibre --proxy=127.0.0.1:1080
 	# choco install -y telegram --proxy=127.0.0.1:1080
 	# choco install -y weasel --proxy=127.0.0.1:1080
 	# 小狼毫输入法
-choco install -y plasso --proxy=127.0.0.1:1080
+	# choco install -y plasso --ignore-checksums --proxy=127.0.0.1:1080
 choco install -y tim --proxy=127.0.0.1:1080
 choco install -y wechat --proxy=127.0.0.1:1080
 
