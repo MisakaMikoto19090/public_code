@@ -7,6 +7,7 @@ v2rayN
 brook
 shadowsocksR
 sunbox
+uninstaller(windows程序)
 浏览器
 settings->个性化->start
 ditto
@@ -14,7 +15,6 @@ ditto
 cde磁盘清理
 dism
 360
-uninstaller(windows程序)
-迅雷,百度网盘,speedpan,pandownloader等下载软件
+迅雷,百度网盘,speedpan,pandownloader等下载软件,pandownloader默哀
 word,excel,emeditor,等编辑软件的历史纪录
 下载目录等删除
