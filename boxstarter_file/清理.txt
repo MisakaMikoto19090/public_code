@@ -6,6 +6,7 @@ vagrant box
 v2rayN
 brook
 shadowsocksR
+qv2ray
 sunbox
 uninstaller(windows程序)
 浏览器
