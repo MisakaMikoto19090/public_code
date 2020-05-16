@@ -78,6 +78,7 @@ choco install -y openjdk --execution-timeout=36000 --proxy=127.0.0.1:1080
 	# choco install -y nodejs-lts --proxy=127.0.0.1:1080
 	# choco install -y yarn --proxy=127.0.0.1:1080
 choco install -y dotnetcore-sdk --proxy=127.0.0.1:1080
+choco install -y deno --proxy=127.0.0.1:1080
 choco install -y hugo --proxy=127.0.0.1:1080
 	# choco install -y php --proxy=127.0.0.1:1080
 	# choco install -y composer --proxy=127.0.0.1:1080
