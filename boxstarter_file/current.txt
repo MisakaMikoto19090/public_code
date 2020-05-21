@@ -112,6 +112,9 @@ choco install -y mingw --exectuion-timeout=36000 --proxy=127.0.0.1:1080
 	# excel数据图形化
 	# choco install -y qbittorrent --proxy=127.0.0.1:1080
 	# 迅雷的替代品
+	# choco install -y powertoys --proxy=127.0.0.1:1080
+	# 完全打不过wox
+choco install -y microsoft-windows-terminal --proxy=127.0.0.1:1080
 choco install -y driverbooster --proxy=127.0.0.1:1080
 choco install -y iobit-uninstaller --proxy=127.0.0.1:1080
 choco install -y potplayer --proxy=127.0.0.1:1080
