@@ -2,7 +2,7 @@ choco
 driver booster
 settings->升级
 zhile.io(jetbrains注册,更新注册)
-vagrant box
+vagrant box(vagrantcloud.com)
 v2rayN
 brook
 shadowsocksR
