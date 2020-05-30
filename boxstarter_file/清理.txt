@@ -1,4 +1,4 @@
-choco upgrade -y all --proxy=127.0.0.1:1080 --except=clion-ide, datagrip, goland, intellijidea-ultimate, phpstorm, Pycharm, jetbrains-rider, WebStorm
+choco upgrade -y all --proxy=127.0.0.1:1080 --except="clion-ide,datagrip,goland,intellijidea-ultimate,phpstorm,Pycharm,jetbrains-rider,WebStorm"
 driver booster
 settings->升级
 zhile.io(jetbrains注册,更新注册,2020.05.29大佬不更新了,估计得停留在2020.1版本了.)
