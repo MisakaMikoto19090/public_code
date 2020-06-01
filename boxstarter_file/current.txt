@@ -10,6 +10,8 @@ Set-TaskbarOptions -Size Small -Dock Bottom -Combine Full -AlwaysShowIconsOn
 
 #其实是不分大小写的,但是还是尽量和包名相同
 #编辑器,方便多开
+choco install -y iobit-uninstaller --proxy=127.0.0.1:1080
+	# 可以监控安装
 choco install -y vscode --proxy=127.0.0.1:1080
 	# choco install -y SublimeText3 --proxy=127.0.0.1:1080
 	# choco install -y vim --proxy=127.0.0.1:1080
@@ -19,7 +21,7 @@ choco install -y git --proxy=127.0.0.1:1080
 	# choco install -y tortoisesvn --proxy=127.0.0.1:1080
 choco install -y SmartGit --proxy=127.0.0.1:1080
 	# choco install -y deepgit --proxy=127.0.0.1:1080
-  # choco install -y SourceTree --proxy=127.0.0.1:1080
+  	# choco install -y SourceTree --proxy=127.0.0.1:1080
 choco install -y diffmerge --proxy=127.0.0.1:1080
 	# choco install -y winmerge --proxy=127.0.0.1:1080
 #虚拟机
@@ -28,8 +30,8 @@ choco install -y vmwareworkstation --proxy=127.0.0.1:1080
 choco install -y vagrant --execution-timeout=36000 --proxy=127.0.0.1:1080
 #网络测试相关
 choco install -y postman --proxy=127.0.0.1:1080
-	# choco install -y fiddler --proxy=127.0.0.1:1080	
-	# choco install -y wireshark --proxy=127.0.0.1:1080
+choco install -y fiddler --proxy=127.0.0.1:1080	
+choco install -y wireshark --proxy=127.0.0.1:1080
 	# choco install -y nmap --proxy=127.0.0.1:1080
 	# choco install -y ngrok --proxy=127.0.0.1:1080
 	# choco install -y jmeter --proxy=127.0.0.1:1080
@@ -58,6 +60,7 @@ choco install -y xmind --proxy=127.0.0.1:1080
 	# choco install -y awscli --proxy=127.0.0.1:1080
 	# choco install -y azure-cli --proxy=127.0.0.1:1080
 #IDE
+choco install -y sourcetrail --proxy=127.0.0.1:1080
 choco install -y clion-ide --exectuion-timeout=36000 --proxy=127.0.0.1:1080
 choco install -y datagrip --exectuion-timeout=36000 --proxy=127.0.0.1:1080
 choco install -y goland --exectuion-timeout=36000 --proxy=127.0.0.1:1080
@@ -75,8 +78,8 @@ choco install -y WebStorm --exectuion-timeout=36000 --proxy=127.0.0.1:1080
 # 以下是各种语言和开发环境pypl和tiobe的前25个
 choco install -y python --proxy=127.0.0.1:1080
 choco install -y openjdk --execution-timeout=36000 --proxy=127.0.0.1:1080
-	# choco install -y nodejs-lts --proxy=127.0.0.1:1080
-	# choco install -y yarn --proxy=127.0.0.1:1080
+choco install -y nodejs-lts --proxy=127.0.0.1:1080
+choco install -y yarn --proxy=127.0.0.1:1080
 choco install -y dotnetcore-sdk --proxy=127.0.0.1:1080
 choco install -y deno --proxy=127.0.0.1:1080
 choco install -y hugo --proxy=127.0.0.1:1080
@@ -116,13 +119,12 @@ choco install -y mingw --exectuion-timeout=36000 --proxy=127.0.0.1:1080
 	# 完全打不过wox
 choco install -y microsoft-windows-terminal --proxy=127.0.0.1:1080
 choco install -y driverbooster --proxy=127.0.0.1:1080
-choco install -y iobit-uninstaller --proxy=127.0.0.1:1080
 choco install -y potplayer --proxy=127.0.0.1:1080
 	# choco install -y procexp --proxy=127.0.0.1:1080
 	# choco install -y 7zip --proxy=127.0.0.1:1080
-	# choco install -y bandizip --proxy=127.0.0.1:1080
+choco install -y bandizip --proxy=127.0.0.1:1080
 	# choco install -y speedyfox --proxy=127.0.0.1:1080
-	# choco install -y windows-10-update-assistant --proxy=127.0.0.1:1080
+choco install -y windows-10-update-assistant --proxy=127.0.0.1:1080
 	# choco install -y dropbox --proxy=127.0.0.1:1080
 	# choco install -y googledrive --proxy=127.0.0.1:1080
 choco install -y foxitreader --proxy=127.0.0.1:1080
