@@ -11,6 +11,7 @@ sunbox
 uninstaller(windows程序)
 浏览器
 settings->个性化->start
+win+tab
 ditto
 输入法
 cde磁盘清理
