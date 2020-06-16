@@ -6,7 +6,8 @@ Install-WindowsUpdate
 Set-StartScreenOptions -EnableBootToDesktop -EnableDesktopBackgroundOnStart -EnableShowStartOnActiveScreen -EnableShowAppsViewOnStartScreen -EnableSearchEverywhereInAppsView -EnableListDesktopAppsFirst
 Set-CornerNavigationOptions -EnableUpperRightCornerShowCharms -EnableUpperLeftCornerSwitchApps -EnableUsePowerShellOnWinX
 Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -DisableShowProtectedOSFiles -EnableShowFileExtensions -EnableShowFullPathInTitleBar -DisableOpenFileExplorerToQuickAccess -EnableShowRecentFilesInQuickAccess -EnableShowFrequentFoldersInQuickAccess -EnableExpandToOpenFolder
-Set-TaskbarOptions -Size Small -Dock Bottom -Combine Full -AlwaysShowIconsOn
+Set-TaskbarOptions -Dock Bottom -Combine Full -AlwaysShowIconsOn
+	# -Size Small
 
 #其实是不分大小写的,但是还是尽量和包名相同
 #编辑器,方便多开
@@ -61,15 +62,15 @@ choco install -y xmind --proxy=127.0.0.1:1080
 	# choco install -y azure-cli --proxy=127.0.0.1:1080
 #IDE
 choco install -y sourcetrail --proxy=127.0.0.1:1080
-choco install -y clion-ide --exectuion-timeout=36000 --proxy=127.0.0.1:1080 --version=2020.1.1
-choco install -y datagrip --exectuion-timeout=36000 --proxy=127.0.0.1:1080 --version=2020.1.3
-choco install -y goland --exectuion-timeout=36000 --proxy=127.0.0.1:1080 --version=2020.1.2
-choco install -y intellijidea-ultimate --exectuion-timeout=36000 --proxy=127.0.0.1:1080 --version=2020.1.1
-choco install -y phpstorm --exectuion-timeout=36000 --proxy=127.0.0.1:1080 --version=2020.1.1
-choco install -y Pycharm --exectuion-timeout=36000 --proxy=127.0.0.1:1080 --version=2020.1.1
-choco install -y jetbrains-rider --exectuion-timeout=36000 --proxy=127.0.0.1:1080 --version=2020.1.2
+choco install -y clion-ide --exectuion-timeout=36000 --proxy=127.0.0.1:1080 --version=2020.1.2
+choco install -y datagrip --exectuion-timeout=36000 --proxy=127.0.0.1:1080 --version=2020.1.4
+choco install -y goland --exectuion-timeout=36000 --proxy=127.0.0.1:1080 --version=2020.1.3
+choco install -y intellijidea-ultimate --exectuion-timeout=36000 --proxy=127.0.0.1:1080 --version=2020.1.2
+choco install -y phpstorm --exectuion-timeout=36000 --proxy=127.0.0.1:1080 --version=2020.1.2
+choco install -y Pycharm --exectuion-timeout=36000 --proxy=127.0.0.1:1080 --version=2020.1.2
+choco install -y jetbrains-rider --exectuion-timeout=36000 --proxy=127.0.0.1:1080 --version=2020.1.3
 	# choco install -y RubyMine --exectuion-timeout=36000 --proxy=127.0.0.1:1080
-choco install -y WebStorm --exectuion-timeout=36000 --proxy=127.0.0.1:1080 --version=2020.1.1
+choco install -y WebStorm --exectuion-timeout=36000 --proxy=127.0.0.1:1080 --version=2020.1.2
 	# choco install -y jetbrainstoolbox --exectuion-timeout=36000 --proxy=127.0.0.1:1080
 	# choco install -y r.studio --proxy=127.0.0.1:1080
 	# choco install -y AndroidStudio --exectuion-timeout=36000 --params "/AddToDesktop:true" --proxy=127.0.0.1:1080
@@ -101,7 +102,7 @@ choco install -y golang --proxy=127.0.0.1:1080
 	# choco install -y Julia --proxy=127.0.0.1:1080
 	# choco install -y clisp --proxy=127.0.0.1:1080
 	# choco install -y racket --proxy=127.0.0.1:1080
-choco install -y mingw --exectuion-timeout=36000 --proxy=127.0.0.1:1080
+	# choco install -y mingw --exectuion-timeout=36000 --proxy=127.0.0.1:1080
 	# choco install -y Cygwin --execution-timeout=36000 --params "/DesktopIcon:true" --proxy=127.0.0.1:1080 
 	# choco install -y flutter --proxy=127.0.0.1:1080
 	# choco install -y dart-sdk --proxy=127.0.0.1:1080
