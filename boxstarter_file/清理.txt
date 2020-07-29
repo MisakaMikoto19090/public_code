@@ -1,10 +1,11 @@
 choco upgrade -y all --proxy=127.0.0.1:1080 --except="clion-ide,datagrip,goland,intellijidea-ultimate,phpstorm,Pycharm,jetbrains-rider,WebStorm"
-driver booster
+driver booster(radeon)
 settings->升级
 windows10 update assistant
 zhile.io(jetbrains注册,更新注册,2020.05.29大佬不更新了,估计得停留在2020.1版本了.)果核
 vagrant box(vagrantcloud.com)
 v2rayN
+v2ray-core
 brook
 shadowsocksR
 qv2ray
