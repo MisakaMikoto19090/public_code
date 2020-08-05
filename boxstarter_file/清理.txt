@@ -19,6 +19,6 @@ ditto
 cde磁盘清理
 360
 dism
-迅雷,百度网盘,speedpan,pandownloader等下载软件,pandownloader默哀
+迅雷,百度网盘,yixun
 word,excel,emeditor,等编辑软件的历史纪录
 下载目录等删除
