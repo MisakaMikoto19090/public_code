@@ -10,6 +10,7 @@ brook
 shadowsocksR
 qv2ray
 sunbox,running cheese
+---
 uninstaller(windows程序)
 浏览器
 settings->个性化->start

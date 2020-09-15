@@ -24,7 +24,7 @@ choco install -y git --proxy=127.0.0.1:1080
 	# choco install -y tortoisesvn --proxy=127.0.0.1:1080
 choco install -y SmartGit --proxy=127.0.0.1:1080
 	# choco install -y deepgit --proxy=127.0.0.1:1080
-  	# choco install -y SourceTree --proxy=127.0.0.1:1080
+  # choco install -y SourceTree --proxy=127.0.0.1:1080
 choco install -y diffmerge --proxy=127.0.0.1:1080
 	# choco install -y winmerge --proxy=127.0.0.1:1080
 #虚拟机
@@ -141,7 +141,7 @@ choco install -y wox --proxy=127.0.0.1:1080
 	# 依赖Python
 	# choco install -y qv2ray --proxy=127.0.0.1:1080
 	# 不好用,配置没法备份.
-	#choco install -y internet-download-manager --proxy=127.0.0.1:1080
+	# choco install -y internet-download-manager --proxy=127.0.0.1:1080
 	# choco install -y ChocolateyGUI --proxy=127.0.0.1:1080
 choco install -y ditto --proxy=127.0.0.1:1080
 choco install -y GoogleChrome --proxy=127.0.0.1:1080
