@@ -18,8 +18,9 @@ win+tab
 ditto
 输入法
 cde磁盘清理
-360
+360(defender)
 dism
-迅雷,百度网盘,yixun
+备份
+迅雷,百度网盘
 word,excel,emeditor,等编辑软件的历史纪录
 下载目录等删除
