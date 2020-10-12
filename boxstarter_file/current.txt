@@ -10,6 +10,10 @@ Set-TaskbarOptions -Dock Bottom -Combine Full -AlwaysShowIconsOn
 	# -Size Small
 	# 登录edge来使用boxstarter
 	# START http://boxstarter.org/package/nr/url?D:\projects\MyStudy\codes\public_code\boxstarter_file\init.txt
+	# shadowsocksr 	1080
+	# v2rayn 				10809
+	# qv2ray				8889
+
 
 #其实是不分大小写的,但是还是尽量和包名相同
 #编辑器,方便多开

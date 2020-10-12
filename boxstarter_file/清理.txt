@@ -8,7 +8,7 @@ v2rayN
 v2ray-core(还有服务器,brew)
 brook
 shadowsocksR
-qv2ray
+qv2ray(v2ray-core  v2fly/v2ray-core)
 sunbox,running cheese
 ---
 uninstaller(windows程序)
@@ -20,7 +20,7 @@ ditto
 cde磁盘清理
 360(defender)
 dism
-备份
+备份(桌面)
 迅雷,百度网盘
 word,excel,emeditor,等编辑软件的历史纪录
 下载目录等删除
