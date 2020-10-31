@@ -12,9 +12,9 @@ shadowsocksR
 qv2ray(v2ray-core  v2fly/v2ray-core)
 sunbox,running cheese
 ---
+浏览器
 360(defender)
 uninstaller(windows程序)
-浏览器
 settings->个性化->start
 win+tab
 ditto
