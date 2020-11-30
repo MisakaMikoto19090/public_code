@@ -12,16 +12,21 @@ shadowsocksR
 qv2ray(v2ray-core  v2fly/v2ray-core)
 sunbox,running cheese
 ---
-浏览器
-360(defender)
-uninstaller(windows程序)
+C盘安装的软件(一般是jetbrains,每次都删不干净)
+uninstaller(windows程序,不处理格式工厂)
 settings->个性化->start
 win+tab
 ditto
 输入法
+360(defender)
+    defender历史记录(隔离的全部不允许,然后删除历史记录):
+        C:\ProgramData\Microsoft\Windows Defender\Quarantine
+        C:\ProgramData\Microsoft\Windows Defender\Scans\History\Service\DetectionHistory
+浏览器
 cde磁盘清理
 dism
-备份(桌面)
+备份桌面(先退出绿化软件,如翻墙和ManicTime)
+镜像备份(可能需要先去掉D盘盘符,备份完成后再加上去)
 迅雷,百度网盘
 word,excel,emeditor,等编辑软件的历史纪录
 下载目录等删除
