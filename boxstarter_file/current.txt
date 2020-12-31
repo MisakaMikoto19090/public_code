@@ -174,7 +174,7 @@ choco install -y spacesniffer --proxy=127.0.0.1:8889
 choco install -y calibre --proxy=127.0.0.1:8889
 	# choco install -y carnac --proxy=127.0.0.1:8889
 	# choco install -y handbrake --proxy=127.0.0.1:8889
-	# choco install -y telegram --proxy=127.0.0.1:8889
+choco install -y telegram --proxy=127.0.0.1:8889
 	# choco install -y weasel --proxy=127.0.0.1:8889
 	# 小狼毫输入法
 	# choco install -y plasso --ignore-checksums --proxy=127.0.0.1:8889
