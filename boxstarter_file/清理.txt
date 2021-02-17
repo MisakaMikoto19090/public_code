@@ -5,10 +5,11 @@ windows10 update assistant
 zhile.io(jetbrains注册,更新注册,2020.05.29大佬不更新了,估计得停留在2020.1版本了.)果核
 vagrant box(vagrantcloud.com)
 homestead(apt)
-v2rayN
-v2ray-core(还有服务器,brew)
-brook
-shadowsocksR
+自建服务器:
+    v2rayN
+    v2ray-core(还有服务器,brew)
+    brook
+    shadowsocksR
 qv2ray(v2fly/v2ray-core)
 sunbox,running cheese
 ---
