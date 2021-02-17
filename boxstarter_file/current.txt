@@ -142,6 +142,7 @@ choco install -y windows-10-update-assistant --proxy=127.0.0.1:8889
 choco install -y foxitreader --proxy=127.0.0.1:8889
 choco install -y EveryThing --params "/service" --proxy=127.0.0.1:8889
 choco install -y wox --proxy=127.0.0.1:8889
+choco install -y choco-cleaner --proxy=127.0.0.1:8889
 	# 依赖Python
 	# choco install -y qv2ray --proxy=127.0.0.1:8889
 	# 不好用,配置没法备份.

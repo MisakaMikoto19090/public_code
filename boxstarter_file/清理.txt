@@ -14,6 +14,7 @@ sunbox,running cheese
 ---
 uninstaller(windows程序,不处理格式工厂)
 C盘安装的软件(一般是jetbrains,每次都删不干净)
+spacesniffer
 360(defender)
     defender历史记录(隔离的全部不允许,然后删除历史记录):
         C:\ProgramData\Microsoft\Windows Defender\Quarantine
