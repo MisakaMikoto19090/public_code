@@ -117,6 +117,7 @@ choco install -y golang --proxy=127.0.0.1:8889
 
 # 常用软件,基本上都能找到
 choco install -y amd-ryzen-chipset --proxy=127.0.0.1:8889
+choco install -y anki --proxy=127.0.0.1:8889
 	# choco install -y boxstarter --proxy=127.0.0.1:8889
 choco install -y microsoft-edge --proxy=127.0.0.1:8889
 	# choco install -y winlogbeat --proxy=127.0.0.1:8889
