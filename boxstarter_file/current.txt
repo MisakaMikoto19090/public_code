@@ -83,6 +83,8 @@ choco install -y WebStorm --exectuion-timeout=36000 --proxy=127.0.0.1:8889
 	# choco install -y r.studio --proxy=127.0.0.1:8889
 	# choco install -y AndroidStudio --exectuion-timeout=36000 --params "/AddToDesktop:true" --proxy=127.0.0.1:8889
 	# choco install -y visualstudio2019enterprise --package-parameters "--allWorkloads --includeRecommended --includeOptional --passive --locale zh-CN" --execution-timeout=36000 --proxy=127.0.0.1:8889
+choco install -y visualstudio2019enterprise --execution-timeout=36000 --proxy=127.0.0.1:8889
+	# 默认安装只有700m,比rider还小.
 
 # 以下是各种语言和开发环境pypl和tiobe的前25个
 choco install -y python --proxy=127.0.0.1:8889
@@ -192,5 +194,5 @@ choco install -y wechat --proxy=127.0.0.1:8889
 	# choco install -y uplay --proxy=127.0.0.1:8889
 	# choco install -y epicgameslauncher --proxy=127.0.0.1:8889
 	# 2019年,送一年的游戏
-# 360放在最后,会阻止其他软件安装
-choco install -y 360ts --proxy=127.0.0.1:8889
+# 360放在最后,会阻止其他软件安装,360现在会导致WSL不能使用
+	# choco install -y 360ts --proxy=127.0.0.1:8889
