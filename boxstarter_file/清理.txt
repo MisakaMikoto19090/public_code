@@ -1,4 +1,4 @@
-choco upgrade -y all --proxy=127.0.0.1:1080 --except="clion-ide,datagrip,goland,intellijidea-ultimate,phpstorm,Pycharm,jetbrains-rider,WebStorm"
+choco upgrade -y all --except="openjdk"
 driver booster(radeon)
 settings->升级
 windows10 update assistant
