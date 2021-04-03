@@ -90,7 +90,7 @@ choco install -y visualstudio2019enterprise --execution-timeout=36000 --proxy=12
 choco install -y python --proxy=127.0.0.1:8889
 # 16会出现一个很奇怪的问题:module java.base does not "opens java.util" to unnamed module ,该问题jdk9也出现过,可以通过添加VM option来解决: --add-opens java.base/java.util=ALL-UNNAMED
 # 但是16不行,反正16也不是长期支持版本,就用11算了,最新的是11.0.10 chocolatey最新只有11.0.2.01,源地址不能用,需要自己下载解压.处理一下lib-bad
-choco install -y openjdk --execution-timeout=36000 --proxy=127.0.0.1:8889
+choco install -y openjdk --version=15.0.2 --execution-timeout=36000 --proxy=127.0.0.1:8889
 choco install -y nodejs-lts --proxy=127.0.0.1:8889
 choco install -y yarn --proxy=127.0.0.1:8889
 choco install -y dotnetcore-sdk --proxy=127.0.0.1:8889
