@@ -97,7 +97,8 @@ choco install -y python --proxy=127.0.0.1:10809
 choco install -y openjdk --version=15.0.2 --execution-timeout=36000 --proxy=127.0.0.1:10809
 # dotnet的runtime和sdk是分开的.
 choco install -y dotnet-sdk --proxy=127.0.0.1:10809
-choco install -y dotnet --proxy=127.0.0.1:10809
+# 上面自带了命令行,下面是桌面
+choco install -y dotnet-desktopruntime --proxy=127.0.0.1:10809
 choco install -y golang --proxy=127.0.0.1:10809
 	# 这个直接用vps	
 	# choco install -y hugo --proxy=127.0.0.1:10809
