@@ -6,19 +6,21 @@ Update-Help
 Set-StartScreenOptions -EnableBootToDesktop -EnableDesktopBackgroundOnStart -EnableShowStartOnActiveScreen -EnableShowAppsViewOnStartScreen -EnableSearchEverywhereInAppsView -EnableListDesktopAppsFirst
 Set-CornerNavigationOptions -EnableUpperRightCornerShowCharms -EnableUpperLeftCornerSwitchApps -EnableUsePowerShellOnWinX
 Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -DisableShowProtectedOSFiles -EnableShowFileExtensions -EnableShowFullPathInTitleBar -DisableOpenFileExplorerToQuickAccess -EnableShowRecentFilesInQuickAccess -EnableShowFrequentFoldersInQuickAccess -EnableExpandToOpenFolder
-Set-BoxstarterTaskbarOptions -Size Large -Dock Bottom -Combine Full -AlwaysShowIconsOn
+	# 下面这个命令有问题,手动执行算了===>个性化->任务栏
+	# Set-BoxstarterTaskbarOptions -Size Large -Dock Bottom -Combine Full -AlwaysShowIconsOn
 	# -MultiMonitorOn -MultiMonitorMode All -MultiMonitorCombine Full 这几个命令有问题,很奇怪
 	# 登录edge来使用boxstarter,需要安装插件 windows remix clickoncehelper https://chrome.google.com/webstore/detail/windows-remix-clickonce-h/dgpgholdldjjbcmpeckiephjigdpikan
-	# START http://boxstarter.org/package/nr/url?D:\projects\MyStudy\codes\public_code\boxstarter_file\init.txt
+	# 执行前,手动Windows更新(高级选项,所有产品和通知,以及使用时间) boxstarter如果更新的多容易卡死
+	# START http://boxstarter.org/package/nr/url?E:\MyCodes\public_code\boxstarter_file\current.txt
+		# 执行该命令并不需要安装boxstarter
 	# shadowsocksr 			1080
 	# v2rayn 				10809
 	# qv2ray				8889
-
-choco install -y boxstarter --proxy=127.0.0.1:10809
 #其实是不分大小写的,但是还是尽量和包名相同
-#编辑器,方便多开
+
 choco install -y iobit-uninstaller --proxy=127.0.0.1:10809
 	# 可以监控安装
+#编辑器
 choco install -y vscode --proxy=127.0.0.1:10809
 	# choco install -y SublimeText3 --proxy=127.0.0.1:10809
 	# choco install -y vim --proxy=127.0.0.1:10809
@@ -36,32 +38,34 @@ choco install -y virtualbox --proxy=127.0.0.1:10809
 	# choco install -y vmwareworkstation --proxy=127.0.0.1:10809
 choco install -y vagrant --execution-timeout=36000 --proxy=127.0.0.1:10809
 #网络测试相关
-	# choco install -y postman --proxy=127.0.0.1:10809
 choco install -y fiddler --proxy=127.0.0.1:10809	
-choco install -y wireshark --proxy=127.0.0.1:10809
+	# choco install -y wireshark --proxy=127.0.0.1:10809
+	# choco install -y postman --proxy=127.0.0.1:10809
 	# choco install -y nmap --proxy=127.0.0.1:10809
 	# choco install -y ngrok --proxy=127.0.0.1:10809
 	# choco install -y jmeter --proxy=127.0.0.1:10809
-	# 依赖jre8
+		# 依赖jre8
 #其他
-choco install -y xmind --proxy=127.0.0.1:10809
+	# choco install -y xmind --proxy=127.0.0.1:10809
 	# choco install -y redis-desktop-manager --proxy=127.0.0.1:10809
-	# choco install -y vcredist-all --proxy=127.0.0.1:10809
-choco install -y vcredist2012 --proxy=127.0.0.1:10809
 #各种环境和工具
+	# choco install -y vcredist-all --proxy=127.0.0.1:10809
 	# choco install -y puppet --proxy=127.0.0.1:10809
 	# choco install -y docker-desktop --execution-timeout=36000 --proxy=127.0.0.1:10809
 	# choco install -y hadoop --proxy=127.0.0.1:10809
-#杂七杂八软件
 	# choco install -y cmake --installargs "ADD_CMAKE_TO_PATH=System" --installargs "DESKTOP_SHORTCUT_REQUESTED=1" --proxy=127.0.0.1:10809
 	# choco install -y vcxsrv --proxy=127.0.0.1:10809
-	# WSL图形化用的
+		# WSL图形化用的
 	# choco install -y mysql --proxy=127.0.0.1:10809
 	# choco install -y jenkins --proxy=127.0.0.1:10809
 	# choco install -y gradle --proxy=127.0.0.1:10809
 	# choco install -y groovy --proxy=127.0.0.1:10809
 	# choco install -y Grails --proxy=127.0.0.1:10809
 	# choco install -y meteor --proxy=127.0.0.1:10809
+	# choco install -y winlogbeat --proxy=127.0.0.1:10809
+		# windows的日志监听,ELK套装
+	# choco install -y nxlog --proxy=127.0.0.1:10809
+		#各种日志管理
 # 云
 	# choco install -y gae.sdk --proxy=127.0.0.1:10809
 	# choco install -y gcloudsdk --proxy=127.0.0.1:10809
@@ -72,7 +76,6 @@ choco install -y sourcetrail --proxy=127.0.0.1:10809
 choco install -y clion-ide --exectuion-timeout=36000 --proxy=127.0.0.1:10809 
 choco install -y datagrip --exectuion-timeout=36000 --proxy=127.0.0.1:10809
 choco install -y goland --exectuion-timeout=36000 --proxy=127.0.0.1:10809 
-	# 可以先1.2,注册成功后升级1.3
 choco install -y intellijidea-ultimate --exectuion-timeout=36000 --proxy=127.0.0.1:10809
 choco install -y phpstorm --exectuion-timeout=36000 --proxy=127.0.0.1:10809 
 choco install -y Pycharm --exectuion-timeout=36000 --proxy=127.0.0.1:10809 
@@ -81,33 +84,39 @@ choco install -y jetbrains-rider --exectuion-timeout=36000 --proxy=127.0.0.1:108
 choco install -y WebStorm --exectuion-timeout=36000 --proxy=127.0.0.1:10809 
 	# choco install -y jetbrainstoolbox --exectuion-timeout=36000 --proxy=127.0.0.1:10809
 	# choco install -y r.studio --proxy=127.0.0.1:10809
-	# choco install -y AndroidStudio --exectuion-timeout=36000 --params "/AddToDesktop:true" --proxy=127.0.0.1:10809
+choco install -y AndroidStudio --exectuion-timeout=36000 --params "/AddToDesktop:true" --proxy=127.0.0.1:10809
 	# choco install -y visualstudio2019enterprise --package-parameters "--allWorkloads --includeRecommended --includeOptional --passive --locale zh-CN" --execution-timeout=36000 --proxy=127.0.0.1:10809
 choco install -y visualstudio2019enterprise --execution-timeout=36000 --proxy=127.0.0.1:10809
 	# 默认安装只有700m,比rider还小.
+choco install -y anki --proxy=127.0.0.1:10809
+	# 整理笔记,记忆卡
 
 # 以下是各种语言和开发环境pypl和tiobe的前25个
 choco install -y python --proxy=127.0.0.1:10809
-# 16会出现一个很奇怪的问题:module java.base does not "opens java.util" to unnamed module ,该问题jdk9也出现过,可以通过添加VM option来解决: --add-opens java.base/java.util=ALL-UNNAMED
-# 但是16不行,反正16也不是长期支持版本,就用11算了,最新的是11.0.10 chocolatey最新只有11.0.2.01,源地址不能用,需要自己下载解压.处理一下lib-bad
+# 16有个问题:module java.base does not "opens java.util" to unnamed module ,该问题jdk9也出现过,可以通过添加VM option来解决: --add-opens java.base/java.util=ALL-UNNAMED ,但是16不行
 choco install -y openjdk --version=15.0.2 --execution-timeout=36000 --proxy=127.0.0.1:10809
-choco install -y nodejs-lts --proxy=127.0.0.1:10809
-choco install -y yarn --proxy=127.0.0.1:10809
-choco install -y dotnetcore-sdk --proxy=127.0.0.1:10809
-choco install -y deno --proxy=127.0.0.1:10809
-choco install -y hugo --proxy=127.0.0.1:10809
+# dotnet的runtime和sdk是分开的.
+choco install -y dotnet-sdk --proxy=127.0.0.1:10809
+choco install -y dotnet --proxy=127.0.0.1:10809
+choco install -y golang --proxy=127.0.0.1:10809
+	# 这个直接用vps	
+	# choco install -y hugo --proxy=127.0.0.1:10809
+	# 这些都用homestead算了
+	# choco install -y nodejs-lts --proxy=127.0.0.1:10809
+	# choco install -y yarn --proxy=127.0.0.1:10809
+	# choco install -y deno --proxy=127.0.0.1:10809
+	# choco install -y typescript --proxy=127.0.0.1:10809
 	# choco install -y php --proxy=127.0.0.1:10809
 	# choco install -y composer --proxy=127.0.0.1:10809
+
 	# choco install -y R --proxy=127.0.0.1:10809
-	# choco install -y swiftforwindows --proxy=127.0.0.1:10809
 	# 非官方
-	# choco install -y typescript --proxy=127.0.0.1:10809
+	# choco install -y swiftforwindows --proxy=127.0.0.1:10809
 	# choco install -y ruby --proxy=127.0.0.1:10809
 	# choco install -y railsinstaller --exectuion-timeout=36000 --proxy=127.0.0.1:10809
-choco install -y golang --proxy=127.0.0.1:10809
 	# choco install -y kotlinc --proxy=127.0.0.1:10809
 	# choco install -y scala --proxy=127.0.0.1:10809
-	# 依赖jdk8
+		# 依赖jdk8
 	# choco install -y rust --proxy=127.0.0.1:10809
 	# choco install -y Lua --proxy=127.0.0.1:10809
 	# choco install -y haskell-stack --proxy=127.0.0.1:10809
@@ -121,83 +130,91 @@ choco install -y golang --proxy=127.0.0.1:10809
 
 # 常用软件,基本上都能找到
 choco install -y amd-ryzen-chipset --proxy=127.0.0.1:10809
-choco install -y anki --proxy=127.0.0.1:10809
-	# choco install -y boxstarter --proxy=127.0.0.1:10809
 choco install -y microsoft-edge --proxy=127.0.0.1:10809
-	# choco install -y winlogbeat --proxy=127.0.0.1:10809
-	# windows的日志监听,ELK套装
-	# choco install -y nxlog --proxy=127.0.0.1:10809	#各种日志管理
-	# choco install -y boxstarter --proxy=127.0.0.1:10809
-	# choco install -y powerbi --proxy=127.0.0.1:10809
-	# excel数据图形化
-	# choco install -y qbittorrent --proxy=127.0.0.1:10809
-	# 迅雷的替代品
-	# choco install -y powertoys --proxy=127.0.0.1:10809
-	# 完全打不过wox
 choco install -y microsoft-windows-terminal --proxy=127.0.0.1:10809
 choco install -y driverbooster --proxy=127.0.0.1:10809
 choco install -y potplayer --proxy=127.0.0.1:10809
-	# choco install -y procexp --proxy=127.0.0.1:10809
-	# choco install -y 7zip --proxy=127.0.0.1:10809
 choco install -y bandizip --proxy=127.0.0.1:10809
-	# choco install -y speedyfox --proxy=127.0.0.1:10809
 choco install -y windows-10-update-assistant --proxy=127.0.0.1:10809
-	# choco install -y dropbox --proxy=127.0.0.1:10809
-	# choco install -y googledrive --proxy=127.0.0.1:10809
 choco install -y foxitreader --proxy=127.0.0.1:10809
 choco install -y EveryThing --params "/service" --proxy=127.0.0.1:10809
 choco install -y wox --proxy=127.0.0.1:10809
+	# wox很久没有更新了,如果一定要替换的话,目前感觉最好用的是utools和powertoys
 choco install -y choco-cleaner --proxy=127.0.0.1:10809
 	# 依赖Python
-	# choco install -y qv2ray --proxy=127.0.0.1:10809
-	# 不好用,配置没法备份.
-	# choco install -y internet-download-manager --proxy=127.0.0.1:10809
-	# choco install -y ChocolateyGUI --proxy=127.0.0.1:10809
 choco install -y formatfactory --proxy=127.0.0.1:10809
-	# 正式版很久没有更新了,有些bug也没有修复. 这么安装还是得手动安装插件
-	#choco install -y qv2ray-dev --proxy=127.0.0.1:10809
 choco install -y ditto --proxy=127.0.0.1:10809
 choco install -y GoogleChrome --proxy=127.0.0.1:10809
 choco install -y honeyview --proxy=127.0.0.1:10809
-	# choco install -y bulkrenameutility --proxy=127.0.0.1:10809
-	# choco install -y keepass --proxy=127.0.0.1:10809
-	# choco install -y Kindle --proxy=127.0.0.1:10809
 choco install -y lockhunter --proxy=127.0.0.1:10809
-	# choco install -y paint.net --proxy=127.0.0.1:10809
-	# choco install -y googleearthpro --proxy=127.0.0.1:10809
-	# choco install -y eraser --proxy=127.0.0.1:10809
+choco install -y motrix --proxy=127.0.0.1:10809
+	# qbit和迅雷的替代品,主要用来下百度
+choco install -y paint.net --proxy=127.0.0.1:10809
+	# 有了这个可以替换掉画图
 choco install -y spacesniffer --proxy=127.0.0.1:10809
-	# choco install -y treesizefree --proxy=127.0.0.1:10809
-	# choco install -y Sudo --proxy=127.0.0.1:10809
-	# choco install -y sysinternals --proxy=127.0.0.1:10809
-	# choco install -y TeraCopy --proxy=127.0.0.1:10809
-	# choco install -y TotalCommander --params "/DesktopIcon /ShellExtension" --proxy=127.0.0.1:10809
-	# choco install -y teamviewer --proxy=127.0.0.1:10809
-	# choco install -y rufus --proxy=127.0.0.1:10809
-	# choco install -y autohotkey --proxy=127.0.0.1:10809
-	# choco install -y autoit --proxy=127.0.0.1:10809
-	# choco install -y screentogif --proxy=127.0.0.1:10809
-	# choco install -y tunsafe --proxy=127.0.0.1:10809
-	# wireguard出官方客户端了
-	# choco install -y wireguard --proxy=127.0.0.1:10809
-choco install -y calibre --proxy=127.0.0.1:10809
-	# choco install -y carnac --proxy=127.0.0.1:10809
-	# choco install -y handbrake --proxy=127.0.0.1:10809
 choco install -y telegram --proxy=127.0.0.1:10809
-	# choco install -y weasel --proxy=127.0.0.1:10809
-	# 小狼毫输入法
-	# choco install -y plasso --ignore-checksums --proxy=127.0.0.1:10809
 choco install -y vdhcoapp --proxy=127.0.0.1:10809
+	# 和idm配合
 choco install -y tim --proxy=127.0.0.1:10809
-choco install -y wechat --proxy=127.0.0.1:10809
+choco install -y wechat --proxy=127.0.0.1:10809 --ignore-checksums
+choco install -y weasel --proxy=127.0.0.1:10809
+	# 小狼毫输入法 这个会安装autohotkey,然后方案选择ctrl+`时,会和浏览器冲突.
+
+# 一时半会没啥用的小工具
+# choco install -y autohotkey --proxy=127.0.0.1:10809
+# choco install -y autoit --proxy=127.0.0.1:10809
+	# 两个都是自动化脚本,没学会
+# choco install -y boxstarter --proxy=127.0.0.1:10809
+# choco install -y bulkrenameutility --proxy=127.0.0.1:10809
+	#重命名文件
+# choco install -y calibre --proxy=127.0.0.1:10809
+	# 电子书
+# choco install -y carnac --proxy=127.0.0.1:10809
+	# 录视频时,显示哪些按键
+# choco install -y ChocolateyGUI --proxy=127.0.0.1:10809
+# choco install -y dropbox --proxy=127.0.0.1:10809
+# choco install -y eraser --proxy=127.0.0.1:10809
+	# 安全删除文件
+	# choco install -y 7zip --proxy=127.0.0.1:10809
+# choco install -y googledrive --proxy=127.0.0.1:10809
+# choco install -y googleearthpro --proxy=127.0.0.1:10809
+# choco install -y handbrake --proxy=127.0.0.1:10809
+	# 视频转码
+# choco install -y internet-download-manager --proxy=127.0.0.1:10809
+# choco install -y keepass --proxy=127.0.0.1:10809
+# choco install -y Kindle --proxy=127.0.0.1:10809
+# choco install -y plasso --ignore-checksums --proxy=127.0.0.1:10809
+	# 性能平衡
+# choco install -y procexp --proxy=127.0.0.1:10809
+# choco install -y powertoys --proxy=127.0.0.1:10809
+	# 目前完全打不过wox
+# choco install -y powerbi --proxy=127.0.0.1:10809
+# choco install -y qbittorrent --proxy=127.0.0.1:10809
+	# 迅雷的替代品
+# choco install -y qv2ray --proxy=127.0.0.1:10809
+# choco install -y qv2ray-dev --proxy=127.0.0.1:10809
+	# 不好用,配置没法备份而且也没有带插件.还是到github去下压缩包算了
+# choco install -y rufus --proxy=127.0.0.1:10809
+	# 启动盘制作,可以烧写各种东西到U盘
+# choco install -y speedyfox --proxy=127.0.0.1:10809
+# choco install -y Sudo --proxy=127.0.0.1:10809
+# choco install -y sysinternals --proxy=127.0.0.1:10809
+# choco install -y screentogif --proxy=127.0.0.1:10809
+# choco install -y treesizefree --proxy=127.0.0.1:10809
+# choco install -y TeraCopy --proxy=127.0.0.1:10809
+# choco install -y TotalCommander --params "/DesktopIcon /ShellExtension" --proxy=127.0.0.1:10809
+# choco install -y teamviewer --proxy=127.0.0.1:10809
+# choco install -y tunsafe --proxy=127.0.0.1:10809
+# choco install -y wireguard --proxy=127.0.0.1:10809
+
 
 # 游戏
-	# choco install -y steam --proxy=127.0.0.1:10809
-	# choco install -y goggalaxy --proxy=127.0.0.1:10809
-	# choco install -y origin --proxy=127.0.0.1:10809
-	# choco install -y battle.net --proxy=127.0.0.1:10809
-	# choco install -y uplay --proxy=127.0.0.1:10809
-	# choco install -y epicgameslauncher --proxy=127.0.0.1:10809
-	# 2019年,送一年的游戏
-# 360放在最后,会阻止其他软件安装,360现在会导致WSL不能使用
-	# choco install -y 360ts --proxy=127.0.0.1:10809
+# choco install -y steam --proxy=127.0.0.1:10809
+# choco install -y goggalaxy --proxy=127.0.0.1:10809
+# choco install -y origin --proxy=127.0.0.1:10809
+# choco install -y battle.net --proxy=127.0.0.1:10809
+# choco install -y uplay --proxy=127.0.0.1:10809
+# choco install -y epicgameslauncher --proxy=127.0.0.1:10809
+
+# choco install -y 360ts --proxy=127.0.0.1:10809
+	# 360放在最后,会阻止其他软件安装,360现在会导致WSL不能使用
