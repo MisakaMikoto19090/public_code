@@ -161,6 +161,7 @@ choco install -y vdhcoapp --proxy=127.0.0.1:10809
 	# 和idm配合
 choco install -y tim --proxy=127.0.0.1:10809
 choco install -y wechat --proxy=127.0.0.1:10809 --ignore-checksums
+choco install -y dingtalk --proxy=127.0.0.1:10809 --ignore-checksums
 choco install -y weasel --proxy=127.0.0.1:10809
 	# 小狼毫输入法 这个会安装autohotkey,然后方案选择ctrl+`时,会和浏览器冲突.
 
