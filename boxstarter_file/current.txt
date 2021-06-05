@@ -172,7 +172,7 @@ choco install -y weasel --proxy=127.0.0.1:10809
 # choco install -y boxstarter --proxy=127.0.0.1:10809
 # choco install -y bulkrenameutility --proxy=127.0.0.1:10809
 	#重命名文件
-# choco install -y calibre --proxy=127.0.0.1:10809
+choco install -y calibre --proxy=127.0.0.1:10809
 	# 电子书
 # choco install -y carnac --proxy=127.0.0.1:10809
 	# 录视频时,显示哪些按键
