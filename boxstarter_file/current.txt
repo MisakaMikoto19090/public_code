@@ -47,7 +47,7 @@ choco install -y fiddler --proxy=127.0.0.1:10809
 	# choco install -y jmeter --proxy=127.0.0.1:10809
 		# 依赖jre8
 #其他
-	# choco install -y xmind --proxy=127.0.0.1:10809
+choco install -y xmind --proxy=127.0.0.1:10809
 	# choco install -y redis-desktop-manager --proxy=127.0.0.1:10809
 #各种环境和工具
 choco install -y vcredist2012 --proxy=127.0.0.1:10809
