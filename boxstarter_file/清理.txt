@@ -13,13 +13,14 @@ vagrant box(vagrantcloud.com)
     shadowsocksR(就用v2rayn或者qv2ray)
 qv2ray(v2fly/v2ray-core)
 sunbox,running cheese
+绿色软件更新
+Program更新
 ---
 360(defender)
     defender历史记录(隔离的全部不允许,然后删除历史记录):
         C:\ProgramData\Microsoft\Windows Defender\Quarantine
         C:\ProgramData\Microsoft\Windows Defender\Scans\History\Service\DetectionHistory
 uninstaller(windows程序,不处理格式工厂)
-绿色软件更新
 C盘安装的软件(一般是jetbrains,每次都删不干净,还有AMD软件更新后再根目录留下来的AMD)
 spacesniffer
 choco-cleaner
@@ -28,6 +29,7 @@ win+tab
 ditto
 输入法
 浏览器
+Speedyfox
 cde磁盘清理
 dism
 备份桌面(先退出绿化软件,如翻墙和ManicTime)
