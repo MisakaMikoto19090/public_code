@@ -146,7 +146,7 @@ choco install -y wox --proxy=127.0.0.1:10809
 	# wox很久没有更新了,如果一定要替换的话,目前感觉最好用的是utools和powertoys
 choco install -y choco-cleaner --proxy=127.0.0.1:10809
 	# 依赖Python
-choco install -y formatfactory --proxy=127.0.0.1:10809
+	# choco install -y formatfactory --proxy=127.0.0.1:10809
 choco install -y ditto --proxy=127.0.0.1:10809
 choco install -y GoogleChrome --proxy=127.0.0.1:10809
 choco install -y honeyview --proxy=127.0.0.1:10809
@@ -170,7 +170,7 @@ choco install -y weasel --proxy=127.0.0.1:10809
 # choco install -y autoit --proxy=127.0.0.1:10809
 	# 两个都是自动化脚本,没学会
 # choco install -y boxstarter --proxy=127.0.0.1:10809
-# choco install -y bulkrenameutility --proxy=127.0.0.1:10809
+choco install -y bulkrenameutility --proxy=127.0.0.1:10809
 	#重命名文件
 choco install -y calibre --proxy=127.0.0.1:10809
 	# 电子书
