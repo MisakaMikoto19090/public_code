@@ -93,6 +93,8 @@ choco install -y visualstudio2019enterprise --execution-timeout=36000 --proxy=12
 	# 默认安装只有700m,比rider还小.
 choco install -y anki --proxy=127.0.0.1:10809
 	# 整理笔记,记忆卡
+choco install -y genymotion --proxy=127.0.0.1:10809
+	# 最强的安卓模拟器
 
 # 以下是各种语言和开发环境pypl和tiobe的前25个
 choco install -y python --proxy=127.0.0.1:10809
@@ -128,7 +130,7 @@ choco install -y golang --proxy=127.0.0.1:10809
 	# choco install -y clisp --proxy=127.0.0.1:10809
 	# choco install -y racket --proxy=127.0.0.1:10809
 	# choco install -y mingw --exectuion-timeout=36000 --proxy=127.0.0.1:10809
-	# choco install -y Cygwin --execution-timeout=36000 --params "/DesktopIcon:true" --proxy=127.0.0.1:10809 
+choco install -y Cygwin --execution-timeout=36000 --params "/DesktopIcon:true" --proxy=127.0.0.1:10809 
 	# choco install -y flutter --proxy=127.0.0.1:10809
 	# choco install -y dart-sdk --proxy=127.0.0.1:10809
 
