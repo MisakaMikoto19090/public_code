@@ -99,7 +99,7 @@ choco install -y genymotion --proxy=127.0.0.1:10809
 # 以下是各种语言和开发环境pypl和tiobe的前25个
 choco install -y python --proxy=127.0.0.1:10809
 # 16有个问题:module java.base does not "opens java.util" to unnamed module ,该问题jdk9也出现过,可以通过添加VM option来解决: --add-opens java.base/java.util=ALL-UNNAMED ,但是16不行
-choco install -y openjdk --version=15.0.2 --execution-timeout=36000 --proxy=127.0.0.1:10809
+choco install -y openjdk --execution-timeout=36000 --proxy=127.0.0.1:10809
 # dotnet的runtime和sdk是分开的.
 choco install -y dotnet-sdk --proxy=127.0.0.1:10809
 # 上面自带了命令行,下面是桌面
@@ -130,7 +130,7 @@ choco install -y golang --proxy=127.0.0.1:10809
 	# choco install -y clisp --proxy=127.0.0.1:10809
 	# choco install -y racket --proxy=127.0.0.1:10809
 	# choco install -y mingw --exectuion-timeout=36000 --proxy=127.0.0.1:10809
-choco install -y Cygwin --execution-timeout=36000 --params "/DesktopIcon:true" --proxy=127.0.0.1:10809 
+	# choco install -y Cygwin --execution-timeout=36000 --params "/DesktopIcon:true" --proxy=127.0.0.1:10809 
 	# choco install -y flutter --proxy=127.0.0.1:10809
 	# choco install -y dart-sdk --proxy=127.0.0.1:10809
 
@@ -223,5 +223,5 @@ choco install -y calibre --proxy=127.0.0.1:10809
 # choco install -y uplay --proxy=127.0.0.1:10809
 # choco install -y epicgameslauncher --proxy=127.0.0.1:10809
 
-# choco install -y 360ts --proxy=127.0.0.1:10809
-	# 360放在最后,会阻止其他软件安装,360现在会导致WSL不能使用
+choco install -y 360ts --proxy=127.0.0.1:10809
+	# 360放在最后,会阻止其他软件安装,360现在会导致WSL不能使用(2021.8.8修复)
