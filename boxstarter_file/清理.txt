@@ -1,7 +1,8 @@
 choco upgrade -y all --proxy=127.0.0.1:10809
-driver booster(radeon)
+sdio
+    driver booster(radeon)
 settings->升级
-windows10 update assistant
+    # windows10 update assistant
 zhile.io(jetbrains注册,更新注册,2020.05.29大佬不更新了,估计得停留在2020.1版本了.)果核
 vagrant box(vagrantcloud.com)
     homestead(apt)<https://cli-assets.heroku.com/apt/heroku_7.49.0-1_amd64.deb>,/var/cache/apt/archives/
@@ -11,7 +12,7 @@ vagrant box(vagrantcloud.com)
     v2ray-core(还有服务器,brew)
     brook
     shadowsocksR(就用v2rayn或者qv2ray)
-qv2ray(v2fly/v2ray-core)
+        qv2ray(v2fly/v2ray-core)
 sunbox,running cheese
 绿色软件更新
 Program更新
@@ -20,11 +21,14 @@ Program更新
     defender历史记录(隔离的全部不允许,然后删除历史记录):
         C:\ProgramData\Microsoft\Windows Defender\Quarantine
         C:\ProgramData\Microsoft\Windows Defender\Scans\History\Service\DetectionHistory
-uninstaller(windows程序,不处理格式工厂)
+revo uninstaller
+    iobit uninstaller(windows程序,不处理格式工厂)
 C盘安装的软件(一般是jetbrains,每次都删不干净,还有AMD软件更新后再根目录留下来的AMD)
-spacesniffer
+wiztree
+    spacesniffer
 choco-cleaner
 settings->个性化->start
+    win11是3个重新开关
 win+tab
 ditto
 输入法
