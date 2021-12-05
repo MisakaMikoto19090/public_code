@@ -75,17 +75,18 @@ choco install -y yed --proxy=127.0.0.1:10809
 
 #IDE
 #jetbrains全家桶
-choco install -y clion-ide --proxy=127.0.0.1:10809 
-choco install -y datagrip --proxy=127.0.0.1:10809
+choco install -y clion-ide --proxy=127.0.0.1:10809 --version=2021.2.3
+choco install -y datagrip --proxy=127.0.0.1:10809	--version=2021.2.4
 ### 还有一个dataspell
-choco install -y goland --proxy=127.0.0.1:10809 
-choco install -y intellijidea-ultimate --proxy=127.0.0.1:10809
-choco install -y phpstorm --proxy=127.0.0.1:10809 
-choco install -y Pycharm --proxy=127.0.0.1:10809 
-choco install -y jetbrains-rider --proxy=127.0.0.1:10809
+choco install -y goland --proxy=127.0.0.1:10809 --version=2021.2.4
+choco install -y intellijidea-ultimate --proxy=127.0.0.1:10809	--version=2021.2.3
+choco install -y phpstorm --proxy=127.0.0.1:10809 --version=2021.2.3
+choco install -y Pycharm --proxy=127.0.0.1:10809 --version=2021.2.3
+choco install -y jetbrains-rider --proxy=127.0.0.1:10809	--version=2021.2.2
 	# choco install -y RubyMine --proxy=127.0.0.1:10809
 		# ruby需要rails
-choco install -y WebStorm --proxy=127.0.0.1:10809
+choco install -y WebStorm --proxy=127.0.0.1:10809	--version=2021.2.2
+	# 手动安装2.3
 #其他
 choco install -y sourcetrail --proxy=127.0.0.1:10809
 choco install -y AndroidStudio --params "/AddToDesktop:true" --proxy=127.0.0.1:10809
@@ -223,8 +224,8 @@ choco install -y EveryThing --params "/service" --proxy=127.0.0.1:10809
 	# 找文件
 choco install -y wox --proxy=127.0.0.1:10809			
 	# wox在更新,但是没release,如果一定要替换的话,目前感觉最好用的是utools和powertoys
-choco install -y keypirinha --proxy=127.0.0.1:10809
-	### 测试一下,看看能不能替换屌wox
+	# choco install -y keypirinha --proxy=127.0.0.1:10809
+	### 测试一下,看看能不能替换屌wox,一般吧
 choco install -y choco-cleaner --proxy=127.0.0.1:10809
 	# 清理choco
 choco install -y ditto --proxy=127.0.0.1:10809

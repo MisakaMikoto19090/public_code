@@ -1,4 +1,4 @@
-choco upgrade -y all --proxy=127.0.0.1:10809
+choco upgrade -y all --proxy=127.0.0.1:10809 --except="clion-ide,datagrip,goland,intellijidea-ultimate,phpstorm,Pycharm,jetbrains-rider,WebStorm"
 sdio
     driver booster(radeon)
 settings->升级
