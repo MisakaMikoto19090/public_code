@@ -203,7 +203,9 @@ choco install -y sumatrapdf --proxy=127.0.0.1:10809
 
 # 视频处理
 choco install -y handbrake --proxy=127.0.0.1:10809
+	# 目前就转码,裁剪用handbrake足够了
 	# choco install -y formatfactory --proxy=127.0.0.1:10809
+	# choco install -y openshot --proxy=127.0.0.1:10809
 
 # 图片查看
 choco install -y irfanview --proxy=127.0.0.1:10809
