@@ -11,7 +11,7 @@ vagrant box(vagrantcloud.com)
     v2rayN
     v2ray-core(还有服务器,brew)
     brook
-    shadowsocksR(就用v2rayn或者qv2ray)
+        shadowsocksR(就用v2rayn或者qv2ray)
         qv2ray(v2fly/v2ray-core)
 sunbox,running cheese
 绿色软件更新
