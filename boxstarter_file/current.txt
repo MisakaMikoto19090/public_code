@@ -22,8 +22,8 @@ Set-BoxstarterTaskbarOptions -Size Large -Dock Bottom -Combine Full -AlwaysShowI
 # 首先安装监控,然后打开安装监控器,手动的话推荐wise program uninstaller
 choco install -y revo-uninstaller --proxy=127.0.0.1:10809
 	# 剩下两个,iobit最好看,但是搜出来的最少,revo比geek好一点.
-	#	choco install -y iobit-uninstaller --proxy=127.0.0.1:10809
-	#	choco install -y bulk-crap-uninstaller --proxy=127.0.0.1:10809
+	# choco install -y iobit-uninstaller --proxy=127.0.0.1:10809
+	# choco install -y bulk-crap-uninstaller --proxy=127.0.0.1:10809
 		# 功能最强大,但是很慢,依赖.net3.5 ,电脑搞爆炸呢一次,谨慎使用,实在不行再用
 
 ## 编程相关
@@ -185,8 +185,8 @@ choco install -y microsoft-edge --proxy=127.0.0.1:10809
 choco install -y GoogleChrome --proxy=127.0.0.1:10809
 
 # 驱动
-choco install -y sdio --proxy=127.0.0.1:10809
-	# choco install -y driverbooster --proxy=127.0.0.1:10809
+# choco install -y sdio --proxy=127.0.0.1:10809
+choco install -y driverbooster --proxy=127.0.0.1:10809
 
 # 播放器
 choco install -y potplayer --proxy=127.0.0.1:10809

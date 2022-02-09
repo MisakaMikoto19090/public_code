@@ -1,6 +1,6 @@
 choco upgrade -y all --proxy=127.0.0.1:10809
-sdio
-    driver booster(radeon)
+driver booster(radeon)
+    sdio
 settings->升级
     # windows10 update assistant
 jetbra.in/s
