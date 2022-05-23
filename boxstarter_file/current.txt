@@ -54,7 +54,7 @@ choco install -y genymotion --proxy=127.0.0.1:10809 --ignore-checksums
 #网络测试相关,抓包和查看
 choco install -y wireshark --proxy=127.0.0.1:10809
 	# choco install -y nmap --proxy=127.0.0.1:10809
-	# choco install -y fiddler --proxy=127.0.0.1:10809
+choco install -y fiddler --proxy=127.0.0.1:10809
 #压力测试
 choco install -y soapui --proxy=127.0.0.1:10809
 	# choco install -y jmeter --proxy=127.0.0.1:10809
@@ -73,19 +73,18 @@ choco install -y lunacy --proxy=127.0.0.1:10809
 #图表设计
 choco install -y yed --proxy=127.0.0.1:10809
 
-#IDE
-#jetbrains全家桶
-choco install -y clion-ide --proxy=127.0.0.1:10809 
-choco install -y datagrip --proxy=127.0.0.1:10809	
+# IDE
+choco install -y clion-ide --proxy=127.0.0.1:10809
+choco install -y datagrip --proxy=127.0.0.1:10809
 ### 还有一个dataspell
-choco install -y goland --proxy=127.0.0.1:10809 
-choco install -y intellijidea-ultimate --proxy=127.0.0.1:10809	
-choco install -y phpstorm --proxy=127.0.0.1:10809 
-choco install -y Pycharm --proxy=127.0.0.1:10809 
-choco install -y jetbrains-rider --proxy=127.0.0.1:10809	
+choco install -y goland --proxy=127.0.0.1:10809
+choco install -y intellijidea-ultimate --proxy=127.0.0.1:10809
+choco install -y phpstorm --proxy=127.0.0.1:10809
+choco install -y Pycharm --proxy=127.0.0.1:10809
+choco install -y jetbrains-rider --proxy=127.0.0.1:10809
 	# choco install -y RubyMine --proxy=127.0.0.1:10809
 		# ruby需要rails
-choco install -y WebStorm --proxy=127.0.0.1:10809	
+choco install -y WebStorm --proxy=127.0.0.1:10809
 	# 手动安装2.3
 #其他
 choco install -y sourcetrail --proxy=127.0.0.1:10809
@@ -143,7 +142,7 @@ choco install -y openjdk --proxy=127.0.0.1:10809
 choco install -y golang --proxy=127.0.0.1:10809
 
 #这些都用homestead算了
-	# choco install -y hugo --proxy=127.0.0.1:10809		
+	# choco install -y hugo --proxy=127.0.0.1:10809
 	# choco install -y nodejs-lts --proxy=127.0.0.1:10809
 	# choco install -y yarn --proxy=127.0.0.1:10809
 	# choco install -y deno --proxy=127.0.0.1:10809
@@ -167,7 +166,7 @@ choco install -y golang --proxy=127.0.0.1:10809
 	# choco install -y clisp --proxy=127.0.0.1:10809
 	# choco install -y racket --proxy=127.0.0.1:10809
 	# choco install -y mingw --proxy=127.0.0.1:10809
-	# choco install -y Cygwin --params "/DesktopIcon:true" --proxy=127.0.0.1:10809 
+	# choco install -y Cygwin --params "/DesktopIcon:true" --proxy=127.0.0.1:10809
 	# choco install -y flutter --proxy=127.0.0.1:10809
 	# choco install -y dart-sdk --proxy=127.0.0.1:10809
 
@@ -224,7 +223,7 @@ choco install -y dingtalk --proxy=127.0.0.1:10809 --ignore-checksums
 # 其他
 choco install -y EveryThing --params "/service" --proxy=127.0.0.1:10809
 	# 找文件
-choco install -y wox --proxy=127.0.0.1:10809			
+choco install -y wox --proxy=127.0.0.1:10809
 	# wox在更新,但是没release,如果一定要替换的话,目前感觉最好用的是utools和powertoys
 	# choco install -y keypirinha --proxy=127.0.0.1:10809
 	### 测试一下,看看能不能替换屌wox,一般吧
@@ -234,9 +233,9 @@ choco install -y ditto --proxy=127.0.0.1:10809
 	# 剪贴板
 choco install -y paint.net --proxy=127.0.0.1:10809
 	# 有了这个可以替换掉画图
-choco install -y lockhunter --proxy=127.0.0.1:10809
+choco install -y lockhunter --proxy=127.0.0.1:10809 --ignore-checksums
 	# 解除文件锁定
-choco install -y bulkrenameutility --proxy=127.0.0.1:10809
+	# choco install -y bulkrenameutility --proxy=127.0.0.1:10809
 	#重命名
 choco install -y calibre --proxy=127.0.0.1:10809
 	#电子书
@@ -269,7 +268,7 @@ choco install -y listen1.portable --proxy=127.0.0.1:10809
 # choco install -y qbittorrent --proxy=127.0.0.1:10809
 	# 迅雷的替代品
 # choco install -y qv2ray --proxy=127.0.0.1:10809
-# choco install -y qv2ray-dev --proxy=127.0.0.1:10809					
+# choco install -y qv2ray-dev --proxy=127.0.0.1:10809
 	# 不好用,配置没法备份而且也没有带插件.还是到github去下压缩包算了
 # choco install -y rufus --proxy=127.0.0.1:10809
 	# 启动盘制作,可以烧写各种东西到U盘
