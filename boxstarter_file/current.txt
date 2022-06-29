@@ -87,7 +87,8 @@ choco install -y jetbrains-rider --proxy=127.0.0.1:10809
 choco install -y WebStorm --proxy=127.0.0.1:10809
 	# 手动安装2.3
 #其他
-choco install -y sourcetrail --proxy=127.0.0.1:10809
+choco install -y komodo-ide --proxy=127.0.0.1:10809
+	# choco install -y sourcetrail --proxy=127.0.0.1:10809
 choco install -y AndroidStudio --params "/AddToDesktop:true" --proxy=127.0.0.1:10809
 ### vs2022
 choco install -y visualstudio2022enterprise --proxy=127.0.0.1:10809
@@ -221,6 +222,7 @@ choco install -y wechat --proxy=127.0.0.1:10809 --ignore-checksums
 choco install -y dingtalk --proxy=127.0.0.1:10809 --ignore-checksums
 
 # 其他
+choco install -y tor-browser --proxy=127.0.0.1:10809
 choco install -y EveryThing --params "/service" --proxy=127.0.0.1:10809
 	# 找文件
 choco install -y wox --proxy=127.0.0.1:10809

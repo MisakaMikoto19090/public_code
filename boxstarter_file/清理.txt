@@ -3,8 +3,9 @@ driver booster(radeon)
     sdio
 settings->升级
     # windows10 update assistant
-resilio
-    jetbra.in/s
+https://3.jetbra.in/
+    resilio
+    yhyfmfpn364bmbx53cqay74bvrb4lt463vylfer3smbkfpa7fxgfd5id.onion
     zhile.io(jetbrains注册,更新注册,2020.05.29大佬不更新了,估计得停留在2020.1版本了.)果核
 vagrant box(vagrantcloud.com)
     homestead(apt)<https://cli-assets.heroku.com/apt/heroku_7.49.0-1_amd64.deb>,/var/cache/apt/archives/
@@ -39,6 +40,7 @@ ditto
 浏览器
 Speedyfox
 cde磁盘清理,有些磁盘整理
+软件:tim.wechat等
 dism
 备份桌面(先退出绿化软件,如翻墙和ManicTime)
 镜像备份(可能需要先去掉E盘盘符,备份完成后再加上去)
