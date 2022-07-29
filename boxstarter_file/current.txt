@@ -140,6 +140,7 @@ choco install -y vcredist2012 --proxy=127.0.0.1:10809
 # 以下是各种语言和开发环境pypl和tiobe的前25个
 choco install -y python --proxy=127.0.0.1:10809
 choco install -y openjdk --proxy=127.0.0.1:10809
+choco install -y openjdk8 --proxy=127.0.0.1:10809
 choco install -y golang --proxy=127.0.0.1:10809
 
 #这些都用homestead算了
@@ -222,6 +223,7 @@ choco install -y wechat --proxy=127.0.0.1:10809 --ignore-checksums
 choco install -y dingtalk --proxy=127.0.0.1:10809 --ignore-checksums
 
 # 其他
+choco install -y resilio-sync-home --proxy=127.0.0.1:10809
 choco install -y tor-browser --proxy=127.0.0.1:10809
 choco install -y EveryThing --params "/service" --proxy=127.0.0.1:10809
 	# 找文件
@@ -237,7 +239,7 @@ choco install -y paint.net --proxy=127.0.0.1:10809
 	# 有了这个可以替换掉画图
 choco install -y lockhunter --proxy=127.0.0.1:10809 --ignore-checksums
 	# 解除文件锁定
-	# choco install -y bulkrenameutility --proxy=127.0.0.1:10809
+choco install -y bulkrenameutility --proxy=127.0.0.1:10809
 	#重命名
 choco install -y calibre --proxy=127.0.0.1:10809
 	#电子书
@@ -275,7 +277,7 @@ choco install -y listen1.portable --proxy=127.0.0.1:10809
 # choco install -y rufus --proxy=127.0.0.1:10809
 	# 启动盘制作,可以烧写各种东西到U盘
 # choco install -y speedyfox --proxy=127.0.0.1:10809
-# choco install -y Sudo --proxy=127.0.0.1:10809
+choco install -y Sudo --proxy=127.0.0.1:10809
 # choco install -y sysinternals --proxy=127.0.0.1:10809
 # choco install -y screentogif --proxy=127.0.0.1:10809
 # choco install -y treesizefree --proxy=127.0.0.1:10809
