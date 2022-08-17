@@ -145,10 +145,12 @@ choco install -y golang --proxy=127.0.0.1:10809
 
 #这些都用homestead算了
 	# choco install -y hugo --proxy=127.0.0.1:10809
-	# choco install -y nodejs-lts --proxy=127.0.0.1:10809
-	# choco install -y yarn --proxy=127.0.0.1:10809
-	# choco install -y deno --proxy=127.0.0.1:10809
-	# choco install -y typescript --proxy=127.0.0.1:10809
+#还是安装在本机算了,虚拟机里面映射,软链接有点问题
+choco install -y nodejs-lts --proxy=127.0.0.1:10809
+choco install -y yarn --proxy=127.0.0.1:10809
+choco install -y deno --proxy=127.0.0.1:10809
+# 安装typescript必须全局,因为其是通过nodejs安装
+choco install -y typescript --proxy=127.0.0.1:10809
 	# choco install -y php --proxy=127.0.0.1:10809
 	# choco install -y composer --proxy=127.0.0.1:10809
 
