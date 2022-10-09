@@ -1,24 +1,3 @@
-Disable-GameBarTips
-Enable-MicrosoftUpdate
-Enable-UAC
-Install-WindowsUpdate
-Update-Help
-Set-StartScreenOptions -EnableBootToDesktop -EnableDesktopBackgroundOnStart -EnableShowStartOnActiveScreen -EnableShowAppsViewOnStartScreen -EnableSearchEverywhereInAppsView -EnableListDesktopAppsFirst
-Set-CornerNavigationOptions -EnableUpperRightCornerShowCharms -EnableUpperLeftCornerSwitchApps -EnableUsePowerShellOnWinX
-Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -DisableShowProtectedOSFiles -EnableShowFileExtensions -EnableShowFullPathInTitleBar -DisableOpenFileExplorerToQuickAccess -EnableShowRecentFilesInQuickAccess -EnableShowFrequentFoldersInQuickAccess -EnableExpandToOpenFolder
-Set-BoxstarterTaskbarOptions -Size Large -Dock Bottom -Combine Full -AlwaysShowIconsOn
-	# 下面这个命令有问题,手动执行算了===>个性化->任务栏
-	# Set-BoxstarterTaskbarOptions -Size Large -Dock Bottom -Combine Full -AlwaysShowIconsOn
-	# -MultiMonitorOn -MultiMonitorMode All -MultiMonitorCombine Full 这几个命令有问题,很奇怪
-	# 登录edge来使用boxstarter,需要安装插件 windows remix clickoncehelper https://chrome.google.com/webstore/detail/windows-remix-clickonce-h/dgpgholdldjjbcmpeckiephjigdpikan
-	# 执行前,手动Windows更新(高级选项,所有产品和通知,以及使用时间) boxstarter如果更新的多容易卡死
-	# START http://boxstarter.org/package/nr/url?E:\MyCodes\public_code\boxstarter_file\current.txt
-		# 执行该命令并不需要安装boxstarter
-	# shadowsocksr 	1080
-	# v2rayn 				10809
-	# qv2ray				8889
-#其实是不分大小写的,但是还是尽量和包名相同
-
 # 首先安装监控,然后打开安装监控器,手动的话推荐wise program uninstaller
 choco install -y revo-uninstaller --proxy=127.0.0.1:10809
 	# 剩下两个,iobit最好看,但是搜出来的最少,revo比geek好一点.
@@ -132,7 +111,7 @@ choco install -y powershell-core --proxy=127.0.0.1:10809
 # 上面和下面各种软件需要的环境
 choco install -y dotnet-sdk --proxy=127.0.0.1:10809
 	# dotnet的runtime和sdk是分开的.
-choco install -y dotnet-desktopruntime --proxy=127.0.0.1:10809
+	# choco install -y dotnet-desktopruntime --proxy=127.0.0.1:10809
 	# 上面自带了命令行,下面是桌面
 choco install -y vcredist2012 --proxy=127.0.0.1:10809
 	# xshell需要
@@ -140,7 +119,9 @@ choco install -y vcredist2012 --proxy=127.0.0.1:10809
 # 以下是各种语言和开发环境pypl和tiobe的前25个
 choco install -y python --proxy=127.0.0.1:10809
 choco install -y openjdk --proxy=127.0.0.1:10809
-choco install -y openjdk8 --proxy=127.0.0.1:10809
+choco install -y Temurin8 --proxy=127.0.0.1:10809
+	# openjdk8停止维护了
+	# choco install -y openjdk8 --proxy=127.0.0.1:10809
 choco install -y golang --proxy=127.0.0.1:10809
 
 #这些都用homestead算了
@@ -149,8 +130,8 @@ choco install -y golang --proxy=127.0.0.1:10809
 choco install -y nodejs-lts --proxy=127.0.0.1:10809
 choco install -y yarn --proxy=127.0.0.1:10809
 choco install -y deno --proxy=127.0.0.1:10809
-# 安装typescript必须全局,因为其是通过nodejs安装
-choco install -y typescript --proxy=127.0.0.1:10809
+# 安装typescript必须全局,因为其是通过nodejs安装,手动安装
+	# choco install -y typescript --proxy=127.0.0.1:10809
 	# choco install -y php --proxy=127.0.0.1:10809
 	# choco install -y composer --proxy=127.0.0.1:10809
 
@@ -225,7 +206,7 @@ choco install -y wechat --proxy=127.0.0.1:10809 --ignore-checksums
 choco install -y dingtalk --proxy=127.0.0.1:10809 --ignore-checksums
 
 # 其他
-choco install -y resilio-sync-home --proxy=127.0.0.1:10809
+choco install -y resilio-sync-home --proxy=127.0.0.1:10809 --ignore-checksums
 choco install -y tor-browser --proxy=127.0.0.1:10809
 choco install -y EveryThing --params "/service" --proxy=127.0.0.1:10809
 	# 找文件
@@ -245,7 +226,7 @@ choco install -y bulkrenameutility --proxy=127.0.0.1:10809
 	#重命名
 choco install -y calibre --proxy=127.0.0.1:10809
 	#电子书
-choco install -y listen1.portable --proxy=127.0.0.1:10809
+#choco install -y listen1.portable --proxy=127.0.0.1:10809
 
 ## 一时半会没啥用的小工具
 # choco install -y weasel --proxy=127.0.0.1:10809
