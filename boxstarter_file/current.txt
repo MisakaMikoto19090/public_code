@@ -65,6 +65,7 @@ choco install -y jetbrains-rider --proxy=127.0.0.1:10809
 		# ruby需要rails
 choco install -y WebStorm --proxy=127.0.0.1:10809
 	# 手动安装2.3
+choco install -y graalvm --proxy=127.0.0.1:10809
 #其他
 choco install -y komodo-ide --proxy=127.0.0.1:10809
 	# choco install -y sourcetrail --proxy=127.0.0.1:10809
@@ -120,6 +121,7 @@ choco install -y vcredist2012 --proxy=127.0.0.1:10809
 choco install -y python --proxy=127.0.0.1:10809
 choco install -y openjdk --proxy=127.0.0.1:10809
 choco install -y Temurin8 --proxy=127.0.0.1:10809
+choco install -y Temurin11 --proxy=127.0.0.1:10809
 	# openjdk8停止维护了
 	# choco install -y openjdk8 --proxy=127.0.0.1:10809
 choco install -y golang --proxy=127.0.0.1:10809
