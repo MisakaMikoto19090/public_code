@@ -15,7 +15,7 @@ choco install -y vscode --proxy=127.0.0.1:10809
 #代码管理
 choco install -y git --proxy=127.0.0.1:10809
 	# choco install -y tortoisesvn --proxy=127.0.0.1:10809
-choco install -y SmartGit --proxy=127.0.0.1:10809
+	# choco install -y SmartGit --proxy=127.0.0.1:10809
   # choco install -y SourceTree --proxy=127.0.0.1:10809
 
 #代码合并
@@ -77,6 +77,8 @@ choco install -y visualstudio2022enterprise --proxy=127.0.0.1:10809
 		# choco install -y visualstudio2019enterprise --package-parameters "--allWorkloads --includeRecommended --includeOptional --passive --locale zh-CN" --proxy=127.0.0.1:10809
 	# choco install -y r.studio --proxy=127.0.0.1:10809
 		# r语言
+#开发杂
+choco install -y devtoys --proxy=127.0.0.1:10809
 
 #学习复习
 choco install -y anki --proxy=127.0.0.1:10809
@@ -173,6 +175,7 @@ choco install -y GoogleChrome --proxy=127.0.0.1:10809
 # 驱动
 # choco install -y sdio --proxy=127.0.0.1:10809
 choco install -y driverbooster --proxy=127.0.0.1:10809
+	# 同时也用msi官方的
 
 # 播放器
 choco install -y potplayer --proxy=127.0.0.1:10809
@@ -185,6 +188,7 @@ choco install -y 7zip --proxy=127.0.0.1:10809
 
 # pdf
 choco install -y sumatrapdf --proxy=127.0.0.1:10809
+	# 暂时用edge
 	# choco install -y foxitreader --proxy=127.0.0.1:10809
 
 # 视频处理
@@ -208,13 +212,16 @@ choco install -y wechat --proxy=127.0.0.1:10809 --ignore-checksums
 choco install -y dingtalk --proxy=127.0.0.1:10809 --ignore-checksums
 
 # 其他
-choco install -y resilio-sync-home --proxy=127.0.0.1:10809 --ignore-checksums
+	#choco install -y resilio-sync-home --proxy=127.0.0.1:10809 --ignore-checksums
+	#choco install -y quicklook --proxy=127.0.0.1:10809
+		#需要时刻运行
 choco install -y tor-browser --proxy=127.0.0.1:10809
 choco install -y EveryThing --params "/service" --proxy=127.0.0.1:10809
 	# 找文件
-choco install -y wox --proxy=127.0.0.1:10809
+	# choco install -y wox --proxy=127.0.0.1:10809
 	# wox在更新,但是没release,如果一定要替换的话,目前感觉最好用的是utools和powertoys
-	# choco install -y keypirinha --proxy=127.0.0.1:10809
+	# 现在用quicker+utools
+	#choco install -y keypirinha --proxy=127.0.0.1:10809
 	### 测试一下,看看能不能替换屌wox,一般吧
 choco install -y choco-cleaner --proxy=127.0.0.1:10809
 	# 清理choco
@@ -244,7 +251,7 @@ choco install -y calibre --proxy=127.0.0.1:10809
 # choco install -y eraser --proxy=127.0.0.1:10809
 	# 安全删除文件
 # choco install -y googledrive --proxy=127.0.0.1:10809
-# choco install -y googleearthpro --proxy=127.0.0.1:10809
+choco install -y googleearthpro --proxy=127.0.0.1:10809
 # choco install -y internet-download-manager --proxy=127.0.0.1:10809
 # choco install -y keepass --proxy=127.0.0.1:10809
 # choco install -y Kindle --proxy=127.0.0.1:10809
