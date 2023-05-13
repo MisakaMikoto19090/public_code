@@ -1,3 +1,4 @@
+# win11基本不能用了
 Disable-GameBarTips
 Enable-MicrosoftUpdate
 Enable-UAC

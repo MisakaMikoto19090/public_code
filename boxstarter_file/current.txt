@@ -13,7 +13,8 @@ choco install -y vscode --proxy=127.0.0.1:10809
 	# choco install -y Emacs --proxy=127.0.0.1:10809
 
 #代码管理
-choco install -y git --proxy=127.0.0.1:10809
+	# choco install -y git --proxy=127.0.0.1:10809
+		# 用smartgit的portable版本
 	# choco install -y tortoisesvn --proxy=127.0.0.1:10809
 	# choco install -y SmartGit --proxy=127.0.0.1:10809
   # choco install -y SourceTree --proxy=127.0.0.1:10809
@@ -27,7 +28,7 @@ choco install -y winmerge --proxy=127.0.0.1:10809
 choco install -y virtualbox --proxy=127.0.0.1:10809
 	# choco install -y vmwareworkstation --proxy=127.0.0.1:10809
 choco install -y vagrant --proxy=127.0.0.1:10809
-choco install -y genymotion --proxy=127.0.0.1:10809 --ignore-checksums
+	# choco install -y genymotion --proxy=127.0.0.1:10809 --ignore-checksums
 	# 最强的安卓模拟器
 
 #网络测试相关,抓包和查看
@@ -43,14 +44,15 @@ choco install -y soapui --proxy=127.0.0.1:10809
 	# choco install -y ngrok --proxy=127.0.0.1:10809
 
 #脑图
-choco install -y freeplane --proxy=127.0.0.1:10809
+	# choco install -y freeplane --proxy=127.0.0.1:10809
 	# choco install -y xmind --proxy=127.0.0.1:10809
 
-#原型设计
-choco install -y lunacy --proxy=127.0.0.1:10809
-	# choco install -y gravitdesigner --proxy=127.0.0.1:10809
+
 #图表设计
-choco install -y yed --proxy=127.0.0.1:10809
+choco install -y drawio --proxy=127.0.0.1:10809
+	# choco install -y yed --proxy=127.0.0.1:10809
+	# 依赖jre8
+	# 用draw.io 的离线版
 
 # IDE
 choco install -y clion-ide --proxy=127.0.0.1:10809
@@ -77,6 +79,11 @@ choco install -y visualstudio2022enterprise --proxy=127.0.0.1:10809
 		# choco install -y visualstudio2019enterprise --package-parameters "--allWorkloads --includeRecommended --includeOptional --passive --locale zh-CN" --proxy=127.0.0.1:10809
 	# choco install -y r.studio --proxy=127.0.0.1:10809
 		# r语言
+#原型设计
+choco install -y lunacy --proxy=127.0.0.1:10809
+choco uninstall -fy netfx-4.6.2 --proxy=127.0.0.1:10809
+		# lunacy放到vs后面,可以少安装一个包
+	# choco install -y gravitdesigner --proxy=127.0.0.1:10809
 #开发杂
 choco install -y devtoys --proxy=127.0.0.1:10809
 
@@ -84,7 +91,7 @@ choco install -y devtoys --proxy=127.0.0.1:10809
 choco install -y anki --proxy=127.0.0.1:10809
 
 #命令行
-choco install -y microsoft-windows-terminal --proxy=127.0.0.1:10809
+	# choco install -y microsoft-windows-terminal --proxy=127.0.0.1:10809
 choco install -y powershell-core --proxy=127.0.0.1:10809
 
 #各种环境和工具
@@ -116,7 +123,7 @@ choco install -y dotnet-sdk --proxy=127.0.0.1:10809
 	# dotnet的runtime和sdk是分开的.
 	# choco install -y dotnet-desktopruntime --proxy=127.0.0.1:10809
 	# 上面自带了命令行,下面是桌面
-choco install -y vcredist2012 --proxy=127.0.0.1:10809
+	# choco install -y vcredist2012 --proxy=127.0.0.1:10809
 	# xshell需要
 
 # 以下是各种语言和开发环境pypl和tiobe的前25个
@@ -166,8 +173,8 @@ choco install -y deno --proxy=127.0.0.1:10809
 	# choco install -y vdhcoapp --proxy=127.0.0.1:10809
 
 ## 常用软件,基本上都能找到
-choco install -y amd-ryzen-chipset --proxy=127.0.0.1:10809
-	#amd高性能模式
+	# choco install -y amd-ryzen-chipset --proxy=127.0.0.1:10809
+	#amd高性能模式,主板官网有
 # 浏览器
 choco install -y microsoft-edge --proxy=127.0.0.1:10809
 choco install -y GoogleChrome --proxy=127.0.0.1:10809
@@ -192,7 +199,7 @@ choco install -y sumatrapdf --proxy=127.0.0.1:10809
 	# choco install -y foxitreader --proxy=127.0.0.1:10809
 
 # 视频处理
-choco install -y handbrake --proxy=127.0.0.1:10809
+	# choco install -y handbrake --proxy=127.0.0.1:10809
 	# 目前就转码,裁剪用handbrake足够了
 	# choco install -y formatfactory --proxy=127.0.0.1:10809
 	# choco install -y openshot --proxy=127.0.0.1:10809
@@ -231,7 +238,7 @@ choco install -y paint.net --proxy=127.0.0.1:10809
 	# 有了这个可以替换掉画图
 choco install -y lockhunter --proxy=127.0.0.1:10809 --ignore-checksums
 	# 解除文件锁定
-choco install -y bulkrenameutility --proxy=127.0.0.1:10809
+	# choco install -y bulkrenameutility --proxy=127.0.0.1:10809
 	#重命名
 choco install -y calibre --proxy=127.0.0.1:10809
 	#电子书
