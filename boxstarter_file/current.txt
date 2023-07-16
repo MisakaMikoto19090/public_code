@@ -28,7 +28,7 @@ choco install -y winmerge --proxy=127.0.0.1:10809
 choco install -y virtualbox --proxy=127.0.0.1:10809
 	# choco install -y vmwareworkstation --proxy=127.0.0.1:10809
 choco install -y vagrant --proxy=127.0.0.1:10809
-	# choco install -y genymotion --proxy=127.0.0.1:10809 --ignore-checksums
+choco install -y genymotion --proxy=127.0.0.1:10809 --ignore-checksums
 	# 最强的安卓模拟器
 
 #网络测试相关,抓包和查看
@@ -177,6 +177,7 @@ choco install -y deno --proxy=127.0.0.1:10809
 	#amd高性能模式,主板官网有
 # 浏览器
 choco install -y microsoft-edge --proxy=127.0.0.1:10809
+	# choco install -y microsoft-edge-insider --proxy=127.0.0.1:10809
 choco install -y GoogleChrome --proxy=127.0.0.1:10809
 
 # 驱动
@@ -219,7 +220,7 @@ choco install -y wechat --proxy=127.0.0.1:10809 --ignore-checksums
 choco install -y dingtalk --proxy=127.0.0.1:10809 --ignore-checksums
 
 # 其他
-	#choco install -y resilio-sync-home --proxy=127.0.0.1:10809 --ignore-checksums
+choco install -y resilio-sync-home --proxy=127.0.0.1:10809 --ignore-checksums
 	#choco install -y quicklook --proxy=127.0.0.1:10809
 		#需要时刻运行
 choco install -y tor-browser --proxy=127.0.0.1:10809
