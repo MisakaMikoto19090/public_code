@@ -97,6 +97,7 @@ choco install -y powershell-core --proxy=127.0.0.1:10809
 #各种环境和工具
 	# choco install -y vcredist-all --proxy=127.0.0.1:10809
 	# choco install -y puppet --proxy=127.0.0.1:10809
+	# choco install -y kubernetes-cli --proxy=127.0.0.1:10809
 	# choco install -y docker-desktop --proxy=127.0.0.1:10809
 	# choco install -y hadoop --proxy=127.0.0.1:10809
 	# choco install -y cmake --installargs "ADD_CMAKE_TO_PATH=System" --installargs "DESKTOP_SHORTCUT_REQUESTED=1" --proxy=127.0.0.1:10809
@@ -195,7 +196,7 @@ choco install -y 7zip --proxy=127.0.0.1:10809
 	# choco install -y peazip --proxy=127.0.0.1:10809
 
 # pdf
-choco install -y sumatrapdf --proxy=127.0.0.1:10809
+	# choco install -y sumatrapdf --proxy=127.0.0.1:10809
 	# 暂时用edge
 	# choco install -y foxitreader --proxy=127.0.0.1:10809
 
