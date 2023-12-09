@@ -13,11 +13,12 @@ choco install -y vscode --proxy=127.0.0.1:10809
 	# choco install -y Emacs --proxy=127.0.0.1:10809
 
 #代码管理
-	# choco install -y git --proxy=127.0.0.1:10809
+# choco install -y git --proxy=127.0.0.1:10809
+# choco install -y hg --proxy=127.0.0.1:10809
 		# 用smartgit的portable版本
 	# choco install -y tortoisesvn --proxy=127.0.0.1:10809
 	# choco install -y SmartGit --proxy=127.0.0.1:10809
-  # choco install -y SourceTree --proxy=127.0.0.1:10809
+# choco install -y SourceTree --proxy=127.0.0.1:10809
 
 #代码合并
 choco install -y winmerge --proxy=127.0.0.1:10809
@@ -41,7 +42,7 @@ choco install -y soapui --proxy=127.0.0.1:10809
 		# 依赖jre8
 #其他网络工具
 	# choco install -y postman --proxy=127.0.0.1:10809
-	# choco install -y ngrok --proxy=127.0.0.1:10809
+choco install -y ngrok --proxy=127.0.0.1:10809
 
 #脑图
 	# choco install -y freeplane --proxy=127.0.0.1:10809
@@ -86,6 +87,8 @@ choco uninstall -fy netfx-4.6.2 --proxy=127.0.0.1:10809
 	# choco install -y gravitdesigner --proxy=127.0.0.1:10809
 #开发杂
 choco install -y devtoys --proxy=127.0.0.1:10809
+choco install -y another-redis-desktop-manager --proxy=127.0.0.1:10809
+choco install -y heidisql --proxy=127.0.0.1:10809
 
 #学习复习
 choco install -y anki --proxy=127.0.0.1:10809
@@ -132,6 +135,7 @@ choco install -y python --proxy=127.0.0.1:10809
 choco install -y openjdk --proxy=127.0.0.1:10809
 choco install -y Temurin8 --proxy=127.0.0.1:10809
 choco install -y Temurin11 --proxy=127.0.0.1:10809
+choco install -y Temurin17 --proxy=127.0.0.1:10809
 	# openjdk8停止维护了
 	# choco install -y openjdk8 --proxy=127.0.0.1:10809
 choco install -y golang --proxy=127.0.0.1:10809
@@ -217,7 +221,7 @@ choco install -y wiztree --proxy=127.0.0.1:10809
 
 # 聊天
 choco install -y telegram --proxy=127.0.0.1:10809
-	# choco install -y tim --proxy=127.0.0.1:10809
+choco install -y tim --proxy=127.0.0.1:10809
 choco install -y wechat --proxy=127.0.0.1:10809 --ignore-checksums
 choco install -y dingtalk --proxy=127.0.0.1:10809 --ignore-checksums
 
@@ -225,7 +229,7 @@ choco install -y dingtalk --proxy=127.0.0.1:10809 --ignore-checksums
 choco install -y resilio-sync-home --proxy=127.0.0.1:10809 --ignore-checksums
 	#choco install -y quicklook --proxy=127.0.0.1:10809
 		#需要时刻运行
-choco install -y tor-browser --proxy=127.0.0.1:10809
+# choco install -y tor-browser --proxy=127.0.0.1:10809
 choco install -y EveryThing --params "/service" --proxy=127.0.0.1:10809
 	# 找文件
 	# choco install -y wox --proxy=127.0.0.1:10809
