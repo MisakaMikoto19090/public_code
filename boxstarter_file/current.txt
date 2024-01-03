@@ -58,6 +58,7 @@ choco install -y drawio --proxy=127.0.0.1:10809
 # IDE
 choco install -y clion-ide --proxy=127.0.0.1:10809
 choco install -y datagrip --proxy=127.0.0.1:10809
+choco install -y dataspell --proxy=127.0.0.1:10809
 ### 还有一个dataspell
 choco install -y goland --proxy=127.0.0.1:10809
 choco install -y intellijidea-ultimate --proxy=127.0.0.1:10809
@@ -135,7 +136,7 @@ choco install -y python --proxy=127.0.0.1:10809
 choco install -y openjdk --proxy=127.0.0.1:10809
 choco install -y Temurin8 --proxy=127.0.0.1:10809
 choco install -y Temurin11 --proxy=127.0.0.1:10809
-choco install -y Temurin17 --proxy=127.0.0.1:10809
+choco install -y Temurin21 --proxy=127.0.0.1:10809
 	# openjdk8停止维护了
 	# choco install -y openjdk8 --proxy=127.0.0.1:10809
 choco install -y golang --proxy=127.0.0.1:10809
@@ -201,7 +202,7 @@ choco install -y 7zip --proxy=127.0.0.1:10809
 	# choco install -y peazip --proxy=127.0.0.1:10809
 
 # pdf
-	# choco install -y sumatrapdf --proxy=127.0.0.1:10809
+choco install -y sumatrapdf --proxy=127.0.0.1:10809
 	# 暂时用edge
 	# choco install -y foxitreader --proxy=127.0.0.1:10809
 
