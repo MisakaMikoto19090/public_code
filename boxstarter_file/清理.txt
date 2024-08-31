@@ -11,7 +11,7 @@ https://3.jetbra.in/
 vagrant box(https://vagrantcloud.com,https://app.vagrantup.com/boxes/search)
     homestead(apt)<https://cli-assets.heroku.com/apt/heroku_7.49.0-1_amd64.deb>,/var/cache/apt/archives/
     wsl
-    genymotion
+            genymotion
 自建服务器:
     v2rayN
     v2ray-core(还有服务器,brew)

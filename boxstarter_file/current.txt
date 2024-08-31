@@ -29,7 +29,7 @@ choco install -y winmerge --proxy=127.0.0.1:10809
 choco install -y virtualbox --proxy=127.0.0.1:10809
 	# choco install -y vmwareworkstation --proxy=127.0.0.1:10809
 choco install -y vagrant --proxy=127.0.0.1:10809
-choco install -y genymotion --proxy=127.0.0.1:10809 --ignore-checksums
+	#choco install -y genymotion --proxy=127.0.0.1:10809 --ignore-checksums
 	# 最强的安卓模拟器
 
 #网络测试相关,抓包和查看
@@ -65,6 +65,7 @@ choco install -y intellijidea-ultimate --proxy=127.0.0.1:10809
 choco install -y phpstorm --proxy=127.0.0.1:10809
 choco install -y Pycharm --proxy=127.0.0.1:10809
 choco install -y jetbrains-rider --proxy=127.0.0.1:10809
+choco install -y rustrover --proxy=127.0.0.1:10809
 	# choco install -y RubyMine --proxy=127.0.0.1:10809
 		# ruby需要rails
 choco install -y WebStorm --proxy=127.0.0.1:10809
@@ -99,6 +100,8 @@ choco install -y anki --proxy=127.0.0.1:10809
 choco install -y powershell-core --proxy=127.0.0.1:10809
 
 #各种环境和工具
+choco install -y rustup.install --proxy=127.0.0.1:10809
+
 	# choco install -y vcredist-all --proxy=127.0.0.1:10809
 	# choco install -y puppet --proxy=127.0.0.1:10809
 	# choco install -y kubernetes-cli --proxy=127.0.0.1:10809
@@ -213,7 +216,8 @@ choco install -y sumatrapdf --proxy=127.0.0.1:10809
 	# choco install -y openshot --proxy=127.0.0.1:10809
 
 # 图片查看
-choco install -y irfanview --proxy=127.0.0.1:10809
+choco install -y xnview --proxy=127.0.0.1:10809
+	# choco install -y irfanview --proxy=127.0.0.1:10809
 	# choco install -y honeyview --proxy=127.0.0.1:10809
 
 # 查看文件占用
