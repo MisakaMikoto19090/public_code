@@ -48,6 +48,8 @@ choco install -y ngrok --proxy=127.0.0.1:10809
 	# choco install -y freeplane --proxy=127.0.0.1:10809
 	# choco install -y xmind --proxy=127.0.0.1:10809
 
+#看板
+choco install -y clickup-official --proxy=127.0.0.1:10809
 
 #图表设计
 choco install -y drawio --proxy=127.0.0.1:10809
@@ -71,6 +73,7 @@ choco install -y rustrover --proxy=127.0.0.1:10809
 choco install -y WebStorm --proxy=127.0.0.1:10809
 	# 手动安装2.3
 choco install -y graalvm --proxy=127.0.0.1:10809
+
 #其他
 	# choco install -y komodo-ide --proxy=127.0.0.1:10809
 	# choco install -y sourcetrail --proxy=127.0.0.1:10809
@@ -82,6 +85,7 @@ choco install -y visualstudio2022enterprise --proxy=127.0.0.1:10809
 		# choco install -y visualstudio2019enterprise --package-parameters "--allWorkloads --includeRecommended --includeOptional --passive --locale zh-CN" --proxy=127.0.0.1:10809
 	# choco install -y r.studio --proxy=127.0.0.1:10809
 		# r语言
+
 #原型设计
 choco install -y lunacy --proxy=127.0.0.1:10809
 choco uninstall -fy netfx-4.6.2 --proxy=127.0.0.1:10809
@@ -98,6 +102,7 @@ choco install -y anki --proxy=127.0.0.1:10809
 #命令行
 	# choco install -y microsoft-windows-terminal --proxy=127.0.0.1:10809
 choco install -y powershell-core --proxy=127.0.0.1:10809
+	# choco install -y nuget.commandline --proxy=127.0.0.1:10809
 
 #各种环境和工具
 choco install -y rustup.install --proxy=127.0.0.1:10809
@@ -120,6 +125,7 @@ choco install -y rustup.install --proxy=127.0.0.1:10809
 		# windows的日志监听,ELK套装
 	# choco install -y nxlog --proxy=127.0.0.1:10809
 		# 各种日志管理
+
 #云
 	# choco install -y gae.sdk --proxy=127.0.0.1:10809
 	# choco install -y gcloudsdk --proxy=127.0.0.1:10809
@@ -148,7 +154,7 @@ choco install -y golang --proxy=127.0.0.1:10809
 	# choco install -y hugo --proxy=127.0.0.1:10809
 #还是安装在本机算了,虚拟机里面映射,软链接有点问题
 	# choco install -y nvm --proxy=127.0.0.1:10809
-	# choco install -y nodejs-lts --proxy=127.0.0.1:10809
+choco install -y nodejs-lts --proxy=127.0.0.1:10809
 	# choco install -y yarn --proxy=127.0.0.1:10809
 	# choco install -y deno --proxy=127.0.0.1:10809
 # 安装typescript必须全局,因为其是通过nodejs安装,手动安装
