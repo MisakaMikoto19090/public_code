@@ -31,6 +31,7 @@ choco install -y virtualbox --proxy=127.0.0.1:10809
 choco install -y vagrant --proxy=127.0.0.1:10809
 	#choco install -y genymotion --proxy=127.0.0.1:10809 --ignore-checksums
 	# 最强的安卓模拟器
+choco install -y bluestacks --proxy=127.0.0.1:10809
 
 #网络测试相关,抓包和查看
 choco install -y wireshark --proxy=127.0.0.1:10809
@@ -73,6 +74,7 @@ choco install -y rustrover --proxy=127.0.0.1:10809
 choco install -y WebStorm --proxy=127.0.0.1:10809
 	# 手动安装2.3
 choco install -y graalvm --proxy=127.0.0.1:10809
+choco install -y wechatdevtools --proxy=127.0.0.1:10809
 
 #其他
 	# choco install -y komodo-ide --proxy=127.0.0.1:10809
@@ -92,7 +94,7 @@ choco uninstall -fy netfx-4.6.2 --proxy=127.0.0.1:10809
 		# lunacy放到vs后面,可以少安装一个包
 	# choco install -y gravitdesigner --proxy=127.0.0.1:10809
 #开发杂
-choco install -y devtoys --proxy=127.0.0.1:10809
+	# choco install -y devtoys --proxy=127.0.0.1:10809
 choco install -y another-redis-desktop-manager --proxy=127.0.0.1:10809
 choco install -y heidisql --proxy=127.0.0.1:10809
 
@@ -194,7 +196,7 @@ choco install -y nodejs-lts --proxy=127.0.0.1:10809
 # 浏览器
 choco install -y microsoft-edge --proxy=127.0.0.1:10809
 	# choco install -y microsoft-edge-insider --proxy=127.0.0.1:10809
-choco install -y GoogleChrome --proxy=127.0.0.1:10809
+choco install -y GoogleChrome --proxy=127.0.0.1:10809 --ignore-checksums
 
 # 驱动
 # choco install -y sdio --proxy=127.0.0.1:10809
@@ -222,7 +224,7 @@ choco install -y sumatrapdf --proxy=127.0.0.1:10809
 	# choco install -y openshot --proxy=127.0.0.1:10809
 
 # 图片查看
-choco install -y xnview --proxy=127.0.0.1:10809
+choco install -y xnview --proxy=127.0.0.1:10809 --ignore-checksums
 	# choco install -y irfanview --proxy=127.0.0.1:10809
 	# choco install -y honeyview --proxy=127.0.0.1:10809
 
@@ -233,14 +235,14 @@ choco install -y wiztree --proxy=127.0.0.1:10809
 # 聊天
 choco install -y telegram --proxy=127.0.0.1:10809
 choco install -y tim --proxy=127.0.0.1:10809
-choco install -y wechat --proxy=127.0.0.1:10809 --ignore-checksums
+	# choco install -y wechat --proxy=127.0.0.1:10809 --ignore-checksums
 choco install -y dingtalk --proxy=127.0.0.1:10809 --ignore-checksums
 
 # 其他
-choco install -y resilio-sync-home --proxy=127.0.0.1:10809 --ignore-checksums
+	# choco install -y resilio-sync-home --proxy=127.0.0.1:10809 --ignore-checksums
 	#choco install -y quicklook --proxy=127.0.0.1:10809
 		#需要时刻运行
-# choco install -y tor-browser --proxy=127.0.0.1:10809
+choco install -y tor-browser --proxy=127.0.0.1:10809
 choco install -y EveryThing --params "/service" --proxy=127.0.0.1:10809
 	# 找文件
 	# choco install -y wox --proxy=127.0.0.1:10809
@@ -294,7 +296,7 @@ choco install -y googleearthpro --proxy=127.0.0.1:10809
 # choco install -y rufus --proxy=127.0.0.1:10809
 	# 启动盘制作,可以烧写各种东西到U盘
 # choco install -y speedyfox --proxy=127.0.0.1:10809
-choco install -y Sudo --proxy=127.0.0.1:10809
+# choco install -y Sudo --proxy=127.0.0.1:10809
 # choco install -y sysinternals --proxy=127.0.0.1:10809
 # choco install -y screentogif --proxy=127.0.0.1:10809
 # choco install -y treesizefree --proxy=127.0.0.1:10809
@@ -306,7 +308,7 @@ choco install -y Sudo --proxy=127.0.0.1:10809
 	# 上面两个是wireguard的翻墙
 
 #游戏
-	# choco install -y steam --proxy=127.0.0.1:10809
+choco install -y steam --proxy=127.0.0.1:10809
 	# choco install -y goggalaxy --proxy=127.0.0.1:10809
 	# choco install -y origin --proxy=127.0.0.1:10809
 	# choco install -y battle.net --proxy=127.0.0.1:10809
