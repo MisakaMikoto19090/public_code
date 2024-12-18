@@ -224,8 +224,8 @@ choco install -y sumatrapdf --proxy=127.0.0.1:10809
 	# choco install -y openshot --proxy=127.0.0.1:10809
 
 # 图片查看
-choco install -y xnview --proxy=127.0.0.1:10809 --ignore-checksums
-	# choco install -y irfanview --proxy=127.0.0.1:10809
+	# choco install -y xnview --proxy=127.0.0.1:10809 --ignore-checksums
+choco install -y irfanview --proxy=127.0.0.1:10809 --ignore-dependencies
 	# choco install -y honeyview --proxy=127.0.0.1:10809
 
 # 查看文件占用
