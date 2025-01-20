@@ -200,7 +200,7 @@ choco install -y GoogleChrome --proxy=127.0.0.1:10809 --ignore-checksums
 
 # 驱动
 # choco install -y sdio --proxy=127.0.0.1:10809
-choco install -y driverbooster --proxy=127.0.0.1:10809
+# choco install -y driverbooster --proxy=127.0.0.1:10809
 	# 同时也用msi官方的
 
 # 播放器
