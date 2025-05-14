@@ -7,8 +7,9 @@ choco install -y revo-uninstaller --proxy=127.0.0.1:10809
 
 ## 编程相关
 #编辑器
-	#choco install -y cursoride --proxy=127.0.0.1:10809
+choco install -y cursoride --proxy=127.0.0.1:10809
 choco install -y vscode --proxy=127.0.0.1:10809
+choco install -y github-desktop --proxy=127.0.0.1:10809
 	# choco install -y SublimeText3 --proxy=127.0.0.1:10809
 	# choco install -y vim --proxy=127.0.0.1:10809
 	# choco install -y Emacs --proxy=127.0.0.1:10809
