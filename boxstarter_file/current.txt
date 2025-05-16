@@ -7,7 +7,7 @@ choco install -y revo-uninstaller --proxy=127.0.0.1:10809
 
 ## 编程相关
 #编辑器
-choco install -y cursoride --proxy=127.0.0.1:10809
+	#choco install -y cursoride --proxy=127.0.0.1:10809
 choco install -y vscode --proxy=127.0.0.1:10809
 	# choco install -y SublimeText3 --proxy=127.0.0.1:10809
 	# choco install -y vim --proxy=127.0.0.1:10809
@@ -235,6 +235,7 @@ choco install -y wiztree --proxy=127.0.0.1:10809
 
 # 聊天
 choco install -y telegram --proxy=127.0.0.1:10809
+choco install -y discord --proxy=127.0.0.1:10809
 choco install -y tim --proxy=127.0.0.1:10809
 	# choco install -y wechat --proxy=127.0.0.1:10809 --ignore-checksums
 choco install -y dingtalk --proxy=127.0.0.1:10809 --ignore-checksums
