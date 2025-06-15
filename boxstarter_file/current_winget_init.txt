@@ -1,0 +1,11 @@
+# 管理员运行, 开启proxy
+
+winget settings --enable ProxyCommandLineOptions
+
+winget upgrade --all
+
+# 强制清理所有缓存（推荐）
+winget cache clean --force
+
+# 深度清理（包括临时安装文件）
+winget cache purge --force

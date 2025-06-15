@@ -1,0 +1,29 @@
+winget需要处理的
+
+360total security
+tunsafe
+sudo
+winget-cleaner
+keypirinha
+wox
+quicklook
+resilio
+recuva
+format factory
+flutter
+mingw
+lisp
+kotlin
+rails
+composer
+php
+typescript
+openjdk
+nxlog
+meteor
+grails
+gradle
+jenkins
+hadoop
+puppet
+vcredist
