@@ -1,4 +1,5 @@
-choco upgrade -y all --proxy=127.0.0.1:10809
+winget upgrade --all
+    #choco upgrade -y all --proxy=127.0.0.1:10809
 driver booster(radeon)
     sdio
 MSI CENTER(b450m mortar max 微星官网查看BIOS)

@@ -1,5 +1,8 @@
 # 管理员运行, 开启proxy
+# wsl先更新
+wsl --update
 
+# 开启proxy
 winget settings --enable ProxyCommandLineOptions
 
 winget upgrade --all
