@@ -1,0 +1,63 @@
+# 跨设备体验主机
+winget uninstall --id MSIX\MicrosoftWindows.CrossDevice
+# web experience pack
+winget uninstall --id MSIX\MicrosoftWindows.Client.WebExperience
+# 媒体播放器
+winget uninstall --id MSIX\Microsoft.ZuneMusic
+# 手机连接
+winget uninstall --id MSIX\Microsoft.YourPhone
+# 所有xbox
+winget uninstall --id MSIX\Microsoft.XboxSpeechToTextOverlay
+winget uninstall --id MSIX\Microsoft.XboxIdentityProvider
+winget uninstall --id MSIX\Microsoft.XboxGamingOverlay
+winget uninstall --id MSIX\Microsoft.Xbox.TCUI
+# 录音机
+winget uninstall --id MSIX\Microsoft.WindowsSoundRecorder
+# 反馈中心
+winget uninstall --id MSIX\Microsoft.WindowsFeedbackHub
+# windows相机
+winget uninstall --id MSIX\Microsoft.WindowsCamera
+# 时钟
+winget uninstall --id MSIX\Microsoft.WindowsAlarms
+# windows照片
+winget uninstall --id MSIX\Microsoft.Windows.Photos
+# widgets
+winget uninstall --id MSIX\Microsoft.WidgetsPlatformRuntime
+# 图像和视频扩展
+winget uninstall --id MSIX\Microsoft.WebpImageExtension
+winget uninstall --id MSIX\Microsoft.WebMediaExtensions
+winget uninstall --id MSIX\Microsoft.VP9VideoExtensions
+winget uninstall --id MSIX\Microsoft.RawImageExtension
+winget uninstall --id MSIX\Microsoft.MPEG2VideoExtension
+winget uninstall --id MSIX\Microsoft.HEVCVideoExtension
+winget uninstall --id MSIX\Microsoft.HEIFImageExtension
+winget uninstall --id MSIX\Microsoft.AVCEncoderVideoExtension
+winget uninstall --id MSIX\Microsoft.AV1VideoExtension
+
+# 购买
+winget uninstall --id MSIX\Microsoft.StorePurchaseApp
+# 画图
+winget uninstall --id MSIX\Microsoft.Paint
+# 游戏
+winget uninstall --id MSIX\Microsoft.MicrosoftSolitaireCollection
+# office 365
+winget uninstall --id MSIX\Microsoft.MicrosoftOfficeHub
+# 帮助
+winget uninstall --id MSIX\Microsoft.GetHelp
+# xbox游戏
+winget uninstall --id MSIX\Microsoft.GamingApp
+# edge游戏
+winget uninstall --id MSIX\Microsoft.Edge.GameAssist
+# bing全家桶
+winget uninstall --id MSIX\Microsoft.BingWeather
+winget uninstall --id MSIX\Microsoft.BingSearch
+winget uninstall --id MSIX\Microsoft.BingNews
+# 视频处理
+winget uninstall --id MSIX\Clipchamp.Clipchamp
+
+
+# 检查依赖，目前来看只有1.5有依赖， 1.4~1.7中
+Get-AppxPackage | Where-Object { $_.Dependencies -like "*WindowsAppRuntime.1.4*" } | Format-List Name, PackageFullName
+
+winget uninstall --id Microsoft.WindowsAppRuntime.1.7
+winget uninstall --id Microsoft.WindowsAppRuntime.1.7
