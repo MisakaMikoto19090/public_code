@@ -1,2 +1,0 @@
-choco.exe install resilio-sync-home -y  --no-progress --proxy socks5://127.0.0.1:10809/
-choco install -y 360ts --proxy socks5://127.0.0.1:10809/

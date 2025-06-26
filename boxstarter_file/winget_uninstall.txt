@@ -1,63 +1,65 @@
 # 跨设备体验主机
-winget uninstall --id MSIX\MicrosoftWindows.CrossDevice
+winget uninstall --name "跨设备体验主机"
 # web experience pack
-winget uninstall --id MSIX\MicrosoftWindows.Client.WebExperience
+winget uninstall --name "Windows Web Experience Pack"
 # 媒体播放器
-winget uninstall --id MSIX\Microsoft.ZuneMusic
+winget uninstall --name "Windows 媒体播放器"
 # 手机连接
-winget uninstall --id MSIX\Microsoft.YourPhone
+winget uninstall --name "手机连接"
 # 所有xbox
-winget uninstall --id MSIX\Microsoft.XboxSpeechToTextOverlay
-winget uninstall --id MSIX\Microsoft.XboxIdentityProvider
-winget uninstall --id MSIX\Microsoft.XboxGamingOverlay
-winget uninstall --id MSIX\Microsoft.Xbox.TCUI
+winget uninstall --name "Game Speech Window"
+winget uninstall --name "Xbox Identity Provider"
+winget uninstall --name "Game Bar"
+winget uninstall --name "Xbox TCUI"
 # 录音机
-winget uninstall --id MSIX\Microsoft.WindowsSoundRecorder
+winget uninstall --name "Windows 录音机"
 # 反馈中心
-winget uninstall --id MSIX\Microsoft.WindowsFeedbackHub
+winget uninstall --name "反馈中心"
 # windows相机
-winget uninstall --id MSIX\Microsoft.WindowsCamera
+winget uninstall --name "Windows 相机"
 # 时钟
-winget uninstall --id MSIX\Microsoft.WindowsAlarms
+winget uninstall --name "Windows 时钟"
 # windows照片
-winget uninstall --id MSIX\Microsoft.Windows.Photos
+winget uninstall --name "Microsoft 照片"
 # widgets
-winget uninstall --id MSIX\Microsoft.WidgetsPlatformRuntime
+winget uninstall --name "Widgets Platform Runtime"
 # 图像和视频扩展
-winget uninstall --id MSIX\Microsoft.WebpImageExtension
-winget uninstall --id MSIX\Microsoft.WebMediaExtensions
-winget uninstall --id MSIX\Microsoft.VP9VideoExtensions
-winget uninstall --id MSIX\Microsoft.RawImageExtension
-winget uninstall --id MSIX\Microsoft.MPEG2VideoExtension
-winget uninstall --id MSIX\Microsoft.HEVCVideoExtension
-winget uninstall --id MSIX\Microsoft.HEIFImageExtension
-winget uninstall --id MSIX\Microsoft.AVCEncoderVideoExtension
-winget uninstall --id MSIX\Microsoft.AV1VideoExtension
-
+winget uninstall --name "WebP 映像扩展"
+winget uninstall --name "Web 媒体扩展"
+winget uninstall --name "VP9 Video Extensions"
+winget uninstall --name "Raw Image Extension"
+winget uninstall --name "MPEG-2 视频扩展"
+winget uninstall --name "来自设备制造商的 HEVC 视频扩展"
+winget uninstall --name "HEIF 图像扩展"
+winget uninstall --name "AVC 编码器视频扩展"
+winget uninstall --name "AV1 Video Extension"
 # 购买
-winget uninstall --id MSIX\Microsoft.StorePurchaseApp
+winget uninstall --name "Microsoft Store 体验主机"
 # 画图
-winget uninstall --id MSIX\Microsoft.Paint
+winget uninstall --name "画图"
 # 游戏
-winget uninstall --id MSIX\Microsoft.MicrosoftSolitaireCollection
+winget uninstall --name "Solitaire & Casual Games"
 # office 365
-winget uninstall --id MSIX\Microsoft.MicrosoftOfficeHub
+winget uninstall --name "Microsoft 365 Copilot"
 # 帮助
-winget uninstall --id MSIX\Microsoft.GetHelp
+winget uninstall --name "获取帮助"
 # xbox游戏
-winget uninstall --id MSIX\Microsoft.GamingApp
+winget uninstall --name "Xbox"
 # edge游戏
-winget uninstall --id MSIX\Microsoft.Edge.GameAssist
+winget uninstall --name "Microsoft Edge 游戏助手"
 # bing全家桶
-winget uninstall --id MSIX\Microsoft.BingWeather
-winget uninstall --id MSIX\Microsoft.BingSearch
-winget uninstall --id MSIX\Microsoft.BingNews
+winget uninstall --name "MSN 天气"
+winget uninstall --name "Microsoft 必应"
+winget uninstall --name "资讯"
 # 视频处理
-winget uninstall --id MSIX\Clipchamp.Clipchamp
-
+winget uninstall --name "Microsoft Clipchamp"
 
 # 检查依赖，目前来看只有1.5有依赖， 1.4~1.7中
 Get-AppxPackage | Where-Object { $_.Dependencies -like "*WindowsAppRuntime.1.4*" } | Format-List Name, PackageFullName
 
-winget uninstall --id Microsoft.WindowsAppRuntime.1.7
-winget uninstall --id Microsoft.WindowsAppRuntime.1.7
+# WindowsAppRuntime1.6和1.4，以及xbox， 可能需要用revo来卸载
+winget uninstall MSIX\Microsoft.WindowsAppRuntime.1.6_6000.519.329.0_x86__8wekyb3d8bbwe
+winget uninstall MSIX\Microsoft.WindowsAppRuntime.1.6_6000.519.329.0_x64__8wekyb3d8bbwe
+winget uninstall MSIX\Microsoft.WindowsAppRuntime.1.4_4000.1309.2056.0_x64__8wekyb3d8bbwe
+winget uninstall MSIX\Microsoft.WindowsAppRuntime.1.4_4000.1309.2056.0_x86__8wekyb3d8bbwe
+winget uninstall MSIX\Microsoft.GamingApp_2402.900.28.0_x64__8wekyb3d8bbwe

@@ -5,4 +5,8 @@ wsl --update
 # 开启proxy
 winget settings --enable ProxyCommandLineOptions
 
+# 可选
+winget source remove winget
+winget source add winget https://mirrors.ustc.edu.cn/winget-source
+
 winget upgrade --all

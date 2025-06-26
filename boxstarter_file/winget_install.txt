@@ -307,4 +307,4 @@ winget install --id Valve.Steam -e --silent --accept-package-agreements --accept
 #安全
 
 # 手动安装
-winget install wingetcreate --proxy http://127.0.0.1:10809
+#winget install wingetcreate --proxy http://127.0.0.1:10809
