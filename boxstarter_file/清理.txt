@@ -33,13 +33,14 @@ revo uninstaller
 C盘安装的软件(一般是jetbrains,每次都删不干净,还有AMD软件更新后再根目录留下来的AMD)
 wiztree
     spacesniffer
-choco-cleaner
+    choco-cleaner
 settings->个性化->start
     win11是3个重新开关
 win+tab
 ditto
 输入法
 浏览器
+ccleaner
 Speedyfox
 cde磁盘清理,有些磁盘整理
 软件:tim.wechat等
