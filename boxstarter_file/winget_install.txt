@@ -181,7 +181,7 @@ winget install --id OpenJS.NodeJS.LTS -e --silent --accept-package-agreements --
 ## 常用软件,基本上都能找到  >
 	#amd高性能模式,主板官网有
 # 炒股 ，同花顺
-	winget install --id THS.THS -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
+winget install --id "THS.THS" --exact --source winget --accept-source-agreements --disable-interactivity --silent  --accept-package-agreements --force --location "C:\Program Files (x86)\同花顺" 
 	# 富途牛牛
 	# winget install --id "XP99NG92K0K91L" -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 

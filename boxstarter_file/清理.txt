@@ -1,4 +1,4 @@
-winget upgrade --all
+winget upgrade --all --silent --accept-source-agreements --accept-package-agreements --ignore-security-hash --force
     #choco upgrade -y all --proxy=127.0.0.1:10809
 driver booster(radeon)
     sdio
