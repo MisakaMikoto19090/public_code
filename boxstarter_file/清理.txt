@@ -40,10 +40,11 @@ win+tab
 ditto
 输入法
 浏览器
-ccleaner
+
 Speedyfox
 cde磁盘清理,有些磁盘整理
 软件:tim.wechat等
+ccleaner
 dism(自动创建还原点)
 备份桌面(先退出绿化软件,如翻墙和ManicTime)
 镜像备份(可能需要先去掉E盘盘符,备份完成后再加上去)

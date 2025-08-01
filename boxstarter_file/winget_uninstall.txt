@@ -18,7 +18,7 @@ winget uninstall --name "反馈中心"
 # windows相机
 winget uninstall --name "Windows 相机"
 # 时钟
-winget uninstall --name "Windows 时钟"
+#winget uninstall --name "Windows 时钟"
 # windows照片
 winget uninstall --name "Microsoft 照片"
 # widgets
@@ -62,4 +62,7 @@ winget uninstall MSIX\Microsoft.WindowsAppRuntime.1.6_6000.519.329.0_x86__8wekyb
 winget uninstall MSIX\Microsoft.WindowsAppRuntime.1.6_6000.519.329.0_x64__8wekyb3d8bbwe
 winget uninstall MSIX\Microsoft.WindowsAppRuntime.1.4_4000.1309.2056.0_x64__8wekyb3d8bbwe
 winget uninstall MSIX\Microsoft.WindowsAppRuntime.1.4_4000.1309.2056.0_x86__8wekyb3d8bbwe
+winget uninstall MSIX\Microsoft.WindowsAppRuntime.1.7_7000.522.1444.0_x64__8wekyb3d8bbwe
+winget uninstall MSIX\Microsoft.WindowsAppRuntime.1.7_7000.522.1444.0_x86__8wekyb3d8bbwe
+
 winget uninstall MSIX\Microsoft.GamingApp_2402.900.28.0_x64__8wekyb3d8bbwe
