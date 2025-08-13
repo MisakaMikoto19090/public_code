@@ -263,6 +263,10 @@ winget install --id calibre.calibre -e --silent --accept-package-agreements --ac
 	#电子书
 # winget install --id listen1.listen1 -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 
+# zTasker各种定时任务
+winget install --id everauto.zTasker -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
+
+
 ## 一时半会没啥用的小工具
 # winget install --id Rime.Weasel -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 	# 小狼毫输入法 这个会安装autohotkey,然后方案选择ctrl+`时,会和浏览器冲突.win11冲突
