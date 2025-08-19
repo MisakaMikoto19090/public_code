@@ -139,6 +139,8 @@ winget install -e --silent --accept-package-agreements --accept-source-agreement
 # 上面和下面各种软件需要的环境
 winget install --id Microsoft.DotNet.SDK.9 -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 	# dotnet的runtime和sdk是分开的.
+winget install --id "PuTTY.PuTTY" -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
+
 
 
 # 以下是各种语言和开发环境pypl和tiobe的前25个
