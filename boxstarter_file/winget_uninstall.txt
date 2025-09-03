@@ -55,6 +55,9 @@ winget uninstall --name "资讯"
 winget uninstall --name "Microsoft Clipchamp"
 # 开始体验
 
+# teams，可选
+winget uninstall --id "Microsoft.Teams"
+
 
 # 检查依赖，目前来看只有1.5有依赖， 1.4~1.7中
 Get-AppxPackage | Where-Object { $_.Dependencies -like "*WindowsAppRuntime.1.4*" } | Format-List Name, PackageFullName
