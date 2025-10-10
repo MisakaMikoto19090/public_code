@@ -213,6 +213,8 @@ winget install --id ManicTime.ManicTime -e --silent --accept-package-agreements 
 	# winget install --id Bandisoft.Bandizip -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 	# winget install --id Giorgiotani.Peazip -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 
+winget install localsend --proxy http://127.0.0.1:10809
+
 # pdf
 winget install --id SumatraPDF.SumatraPDF -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 	# 暂时用edge
@@ -236,7 +238,7 @@ winget install --id AntibodySoftware.WizTree -e --silent --accept-package-agreem
 winget install --id Telegram.TelegramDesktop -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 	#winget install --id Discord.Discord -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 winget install --id Tencent.TIM -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-winget install --id Tencent.WeChat -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
+winget install --id Tencent.WeChat.Universal -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 	#winget.exe install --id "XPDDXZKH816B14" --exact --source msstore --accept-source-agreements --disable-interactivity --silent  --accept-package-agreements
 # 其他
 # winget install --id GitHub.GitHubDesktop -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
