@@ -88,9 +88,11 @@ winget install --id Google.AndroidStudio -e --silent --accept-package-agreements
 winget install --id OffSec.KaliLinux -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 winget install --id Canonical.Ubuntu -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 
-# app， todo和devtoys
+# app， todo和devtoys和富途牛牛
 winget install --id 9NBLGGH5R558 -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 winget install --id 9PGCV4V3BK4W -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
+winget install --id xp99ng92k0k91l -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
+	# 需要打开登陆，更新重装好多次
 
 ### vs2022
 winget install --id Microsoft.VisualStudio.2022.Enterprise -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
@@ -107,11 +109,8 @@ winget install --id Icons8.Lunacy -e --silent --accept-package-agreements --acce
 		# lunacy放到vs后面,可以少安装一个包
 #开发杂
 winget install --id qishibo.AnotherRedisDesktopManager -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-winget install --id IPIP.BestTrace -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
+winget install --id IPIP.BestTrace -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809 --force
 winget install --id HeidiSQL.HeidiSQL -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-
-#学习复习
-winget install --id Anki.Anki -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 
 #命令行
 winget install -e --silent --accept-package-agreements --accept-source-agreements --id Microsoft.WindowsTerminal --proxy http://127.0.0.1:10809
@@ -144,12 +143,15 @@ winget install --id "PuTTY.PuTTY" -e --silent --accept-package-agreements --acce
 
 
 # 以下是各种语言和开发环境pypl和tiobe的前25个
-winget install --id Python.Python.3.13 -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
+winget install --id Python.Python.3.14 -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 winget install --id EclipseAdoptium.Temurin.8.JDK -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 winget install --id EclipseAdoptium.Temurin.11.JDK -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 winget install --id EclipseAdoptium.Temurin.24.JDK -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 
 winget install --id GoLang.Go -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
+
+#学习复习
+winget install --id Anki.Anki -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 
 #这些都用homestead算了
 	# winget install --id Hugo.Hugo -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
