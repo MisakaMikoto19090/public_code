@@ -95,12 +95,13 @@ winget install --id xp99ng92k0k91l -e --silent --accept-package-agreements --acc
 	# 需要打开登陆，更新重装好多次
 
 ### vs2022
-winget install --id Microsoft.VisualStudio.2022.Enterprise -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
+winget install --id Microsoft.VisualStudio.2026.Enterprise -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 		# 马上2022就出来呢
 		# 默认安装只有700m,比rider还小.
+		# VYGRN-WPR22-HG4X3-692BF-QGT2V
 	# winget install --id Posit.RStudio -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 		# r语言
-winget install --id Microsoft.VisualStudio.2022.BuildTools --override "--wait --passive --add Microsoft.VisualStudio.Workload.VCTools --add Microsoft.VisualStudio.Component.VC.Tools.x86.x64 --add Microsoft.VisualStudio.Component.Windows11SDK.26100"
+winget install --id Microsoft.VisualStudio.2026.BuildTools --override "--wait --passive --add Microsoft.VisualStudio.Workload.VCTools --add Microsoft.VisualStudio.Component.VC.Tools.x86.x64 --add Microsoft.VisualStudio.Component.Windows11SDK.26100"
 
 
 #原型设计

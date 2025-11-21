@@ -9,7 +9,7 @@ https://3.jetbra.in/
     resilio
     yhyfmfpn364bmbx53cqay74bvrb4lt463vylfer3smbkfpa7fxgfd5id.onion
     zhile.io(jetbrains注册,更新注册,2020.05.29大佬不更新了,估计得停留在2020.1版本了.)果核
-vagrant box(https://vagrantcloud.com, https://app.vagrantup.com/boxes/search)
+vagrant box(https://vagrantcloud.com, https://portal.cloud.hashicorp.com/vagrant/discover, https://app.vagrantup.com/boxes/search)
     homestead(apt)<https://cli-assets.heroku.com/apt/heroku_7.49.0-1_amd64.deb>,/var/cache/apt/archives/
     wsl
             genymotion
