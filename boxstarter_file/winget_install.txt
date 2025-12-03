@@ -230,7 +230,8 @@ winget install --id SumatraPDF.SumatraPDF -e --silent --accept-package-agreement
 
 # 图片查看
 	# winget install --id XnSoft.XnView.Classic -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-winget install --id IrfanSkiljan.IrfanView -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809 
+winget install --id IrfanSkiljan.IrfanView -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
+winget install --id IrfanSkiljan.IrfanView.PlugIns -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 	# winget install --id Bandisoft.Honeyview -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 
 # 查看文件占用
