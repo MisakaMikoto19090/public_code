@@ -1,11 +1,14 @@
 # 跨设备体验主机
 winget uninstall --name "跨设备体验主机"
+winget uninstall --name "Cross Device Experience Host"
 # web experience pack
 winget uninstall --name "Windows Web Experience Pack"
 # 媒体播放器
 winget uninstall --name "Windows 媒体播放器"
 # 手机连接
 winget uninstall --name "手机连接"
+winget uninstall --name "Phone Link"
+
 # 所有xbox
 winget uninstall --name "Game Speech Window"
 winget uninstall --name "Xbox Identity Provider"
@@ -13,28 +16,43 @@ winget uninstall --name "Game Bar"
 winget uninstall --name "Xbox TCUI"
 # 录音机
 winget uninstall --name "Windows 录音机"
+winget uninstall --name "Windows Sound Recorder"
+
 # 反馈中心
 winget uninstall --name "反馈中心"
+winget uninstall --name "Feedback Hub"
+
 # windows相机
 winget uninstall --name "Windows 相机"
+winget uninstall --name "Windows Camera"
+
 # 时钟
 #winget uninstall --name "Windows 时钟"
 # windows照片
 winget uninstall --name "Microsoft 照片"
+winget uninstall --name "Microsoft Photos"
+
 # widgets
 winget uninstall --name "Widgets Platform Runtime"
 # 图像和视频扩展
 winget uninstall --name "WebP 映像扩展"
+winget uninstall --name "WebP Image Extension"
 winget uninstall --name "Web 媒体扩展"
+winget uninstall --name "Web Media Extensions"
 winget uninstall --name "VP9 Video Extensions"
 winget uninstall --name "Raw Image Extension"
 winget uninstall --name "MPEG-2 视频扩展"
+winget uninstall --name "MPEG-2 Video Extension"
 winget uninstall --name "来自设备制造商的 HEVC 视频扩展"
 winget uninstall --name "HEIF 图像扩展"
+winget uninstall --name "HEIF Image Extension"
 winget uninstall --name "AVC 编码器视频扩展"
+winget uninstall --name "AVC Encoder Video Extension"
 winget uninstall --name "AV1 Video Extension"
 # 购买
 winget uninstall --name "Microsoft Store 体验主机"
+winget uninstall --name "Store Experience Host"
+
 # 画图
 winget uninstall --name "画图"
 # 游戏
@@ -43,14 +61,20 @@ winget uninstall --name "Solitaire & Casual Games"
 winget uninstall --name "Microsoft 365 Copilot"
 # 帮助
 winget uninstall --name "获取帮助"
+winget uninstall --name "Get Help"
+
 # xbox游戏
 winget uninstall --name "Xbox"
 # edge游戏
 winget uninstall --name "Microsoft Edge 游戏助手"
 # bing全家桶
 winget uninstall --name "MSN 天气"
+winget uninstall --name "MSN Weather"
+
 winget uninstall --name "Microsoft 必应"
-winget uninstall --name "Microsoft 资讯"
+winget uninstall --name "资讯"
+winget uninstall --name "Microsoft News"
+
 # 视频处理
 winget uninstall --name "Microsoft Clipchamp"
 # “开始体验”应用
