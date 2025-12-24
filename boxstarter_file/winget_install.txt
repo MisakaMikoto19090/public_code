@@ -226,13 +226,13 @@ winget install --id OffSec.KaliLinux -e --silent --accept-package-agreements --a
 winget install --id Canonical.Ubuntu -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 
 ### vs2026
-winget install --id Microsoft.VisualStudio.2026.Enterprise -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
+winget install --id Microsoft.VisualStudio.Enterprise -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 		# 马上2022就出来呢
 		# 默认安装只有700m,比rider还小.
 		# VYGRN-WPR22-HG4X3-692BF-QGT2V
 	# winget install --id Posit.RStudio -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 		# r语言
-# winget install --id Microsoft.VisualStudio.2026.BuildTools --override "--wait --passive --add Microsoft.VisualStudio.Workload.VCTools --add Microsoft.VisualStudio.Component.VC.Tools.x86.x64 --add Microsoft.VisualStudio.Component.Windows11SDK.26100"
+# winget install --id Microsoft.VisualStudio.BuildTools --override "--wait --passive --add Microsoft.VisualStudio.Workload.VCTools --add Microsoft.VisualStudio.Component.VC.Tools.x86.x64 --add Microsoft.VisualStudio.Component.Windows11SDK.26100"
 
 # 原型设计
 winget install --id Icons8.Lunacy -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
