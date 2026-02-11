@@ -173,9 +173,9 @@ winget install --id WinMerge.WinMerge -e --silent --accept-package-agreements --
 	# winget install --id SourceGear.DiffMerge -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 
 # 虚拟机模拟器相关
-winget install --id Oracle.VirtualBox -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
+	# winget install --id Oracle.VirtualBox -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 	# winget install --id Vmware.WorkstationPro -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-winget install --id Hashicorp.Vagrant -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
+	# winget install --id Hashicorp.Vagrant -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 	# winget install --id Genymobile.Genymotion -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 	# 最强的安卓模拟器
 	# winget install --id BlueStack.BlueStacks -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
