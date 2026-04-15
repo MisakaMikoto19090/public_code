@@ -78,7 +78,7 @@ winget uninstall --name "Microsoft News"
 # 视频处理
 winget uninstall --name "Microsoft Clipchamp"
 # “开始体验”应用
-winget uninstall --name "“开始体验”应用"
+winget uninstall --name '“开始体验”应用'
 winget uninstall MSIX\Microsoft.StartExperiencesApp_1.1.200.0_x64__8wekyb3d8bbwe
 
 # teams，可选
