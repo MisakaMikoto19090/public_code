@@ -86,7 +86,7 @@ winget install --id Ditto.Ditto -e --silent --accept-package-agreements --accept
 
 # 其他
 winget install --id dotPDN.PaintDotNet -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-winget install --id MartiCliment.UniGetUI -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
+winget install --id Devolutions.UniGetUI -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 winget install --id Google.EarthPro -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 winget install --id Tonec.InternetDownloadManager -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 winget install --id everauto.zTasker -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
