@@ -4,6 +4,7 @@ wsl --update
 
 # 开启proxy
 winget settings --enable ProxyCommandLineOptions
+winget settings --enable InstallerHashOverride
 
 # 可选
 winget source remove winget

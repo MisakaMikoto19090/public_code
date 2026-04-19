@@ -1,0 +1,24 @@
+#都是普通用户执行
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
+
+scoop bucket add extras
+scoop install main/scoop-search
+scoop config proxy 127.0.0.1:10809
+
+scoop install extras/vscode
+scoop install extras/revouninstaller
+
+scoop install extras/unigetui
+scoop install extras/sumatrapdf
+scoop install extras/potplayer
+scoop install extras/manictime
+scoop install extras/everything
+scoop install extras/ditto
+scoop install main/7zip
+
+scoop install main/git
+
+
+scoop install java/temurin11-jdk
