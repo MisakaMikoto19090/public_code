@@ -50,7 +50,7 @@ winget install --id calibre.calibre -e --silent --accept-package-agreements --ac
 	# winget install --id Amazon.Kindle -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 
 # 同花顺
-	# winget install --id THS.THS -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809 --location "D:\0DownLoad\00LongTermData\0software"
+winget install --id THS.THS -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809 --location "D:\0LongTermData\0software"
 
 # 视频处理
 	# winget install --id HandBrake.HandBrake -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
@@ -77,7 +77,8 @@ winget install --id Telegram.TelegramDesktop -e --silent --accept-package-agreem
 	# winget install --id Discord.Discord -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 winget install --id Tencent.TIM -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 winget install --id Tencent.WeChat.Universal -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809 
-	# winget install --id ByteDance.Feishu -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
+winget install --id ByteDance.Feishu -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
+winget install --id Zoom.ZoomRooms -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 
 # 工具,开机启动
 winget install --id voidtools.Everything -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809 
@@ -207,7 +208,7 @@ winget install --id JetBrains.DataGrip -e --silent --accept-package-agreements -
 	# winget install --id JetBrains.GoLand -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 	# winget install --id JetBrains.IntelliJIDEA.Ultimate -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 winget install --id JetBrains.PhpStorm -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id JetBrains.PyCharm -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
+winget install --id JetBrains.PyCharm -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 	# winget install --id JetBrains.Rider -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 	# winget install --id JetBrains.RustRover -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 	# winget install --id JetBrains.RubyMine -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
