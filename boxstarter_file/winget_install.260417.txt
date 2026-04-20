@@ -278,7 +278,7 @@ winget install --id Microsoft.PowerShell -e --silent --accept-package-agreements
 winget install --id "PuTTY.PuTTY" -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 
 # 以下是各种语言和开发环境pypl和tiobe的前25个
-	# winget install --id Python.Python.3.14 -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
+winget install --id Python.Python.3.14 -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 	# winget install --id EclipseAdoptium.Temurin.8.JDK -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 winget install --id EclipseAdoptium.Temurin.11.JDK -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 	# winget install --id EclipseAdoptium.Temurin.24.JDK -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
@@ -292,7 +292,7 @@ winget install --id Anki.Anki -e --silent --accept-package-agreements --accept-s
 	# winget install --id Hugo.Hugo -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 #还是安装在本机算了,虚拟机里面映射,软链接有点问题
 	# winget install --id CoreyButler.NVMforWindows -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id OpenJS.NodeJS.LTS -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
+winget install --id OpenJS.NodeJS.LTS -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 	# winget install --id Yarn.Yarn -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 	# winget install --id DenoLand.Deno -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 # 安装typescript必须全局,因为其是通过nodejs安装,手动安装

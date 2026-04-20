@@ -22,3 +22,5 @@ scoop install main/git
 
 
 scoop install java/temurin11-jdk
+
+scoop install main/yt-dlp
