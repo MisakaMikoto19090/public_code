@@ -1,132 +1,30 @@
 
-# 开机启动
-winget.exe install --id "Yuanli.uTools" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809 # alt 空格
-winget.exe install --id "ClickUp.ClickUp" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809 # 看板
+## 开机启动
 winget.exe install --id "LiErHeXun.Quicker" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
+winget.exe install --id "Yuanli.uTools" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809 # alt 空格
+##时间管理
+winget.exe install --id "ClickUp.ClickUp" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809 # 看板
+winget.exe install --id "9NBLGGH5R558" --exact --source msstore --accept-source-agreements --disable-interactivity --silent --accept-package-agreements  --proxy http://127.0.0.1:10809
+  ## to do
 
-#scoop不支持
-winget.exe install --id "Google.EarthPro" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
-winget.exe install --id "Tonec.InternetDownloadManager" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
+##网盘
+	# winget.exe install --id "gaozhangmin.XBYDriver" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
+	## 小白羊运行一次后注释掉
+winget.exe install --id "Baidu.BaiduNetdisk" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
+	## 夸克用沙盒运行
 
+##聊天
 winget.exe install --id "Tencent.TIM" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
 
+##工具软件scoop不支持
+winget.exe install --id "Google.EarthPro" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
+winget.exe install --id "Tonec.InternetDownloadManager" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
+winget.exe install --id "everauto.zTasker" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
+
+#其他
 winget.exe install --id "THS.THS" --location "D:\0LongTermData\0software" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
-
+#沙盒
 winget.exe install --id "Sandboxie.Plus" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
-
-#网盘
-	# winget.exe install --id "gaozhangmin.XBYDriver" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
-winget.exe install --id "Baidu.BaiduNetdisk" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
-
-
-winget.exe install --id "Alibaba.AlipayKeyTool" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
-winget.exe install --id "Tencent.WeixinDevTools" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
-
-# 商店里面的APPX
-	# winget.exe install --id "9PGCV4V3BK4W" --exact --source msstore --accept-source-agreements --disable-interactivity --silent --accept-package-agreements  --proxy http://127.0.0.1:10809 #devtoys
-winget.exe install --id "9NBLGGH5R558" --exact --source msstore --accept-source-agreements --disable-interactivity --silent --accept-package-agreements  --proxy http://127.0.0.1:10809  # to do
-# WSL
-winget.exe install --id "OffSec.KaliLinux" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
-winget.exe install --id "Canonical.Ubuntu" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
-
-
-
-
-# 文件处理
-		# 两个都是空间占用
-	# 文件锁定
-	# 文件恢复
-
-# 聊天
-	# winget install --id Discord.Discord -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-winget install --id ByteDance.Feishu -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-
-# 工具,开机启动
-
-
-# 其他
-	# winget install --id everauto.zTasker -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# zTasker各种定时任务
-winget install --id Google.Chrome -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# 浏览器， 这两个是自带的
-winget install --id Microsoft.Edge -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-winget install --id Microsoft.OneDrive -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-
-## 一时半会没啥用的小工具
-	# winget install --id TGRMNSoftware.BulkRenameUtility -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-		# 重命名
-	# winget install --id TorProject.TorBrowser --location "C:\Program Files (x86)"  -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-		# tor,用的绿色版
-	# winget install --id Rime.Weasel -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-		# 小狼毫输入法 这个会安装autohotkey,然后方案选择ctrl+`时,会和浏览器冲突.win11冲突
-	# winget install --id AutoHotkey.AutoHotkey -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id AutoIt.AutoIt -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-		# 上面两个都是自动化脚本,没学会
-	# winget install --id code52.Carnac -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-		# 录视频时,显示哪些按键
-	# winget install --id Eraser.Eraser -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-		# 安全删除文件
-	# winget install --id DominikReichl.KeePass -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id BitSum.ProcessLasso -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-		# 性能平衡
-	# winget install --id Microsoft.Sysinternals.ProcessExplorer -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id Microsoft.PowerToys -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-		# 目前完全打不过wox
-	# winget install --id Microsoft.PowerBI -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id qBittorrent.qBittorrent.Qt6 -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-		# 迅雷的替代品
-	# winget install --id agalwood.Motrix -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-		# qbit和迅雷的替代品,主要用来下百度,现在用kinhdown和idm就行
-	# winget install --id Rufus.Rufus -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-		# 启动盘制作,可以烧写各种东西到U盘
-
-## 没用到的小工具
-	# winget install --id CrystalIDEASoftware.Speedyfox -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id Microsoft.Sysinternals -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id NickeManarin.ScreenToGif -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id JAMSoftware.TreeSize.Free -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id CodeSector.TeraCopy -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id Ghisler.TotalCommander -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id TeamViewer.TeamViewer -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id Qv2ray.Qv2ray -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id WireGuard.WireGuard -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-		# 上面两个是翻墙
-	# winget install --id Microsoft.UpdateAssistant -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-
-#游戏
-	# winget install --id Valve.Steam -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id GOG.Galaxy -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id ElectronicArts.Origin -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id Blizzard.BattleNet -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id Ubisoft.Connect -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id EpicGames.EpicGamesLauncher -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-
-# 驱动
-# winget install --id GlennDelahoy.SnappyDriverInstallerOrigin -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-# winget install --id IObit.DriverBooster -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# 同时也用msi官方的
-
-# 手动安装
-# winget install wingetcreate -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-
-### 编程
-# 其他
-# winget install --id GitHub.GitHubDesktop -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id GnuPG.Gpg4win -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# 签名用的
-
-# 代码管理
-winget install --id Microsoft.Git -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-# winget install --id Mercurial.Mercurial -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-		# 用smartgit的portable版本
-	# winget install --id TortoiseHg.TortoiseHg -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id Syntevo.SmartGit -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-# winget install --id Atlassian.Sourcetree -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-
-# 代码合并
-winget install --id WinMerge.WinMerge -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id Meld.Meld -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id SourceGear.DiffMerge -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 
 # 虚拟机模拟器相关
 	# winget install --id Oracle.VirtualBox -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
@@ -137,126 +35,19 @@ winget install --id WinMerge.WinMerge -e --silent --accept-package-agreements --
 	# winget install --id BlueStack.BlueStacks -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 	# 只是安装位置, 主要还是虚拟机位置--location "D:\D:\DEV_ENV\BlueStacks"
 
-# 网络测试相关,抓包和查看
-winget install --id WiresharkFoundation.Wireshark -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id Insecure.Nmap -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-winget install --id Telerik.Fiddler.Classic -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# 压力测试
-winget install --id SmartBear.SoapUI -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-winget install --id Ruihu.Apifox -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809  --ignore-security-hash  
-	# winget install --id Postman.Postman -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-		# 其他网络工具
-winget install --id Ngrok.Ngrok -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-
-# 脑图
-	# winget install --id Freeplane.Freeplane -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id Xmind.Xmind -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-
-# 图表设计
-winget install --id JGraph.Draw -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
+# 微信和阿里
+winget.exe install --id "Alibaba.AlipayKeyTool" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
+winget.exe install --id "Tencent.WeixinDevTools" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
 
 # IDE
-	# winget install --id JetBrains.CLion -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-winget install --id JetBrains.DataGrip -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id JetBrains.DataSpell -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id JetBrains.GoLand -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id JetBrains.IntelliJIDEA.Ultimate -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-winget install --id JetBrains.PhpStorm -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-winget install --id JetBrains.PyCharm -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id JetBrains.Rider -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id JetBrains.RustRover -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id JetBrains.RubyMine -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-		# ruby需要rails
-winget install --id JetBrains.WebStorm -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# 手动安装2.3
+winget.exe install --id "Microsoft.VisualStudio.Enterprise" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
+	## VYGRN-WPR22-HG4X3-692BF-QGT2V
 
-# 微信和阿里
-winget install --id Tencent.WeixinDevTools -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
+# WSL
+winget.exe install --id "OffSec.KaliLinux" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
+winget.exe install --id "Canonical.Ubuntu" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
 
-# 其他IDE
-	# winget install --id ActiveState.KomodoIDE -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id CoatiSoftware.Sourcetrail -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id Google.AndroidStudio -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id Huawei.DevEco -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-
-
-### vs2026
-winget install --id Microsoft.VisualStudio.Enterprise -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-		# 马上2022就出来呢
-		# 默认安装只有700m,比rider还小.
-		# VYGRN-WPR22-HG4X3-692BF-QGT2V
-	# winget install --id Posit.RStudio -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-		# r语言
-# winget install --id Microsoft.VisualStudio.BuildTools --override "--wait --passive --add Microsoft.VisualStudio.Workload.VCTools --add Microsoft.VisualStudio.Component.VC.Tools.x86.x64 --add Microsoft.VisualStudio.Component.Windows11SDK.26100"
-
-# 原型设计
-winget install --id Icons8.Lunacy -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget uninstall -fy netfx-4.6.2 --proxy http://127.0.0.1:10809
-		# lunacy放到vs后面,可以少安装一个包
-# 开发杂
-winget install --id qishibo.AnotherRedisDesktopManager -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
+#开发小工具
 winget install --id IPIP.BestTrace -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809 --ignore-security-hash  
-winget install --id HeidiSQL.HeidiSQL -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-
-	# devtoys
-
-# 命令行
-winget install --id Microsoft.WindowsTerminal -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-winget install --id Microsoft.PowerShell -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id Microsoft.NuGet -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-
-#各种环境和工具
-	# winget install --id Rustlang.Rustup -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-
-	# winget install --id Kubernetes.kubectl -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id Docker.DockerDesktop -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id Kitware.CMake -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id Oracle.MySQL -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id Apache.Groovy.4 -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id Elastic.Winlogbeat -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-		# windows的日志监听,ELK套装
-
-#云
-	# winget install --id Alibaba.AlibabaCloudCLI -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id Google.CloudSDK -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id Amazon.AWSCLI -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id Microsoft.AzureCLI -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-
-# 上面和下面各种软件需要的环境
-	# winget install --id Microsoft.DotNet.SDK.10 -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# dotnet的runtime和sdk是分开的.
-winget install --id "PuTTY.PuTTY" -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-
-# 以下是各种语言和开发环境pypl和tiobe的前25个
-	# winget install --id Python.Python.3.14 -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id EclipseAdoptium.Temurin.8.JDK -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id EclipseAdoptium.Temurin.11.JDK -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id EclipseAdoptium.Temurin.24.JDK -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-
-	# winget install --id GoLang.Go -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-
-#学习复习
-winget install --id Anki.Anki -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-
-#这些都用homestead算了
-	# winget install --id Hugo.Hugo -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-#还是安装在本机算了,虚拟机里面映射,软链接有点问题
-	# winget install --id CoreyButler.NVMforWindows -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id OpenJS.NodeJS.LTS -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id Yarn.Yarn -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id DenoLand.Deno -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-# 安装typescript必须全局,因为其是通过nodejs安装,手动安装
-
-#其他语言和环境
-	# winget install --id RProject.R -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id Swift.Toolchain -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id RubyInstallerTeam.Ruby.3.2 -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id Scala.Scala.2 -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-		# 依赖jdk8
-	# winget install --id Rustlang.Rust.GNU -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id DEVCOM.Lua -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id commercialhaskell.stack -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id Julialang.Julia -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id Racket.Racket -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id Cygwin.Cygwin -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id Google.DartSDK -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
+	# winget.exe install --id "9PGCV4V3BK4W" --exact --source msstore --accept-source-agreements --disable-interactivity --silent --accept-package-agreements  --proxy http://127.0.0.1:10809 		
+		##devtoys
