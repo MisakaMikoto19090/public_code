@@ -3,6 +3,9 @@ scoop install extras/everything
   ##quicker,winget
   ##utool,winget
 scoop install extras/ditto
+scoop install extras/flow-launcher
+scoop install extras/powertoys
+  ##试试替换utools
 
 ##时间规划
 scoop install extras/manictime
@@ -15,11 +18,14 @@ scoop install extras/vscode
   #scoop install extras/sublime-text
   #scoop install main/vim
   #scoop install extras/emacs
+scoop install extras/trae
 
 ## 优先软件
 scoop install extras/revouninstaller
   ##iobit uninstaller
   #scoop install extras/bulk-crap-uninstaller
+#scoop install extras/snappy-driver-installer-origin
+  ##驱动
 
 ## 多媒体播放器,音乐,文档,图片,视频
 scoop install extras/potplayer
@@ -93,8 +99,6 @@ scoop install extras/tor-browser
   #scoop install extras/keepass
     ##密码管理
   ##process lasso, winget,实时性能调整
-  #scoop install extras/powertoys
-  ##utools平替
   ##powerbi, winget,可视化
   #scoop install extras/qbittorrent
     ##qbittorrent, winget,下载
@@ -106,8 +110,7 @@ scoop install extras/dismplusplus
 scoop install nirsoft/bluescreenview
 scoop install nirsoft/mozillacacheview
 scoop install nirsoft/chromecacheview
-scoop install nirsoft/nirlauncher
-
+scoop install extras/nirlauncher
 
 ##小工具
   #scoop install extras/rufus
@@ -132,6 +135,7 @@ scoop install extras/screentogif
 scoop install main/scoop-search
 scoop install main/yt-dlp
 scoop install main/ffmpeg
+scoop install main/bbdown
 
 ##游戏
 #scoop install extras/playnite
@@ -157,6 +161,8 @@ scoop install extras/sourcetree
 scoop install extras/winmerge
 #scoop install extras/meld
 #scoop install extras/diffmerge
+#scoop install extras/beyondcompare
+  ##这个收费,用破解版
 
 ##编程:虚拟机,用winget
 #scoop install nonportable/virtualbox-with-extension-pack-np
@@ -201,7 +207,7 @@ scoop install extras/webstorm
 ##komode,winget
 #scoop install extras/sourcetrail
   ##过时了
-#scoop install extras/android-studio
+scoop install extras/android-studio
 ##华为deveco,手动
 ## visual studio,winget
 

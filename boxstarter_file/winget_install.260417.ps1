@@ -48,6 +48,9 @@ winget.exe install --id "OffSec.KaliLinux" --exact --source winget --accept-sour
 winget.exe install --id "Canonical.Ubuntu" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
 
 #开发小工具
+##普通用户
 winget install --id IPIP.BestTrace -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809 --ignore-security-hash  
-	# winget.exe install --id "9PGCV4V3BK4W" --exact --source msstore --accept-source-agreements --disable-interactivity --silent --accept-package-agreements  --proxy http://127.0.0.1:10809 		
+winget.exe install --id "9PGCV4V3BK4W" --exact --source msstore --accept-source-agreements --disable-interactivity --silent --accept-package-agreements  --proxy http://127.0.0.1:10809 		
 		##devtoys
+#workbuddy
+winget.exe install --id "Tencent.WorkBuddy" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
