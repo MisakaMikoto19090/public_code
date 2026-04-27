@@ -232,6 +232,7 @@ scoop install main/python
 scoop install java/temurin11-jdk
 #scoop install main/go
 scoop install main/nodejs-lts
+scoop install main/pnpm
 scoop install main/bun
 scoop install main/nvm
 #scoop install main/deno
