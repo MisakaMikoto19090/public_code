@@ -2,6 +2,7 @@
 
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 irm https://gh-proxy.com/https://raw.githubusercontent.com/duzyn/scoop-cn/master/install.ps1 | iex
+scoop config keep_previous false
 
 	#Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 	#Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
