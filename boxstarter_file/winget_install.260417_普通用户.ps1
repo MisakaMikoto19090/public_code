@@ -1,14 +1,13 @@
 
 ## 开机启动
 winget.exe install --id "LiErHeXun.Quicker" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
-winget.exe install --id "Yuanli.uTools" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809 # alt 空格
+	# winget.exe install --id "Yuanli.uTools" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809 # alt 空格
 ##时间管理
 winget.exe install --id "ClickUp.ClickUp" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809 # 看板
-winget.exe install --id "9NBLGGH5R558" --exact --source msstore --accept-source-agreements --disable-interactivity --silent --accept-package-agreements  --proxy http://127.0.0.1:10809
-  ## to do
+
 
 ##网盘
-	# winget.exe install --id "gaozhangmin.XBYDriver" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
+	winget.exe install --id "gaozhangmin.XBYDriver" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
 	## 小白羊运行一次后注释掉
 winget.exe install --id "Baidu.BaiduNetdisk" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
 	## 夸克用沙盒运行
@@ -46,6 +45,10 @@ winget.exe install --id "Microsoft.VisualStudio.Enterprise" --exact --source win
 # WSL
 winget.exe install --id "OffSec.KaliLinux" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
 winget.exe install --id "Canonical.Ubuntu" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
+
+# to do
+winget.exe install --id "9NBLGGH5R558" --exact --source msstore --accept-source-agreements --disable-interactivity --silent --accept-package-agreements  --proxy http://127.0.0.1:10809
+  ## to do
 
 #开发小工具
 ##普通用户

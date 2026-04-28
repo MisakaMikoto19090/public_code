@@ -107,9 +107,9 @@ scoop install extras/tor-browser
 scoop install extras/office-tool-plus
 scoop install extras/v2rayn
 scoop install extras/dismplusplus
-scoop install nirsoft/bluescreenview
-scoop install nirsoft/mozillacacheview
-scoop install nirsoft/chromecacheview
+#scoop install nirsoft/bluescreenview
+#scoop install nirsoft/mozillacacheview
+#scoop install nirsoft/chromecacheview
 scoop install extras/nirlauncher
 
 ##小工具
@@ -155,7 +155,7 @@ scoop install main/git
 #scoop install extras/tortoisehg
 #scoop install extras/smartgit
   ##用的绿化破解版
-scoop install extras/sourcetree
+#scoop install extras/sourcetree
 
 ##编程:diff
 scoop install extras/winmerge
