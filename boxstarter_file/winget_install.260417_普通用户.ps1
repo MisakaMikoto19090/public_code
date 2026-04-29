@@ -1,4 +1,4 @@
-
+# 会自动提权, 在电脑前点确定, 用管理员模式, ipip.besttrace无法忽略hash
 ## 开机启动
 winget.exe install --id "LiErHeXun.Quicker" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
 	# winget.exe install --id "Yuanli.uTools" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809 # alt 空格
@@ -45,7 +45,7 @@ winget.exe install --id "Microsoft.VisualStudio.Enterprise" --exact --source win
 # WIN的app
 winget.exe install --id "9NBLGGH5R558" --exact --source msstore --accept-source-agreements --disable-interactivity --silent --accept-package-agreements  --proxy http://127.0.0.1:10809
   ## to do
-winget.exe install --id "9PGCV4V3BK4W" --exact --source msstore --accept-source-agreements --disable-interactivity --silent --accept-package-agreements  --proxy http://127.0.0.1:10809 		
+#winget.exe install --id "9PGCV4V3BK4W" --exact --source msstore --accept-source-agreements --disable-interactivity --silent --accept-package-agreements  --proxy http://127.0.0.1:10809 		
   ##devtoys
 
 #开发小工具
@@ -56,7 +56,4 @@ winget install --id IPIP.BestTrace -e --silent --accept-package-agreements --acc
 winget.exe install --id "Tencent.WorkBuddy" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
 
 
-# WSL
-winget.exe install --id "OffSec.KaliLinux" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
-winget.exe install --id "Canonical.Ubuntu" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
 
