@@ -3,6 +3,12 @@
 winget.exe install --id "LiErHeXun.Quicker" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
 	# winget.exe install --id "Yuanli.uTools" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809 # alt 空格
 
+#插件
+winget.exe install --id "9n2drhj970d9" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
+	
+#winget.exe install --id "lin-ycv.EverythingCmdPal" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
+	#powertoys的命令面板的everything插件
+
 #网盘
 winget.exe install --id "Baidu.BaiduNetdisk" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
 	## 夸克用沙盒运行

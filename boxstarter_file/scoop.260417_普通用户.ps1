@@ -5,6 +5,10 @@ scoop install extras/everything
 scoop install extras/ditto
 scoop install extras/flow-launcher
 scoop install extras/powertoys
+scoop install extras/everything-powertoys
+  # 插件
+scoop install extras/wox
+
   ##试试替换utools
 
 ##时间规划
