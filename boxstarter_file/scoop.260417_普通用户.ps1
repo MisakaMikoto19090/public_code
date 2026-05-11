@@ -109,7 +109,8 @@ scoop install extras/tor-browser
   #scoop install extras/motrix
     ##motrix, winget,下载
 scoop install extras/office-tool-plus
-scoop install extras/v2rayn
+#scoop install extras/v2rayn
+scoop install versions/v2rayn-desktop
 scoop install extras/dismplusplus
 #scoop install nirsoft/bluescreenview
 #scoop install nirsoft/mozillacacheview
@@ -174,6 +175,8 @@ scoop install extras/winmerge
 #scoop install main/vagrant
 ##genymotion,winget
 #scoop install nonportable/bluestacks-np
+  #scoop install extras/exhyperv
+    #需要.net
 
 ##编程:网络
 scoop install extras/wireshark
@@ -235,11 +238,15 @@ scoop install extras/putty
 scoop install main/python
 scoop install java/temurin11-jdk
 #scoop install main/go
-scoop install main/nodejs-lts
-scoop install main/pnpm
+
+  # PNPM无法使用自定义的配置文件
 scoop install main/bun
-scoop install main/nvm
-#scoop install main/deno
+  #scoop install main/nvm
+  #scoop install main/deno
+  #scoop install main/yarn
+  #scoop install main/nodejs-lts
+  #scoop install main/pnpm
+  ##只用bun就行
 #scoop install main/ruby
 #scoop install main/scala
 #scoop install main/lua
@@ -250,5 +257,5 @@ scoop install main/nvm
 
 ## 其他应用
 scoop install main/hugo-extended
-  #scoop install main/yarn
+
 

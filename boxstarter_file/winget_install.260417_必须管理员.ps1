@@ -43,6 +43,10 @@ winget.exe install --id "Microsoft.VisualStudio.Enterprise" --exact --source win
 winget.exe install --id "OffSec.KaliLinux" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
 winget.exe install --id "Canonical.Ubuntu" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
 
+# hyperv管理器
+#winget.exe install --id "Justsenger.ExHyperV" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
+
+
 # 虚拟机模拟器相关
 	# winget install --id Oracle.VirtualBox -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 	# winget install --id Vmware.WorkstationPro -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
