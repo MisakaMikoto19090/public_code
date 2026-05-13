@@ -32,7 +32,9 @@ winget.exe install --id "Sandboxie.Plus" --exact --source winget --accept-source
 winget.exe install --id "Tencent.WeixinDevTools" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
 
 #workbuddy
-winget.exe install --id "Tencent.WorkBuddy" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
+winget.exe install --id "Tencent.CodeBuddy" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
+
+#winget.exe install --id "Tencent.WorkBuddy" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
 
 
 # IDE

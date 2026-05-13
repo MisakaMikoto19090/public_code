@@ -23,6 +23,7 @@ scoop install extras/vscode
   #scoop install main/vim
   #scoop install extras/emacs
 scoop install extras/trae
+scoop install main/opencode
 
 ## 优先软件
 scoop install extras/revouninstaller
