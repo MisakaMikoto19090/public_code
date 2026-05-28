@@ -1,11 +1,17 @@
 
 #开机启动
+
+##时间管理
+winget.exe install --id "ClickUp.ClickUp" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809 # 看板
+
+winget.exe install --id "everauto.zTasker" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
+
 winget.exe install --id "LiErHeXun.Quicker" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
 	# winget.exe install --id "Yuanli.uTools" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809 # alt 空格
 
 #插件
-winget.exe install --id "9n2drhj970d9" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
-	
+	#winget.exe install --id "9n2drhj970d9" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
+		#cmd
 #winget.exe install --id "lin-ycv.EverythingCmdPal" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
 	#powertoys的命令面板的everything插件
 
@@ -15,9 +21,9 @@ winget.exe install --id "Baidu.BaiduNetdisk" --exact --source winget --accept-so
 ##网盘
 	winget.exe install --id "gaozhangmin.XBYDriver" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
 	## 小白羊运行一次后注释掉
+
 ##工具软件scoop不支持
 winget.exe install --id "Google.EarthPro" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
-
 
 ##聊天
 winget.exe install --id "Tencent.TIM" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
@@ -36,6 +42,17 @@ winget.exe install --id "Tencent.CodeBuddy" --exact --source winget --accept-sou
 
 #winget.exe install --id "Tencent.WorkBuddy" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
 
+
+# 微信和阿里
+winget.exe install --id "Alibaba.AlipayKeyTool" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
+
+# WIN的app
+winget.exe install --id "9NBLGGH5R558" --exact --source msstore --accept-source-agreements --disable-interactivity --silent --accept-package-agreements  --proxy http://127.0.0.1:10809
+  ## to do
+
+
+winget.exe install --id "XPDDZR13CXS466" --exact --source msstore --accept-source-agreements --disable-interactivity --silent --accept-package-agreements  --proxy http://127.0.0.1:10809
+	#FinceptTerminal
 
 # IDE
 winget.exe install --id "Microsoft.VisualStudio.Enterprise" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
