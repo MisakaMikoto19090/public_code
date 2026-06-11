@@ -24,6 +24,8 @@ scoop install extras/vscode
   #scoop install extras/emacs
 scoop install extras/trae
 scoop install main/opencode
+scoop install main/codex
+scoop install extras/cc-switch
 
 ## 优先软件
 scoop install extras/revouninstaller
@@ -203,7 +205,7 @@ scoop install extras/lunacy
 scoop install extras/datagrip
 #scoop install extras/dataspell
 #scoop install extras/goland
-#scoop install extras/idea
+scoop install extras/idea
 scoop install extras/phpstorm
 scoop install extras/pycharm
 #scoop install extras/rider
@@ -259,4 +261,5 @@ scoop install main/bun
 ## 其他应用
 scoop install main/hugo-extended
 
-
+## 临时
+# scoop install main/mysql-lts
