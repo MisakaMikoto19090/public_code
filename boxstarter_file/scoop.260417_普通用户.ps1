@@ -81,6 +81,7 @@ scoop install extras/telegram
   #scoop install extras/discord
   ##tim, winget
 scoop install extras/wechat
+scoop install extras/qq-nt
   #scoop install extras/lark
   #scoop install extras/zoom
 
