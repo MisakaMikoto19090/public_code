@@ -26,11 +26,11 @@ winget.exe install --id "Baidu.BaiduNetdisk" --exact --source winget --accept-so
 winget.exe install --id "Google.EarthPro" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
 
 ##聊天
-winget.exe install --id "Tencent.TIM" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
+	#winget.exe install --id "Tencent.TIM" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
 
 winget.exe install --id "Tonec.InternetDownloadManager" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
 #其他
-winget.exe install --id "THS.THS" --location "D:\0LongTermData\0software" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
+#winget.exe install --id "THS.THS" --location "D:\0LongTermData\0software" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
 #沙盒
 winget.exe install --id "Sandboxie.Plus" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
 
