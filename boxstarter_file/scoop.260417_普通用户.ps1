@@ -4,10 +4,11 @@ scoop install extras/everything
   ##utool,winget
 scoop install extras/ditto
 scoop install extras/flow-launcher
-scoop install extras/powertoys
-scoop install extras/everything-powertoys
+#scoop install extras/powertoys
+#scoop install extras/everything-powertoys
   # 插件
-scoop install extras/wox
+#scoop install extras/wox
+scoop install extras/coretemp
 
   ##试试替换utools
 
@@ -248,7 +249,7 @@ scoop install main/bun
   #scoop install main/nvm
   #scoop install main/deno
   #scoop install main/yarn
-  #scoop install main/nodejs-lts
+scoop install main/nodejs-lts
   #scoop install main/pnpm
   ##只用bun就行
 #scoop install main/ruby
@@ -261,6 +262,7 @@ scoop install main/bun
 
 ## 其他应用
 scoop install main/hugo-extended
+scoop install main/sudo
 
 ## 临时
 # scoop install main/mysql-lts

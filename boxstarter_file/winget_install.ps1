@@ -1,3 +1,6 @@
+#补充
+WINGET INSTALL Microsoft.OneDrive
+
 # 工具,开机启动
 winget install --id voidtools.Everything -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 winget install --id LiErHeXun.Quicker -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809

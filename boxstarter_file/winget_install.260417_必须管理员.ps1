@@ -47,12 +47,12 @@ winget.exe install --id "Alibaba.AlipayKeyTool" --exact --source winget --accept
 # WIN的app
 winget.exe install --id "9NBLGGH5R558" --exact --source msstore --accept-source-agreements --disable-interactivity --silent --accept-package-agreements  --proxy http://127.0.0.1:10809
   ## to do
-winget.exe install --id "9PF5L2G0F0JF" --exact --source msstore --accept-source-agreements --disable-interactivity --silent --accept-package-agreements  --proxy http://127.0.0.1:10809
+#winget.exe install --id "9PF5L2G0F0JF" --exact --source msstore --accept-source-agreements --disable-interactivity --silent --accept-package-agreements  --proxy http://127.0.0.1:10809
   ## potato
 
 
-winget.exe install --id "XPDDZR13CXS466" --exact --source msstore --accept-source-agreements --disable-interactivity --silent --accept-package-agreements  --proxy http://127.0.0.1:10809
-	#FinceptTerminal
+#winget.exe install --id "XPDDZR13CXS466" --exact --source msstore --accept-source-agreements --disable-interactivity --silent --accept-package-agreements  --proxy http://127.0.0.1:10809
+	#FinceptTerminal, 客户端登陆有点问题
 
 # IDE
 winget.exe install --id "Microsoft.VisualStudio.Enterprise" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
