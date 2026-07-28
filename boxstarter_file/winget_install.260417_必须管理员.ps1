@@ -1,4 +1,4 @@
-
+wsl.exe --update
 #开机启动
 
 ##时间管理
@@ -19,7 +19,9 @@ winget.exe install --id "LiErHeXun.Quicker" --exact --source winget --accept-sou
 winget.exe install --id "Baidu.BaiduNetdisk" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
 	## 夸克用沙盒运行
 ##网盘
-	winget.exe install --id "gaozhangmin.XBYDriver" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
+	#
+	#
+	#winget.exe install --id "gaozhangmin.XBYDriver" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --proxy http://127.0.0.1:10809
 	## 小白羊运行一次后注释掉
 
 ##工具软件scoop不支持
