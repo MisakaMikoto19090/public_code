@@ -46,6 +46,8 @@ scoop install extras/calibre
 ##图片
   #scoop install extras/xnview
 scoop install extras/irfanview
+  #xn转换图片,heic转png..
+scoop install extras/xnconvert
   #scoop install extras/honeyview
 scoop install extras/anki
 
