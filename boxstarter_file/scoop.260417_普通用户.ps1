@@ -23,7 +23,7 @@ scoop install extras/vscode
   #scoop install extras/sublime-text
   #scoop install main/vim
   #scoop install extras/emacs
-scoop install extras/trae
+  #scoop install extras/trae
 scoop install main/opencode
 scoop install main/codex
 scoop install extras/cc-switch
