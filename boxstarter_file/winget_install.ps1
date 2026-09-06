@@ -259,7 +259,7 @@ winget install --id Microsoft.PowerShell -e --silent --accept-package-agreements
 	# winget install --id Rustlang.Rustup -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 
 	# winget install --id Kubernetes.kubectl -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
-	# winget install --id Docker.DockerDesktop -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
+	winget install --id Docker.DockerDesktop -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 	# winget install --id Kitware.CMake -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 	# winget install --id Oracle.MySQL -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
 	# winget install --id Apache.Groovy.4 -e --silent --accept-package-agreements --accept-source-agreements --proxy http://127.0.0.1:10809
