@@ -1,4 +1,5 @@
 winget upgrade --all --silent --accept-source-agreements --accept-package-agreements --ignore-security-hash --force
+wsl --update
     #choco upgrade -y all --proxy=127.0.0.1:10809
 scoop update *
 driver booster(radeon)
